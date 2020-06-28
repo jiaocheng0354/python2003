@@ -1,4 +1,0 @@
-hi
-two
-there
-four

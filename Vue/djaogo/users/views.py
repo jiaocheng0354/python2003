@@ -54,7 +54,7 @@ class UserView(View):
                 "status": 500,
                 "message": "填加用户失败",
             })
-
+        #todo
         def put(self, request, *args, **kwargs):
             id = request.POST.get("id")
             username = request.POST.get("username")

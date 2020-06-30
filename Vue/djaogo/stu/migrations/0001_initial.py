@@ -12,15 +12,17 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='User',
+            name='Stu',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('username', models.CharField(max_length=60)),
+                ('username', models.CharField(max_length=80)),
+                ('age', models.SmallIntegerField()),
                 ('password', models.CharField(max_length=64)),
-                ('gender', models.SmallIntegerField(choices=[(0, 'male'), (1, 'female'), (2, 'other')], default=0)),
+                ('grade', models.CharField(max_length=10)),
+                ('stuNumber', models.CharField(max_length=40)),
             ],
             options={
-                'db_table': 'drf_user',
+                'db_table': 'drf_stu',
             },
         ),
     ]

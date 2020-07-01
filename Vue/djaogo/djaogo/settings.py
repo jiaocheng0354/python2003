@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'stu',
     'library',
+    'day04',
 ]
 
 MIDDLEWARE = [

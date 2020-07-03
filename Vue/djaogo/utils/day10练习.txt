@@ -1,0 +1,98 @@
+from django.db import models 
+from django.contrib.auth.models import AbstractUser
+
+class User(Abstractuser)
+	phone = models.CharField(max_length=11, unique=True)
+	
+	class Meta;
+		db_table ="api_user"
+		verbose_name = "用户"
+		verbose_name_plural = verbose_name
+
+AUTH_USER_MODEL ="api_User"
+
+authentication_classes = [MyAuth]
+
+from rest_framework.authentication import baseAuthentication
+from rest_framework import exceptions
+
+from api.models import User
+
+class MyAuth(BaseAuthentication):
+	def authenticate(self,request):
+		auth = request.META.get("HHTTP_AUTHORIZATION",Nome)
+		print(auth)
+		if auth is None:
+			return None
+		if not(len(auth_list)==2 and auth_list[0].lower()=="auth");
+			raise exceptions.AuthenticationFailed("error")
+		if auth_list[1] != "cde.mot.cd"
+			raise exceptions.AuthenticationFailed("用户表校验失败")
+		user = User.objects.filter(username ="admin").first()
+		
+		if not user:
+			raise exceptions.AuthenticationFailed("用户不存在")
+		return(user,None)
+
+AllowAny
+Is|Authenticated
+IsAdminUser
+IsAuthenticatedOrReadOnly
+
+permission_classes = [IsAuthenticated]
+
+from rest_framework.permissions import BasePermission
+from api.models import User
+
+class MyPermission(BasePermission):
+
+	def has_permission(self,request.view):
+		if request.method in ("get","head","options");
+			return True
+
+		username = request.data.get("username")
+		user = User.objects.filter(username=username).first(0
+
+		print(user)
+		if user:
+			return True
+		return False
+
+REST_FRAMEWORK = {
+	"DEFAULT_THROTTLE_CLASSES":{},
+	"DEFAULT_THROTTLE_RATES":{"USER":None,"anon"None},
+}
+
+
+from rest_tramework.throttling import |SimpleRateThrottle
+
+class SendMessageRate(SimpleRateThrottle):
+	scope ="send"
+	def get_cache_key(self,request,view):
+		phone = request.query_params.get("phone")
+		if not phone:
+			return None
+		return "throttle_%(scope)s_%(ident)s" % {"scope": self.scope, "ident":phone}
+
+'DEFAULT_THROTTLE_RATES':{
+'USER':"3/m"
+"ANON":none,
+"send":"1/m",
+},
+
+class SendMessageAPIView(APIView):
+	throttle_classes ={SendMessageRate]
+	def get(self, request, *args, **kwargs):
+		return APIResponse("读”）
+	def post(self,request,*args,, **kwargs):
+		return APIResponse("写")
+
+
+
+
+
+
+
+
+
+

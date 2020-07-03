@@ -14,8 +14,8 @@ class UserLoginView(viewsets.ViewSet):
     def user_login(self, request, *args, **kwargs):
         try:
             #TODO post数据检测
-            # user_ser = BookModelSerializer(data=request.data, many=True)
-            # user_ser.is_valid(raise_exception=True)
+            user_ser = BookModelSerializer(data=request.data, many=True,context={"request": request})
+            user_ser.is_valid(raise_exception=True)
             #登陆验证
             user = request.data.get("username")
             pwd = request.data.get("password")

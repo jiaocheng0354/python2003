@@ -51,5 +51,5 @@ class StuAPIView(APIView):
             return Response({
                 "status": 500,
                 "message": "填加同学失败",
-                "results": serializer.errors,
+                "results": "errors",
             })

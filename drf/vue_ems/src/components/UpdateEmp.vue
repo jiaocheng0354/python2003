@@ -38,21 +38,21 @@
                     <tr>
                         <td valign="middle" align="right">photo:</td>
                         <td valign="middle" align="left">
-                            <input type="file" name="photo" ref="photo"/><img :src="photo" alt="" width="35"
+                            <input type="file" name="photo" accept="image/png, image/jpeg, image/gif" ref="photo"/><img :src="photo" alt="" width="35"
                                                                               height="35">
                         </td>
                     </tr>
                     <tr>
                         <td valign="middle" align="right">salary:</td>
                         <td valign="middle" align="left">
-                            <input type="number" class="inputgri" name="salary" v-model.number="salary"
+                            <input type="number" class="inputgri" name="salary"
                                    v-model="salary"/>
                         </td>
                     </tr>
                     <tr>
                         <td valign="middle" align="right">age:</td>
                         <td valign="middle" align="left">
-                            <input type="number" class="inputgri" name="age" v-model.number="age" v-model="age"/>
+                            <input type="number" class="inputgri" name="age"  v-model="age"/>
                         </td>
                     </tr>
                 </table>

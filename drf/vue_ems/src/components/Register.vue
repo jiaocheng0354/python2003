@@ -36,7 +36,7 @@
                         <td valign="middle" align="right">性别:</td>
                         <td valign="middle" align="left">
                             男<input type="radio" class="inputgri" name="sex" v-model="sex" value="1" checked="checked" />
-                            女<input type="radio" class="inputgri" name="sex" v-model="sex" value="0"/> {{ sex }}
+                            女<input type="radio" class="inputgri" name="sex" v-model="sex" value="0"/>
                         </td>
                     </tr>
                 </table>

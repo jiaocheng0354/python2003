@@ -2,8 +2,9 @@ from rest_framework_jwt.authentication import BaseAuthentication, jwt_decode_han
 import jwt
 from rest_framework import exceptions
 
+
 class JWTAuthentication(BaseAuthentication):
-    def authenticate(self,request):
+    def authenticate(self, request):
         jwt_token = request.META.get("HTTP_AUTHORIZATION")
 
         token = self.parse_jwt_token(jwt_token)
@@ -19,9 +20,9 @@ class JWTAuthentication(BaseAuthentication):
             raise exceptions.AuthenticationFailed("无效签名")
         user = self.authenticate_credentials(payload)
 
-        return user,token
+        return user, token
 
-    def parse_jwt_token(self,jwt_token):
+    def parse_jwt_token(self, jwt_token):
         tokens = jwt_token.split()
         if len(tokens) != 3 or tokens[0].lower() != "jwt":
             return None

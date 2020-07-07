@@ -7,6 +7,6 @@ from user import views
 urlpatterns = [
     url(r"login/", ObtainJSONWebToken.as_view()),
     url(r"obt/", obtain_jwt_token),
-    path("get/", views.UserAPIView.as_view()),
-    path("post/", views.LoginAPIView.as_view()),
+    path("text/", views.UserAPIView.as_view()),
+    path("cr/", views.LoginAPIView.as_view()),
 ]

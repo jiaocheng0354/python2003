@@ -50,7 +50,13 @@
                 <p>
                     <RouterLink to="/addemp">
                         <el-button size="mini" type="warning">填加</el-button>
-                    </RouterLink>
+                    </RouterLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <el-button type="danger" size="mini" circle @click="prev()">上一页</el-button>
+                    <el-button type="danger" size="mini" circle @click="pass()">下一页</el-button>
+                    &nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                    <input type="text" v-model="search">
+                    <el-button size="mini" type="warning" @click="find()">搜索</el-button>
                 </p>
             </div>
         </div>
@@ -69,25 +75,67 @@
             return {
                 emp: [],
                 username: "",
+                count: "",
+                next: "",
+                previous: "",
+                ulr: "",
+                search: ""
             }
-        },
-        created() {
-            let is_login = localStorage.getItem("username")
-            if (!is_login) {
-                this.$router.push('/login')
-            }
-            this.username = is_login
-            this.$axios({
-                url: "http://127.0.0.1:8000/emp/",
-                method: "get",
-            }).then(res => {
-                console.log(res.data);
-                this.emp = res.data["results"]
-            }).catch(error => {
-                this.$message.error('无记录');
-            })
         },
         methods: {
+            pass() {
+                console.log(this.next);
+                if (this.next === null) {
+                    return true
+                }
+                this.$axios({
+                    url: this.next,
+                    method: "get",
+                    // params: data,
+                }).then(res => {
+                    this.count = res.data["count"]
+                    this.next = res.data["next"]
+                    this.previous = res.data["previous"]
+
+                    this.emp = res.data["results"]
+                }).catch(error => {
+                    this.$message.error('无记录');
+                })
+                console.log(1);
+            },
+            prev() {
+                if (this.previous === null) {
+                    return true
+                }
+                this.$axios({
+                    url: this.previous,
+                    method: "get",
+                    // params: data,
+                }).then(res => {
+                    this.count = res.data["count"]
+                    this.next = res.data["next"]
+                    this.previous = res.data["previous"]
+                    console.log(res.data);
+                    this.emp = res.data["results"]
+                }).catch(error => {
+                    this.$message.error('无记录');
+                })
+                console.log(2);
+            },
+            find() {
+                if (this.search === null) {
+                    return true
+                }
+                this.$axios({
+                    url: "http://127.0.0.1:8000/emp/list/?page_size=10&search="+this.search,
+                    method: "get",
+                    // params: data,
+                }).then(res => {
+                    this.emp = res.data["results"]
+                }).catch(error => {
+                    this.$message.error('无记录');
+                })
+            },
             del_emp(id) {
                 this.$axios({
                     url: "http://127.0.0.1:8000/emp/" + id + "/",
@@ -99,8 +147,8 @@
                     },
                 }).then(res => {
                     if (res.data["message"]) {
-                        this.emp = res.data["results"]
                         this.$message('删除成功');
+                        this.$router.push("http://127.0.0.1:8000/emp/list/")
                     } else {
                         this.$message('删除失败');
                     }
@@ -112,6 +160,26 @@
                 localStorage.removeItem("username");
                 this.$router.push('/login')
             }
+        },
+        created() {
+            let is_login = localStorage.getItem("username")
+            if (!is_login) {
+                this.$router.push('/login')
+            }
+            this.username = is_login
+            this.$axios({
+                url: "http://127.0.0.1:8000/emp/list/",
+                method: "get",
+                // params: data,
+            }).then(res => {
+                this.count = res.data["count"]
+                this.next = res.data["next"]
+                this.previous = res.data["previous"]
+                console.log(res.data);
+                this.emp = res.data["results"]
+            }).catch(error => {
+                this.$message.error('无记录');
+            })
         }
     }
 </script>

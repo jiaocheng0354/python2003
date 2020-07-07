@@ -24,6 +24,7 @@ class EmpModelSerializer(serializers.ModelSerializer):
             }
         }
 
+
         # def validate_username(self, value):
         #     if "1" in value:
         #         raise exceptions.ValidationError(" ")

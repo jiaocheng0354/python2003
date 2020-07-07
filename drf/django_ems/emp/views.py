@@ -1,7 +1,9 @@
-from rest_framework.generics import GenericAPIView
+from rest_framework.filters import SearchFilter, OrderingFilter
+from rest_framework.generics import GenericAPIView, ListAPIView
 from rest_framework.mixins import RetrieveModelMixin, ListModelMixin, CreateModelMixin, UpdateModelMixin, \
     DestroyModelMixin
 
+from emp.emppagination import EmpPagination
 from emp.models import Emp
 from emp.serializers import EmpModelSerializer
 from utils.response import APIResponse
@@ -35,3 +37,13 @@ class EmpView(GenericAPIView,
         Emp.objects.filter(id=pk).delete()
         results = self.list(request, *args, **kwargs)
         return APIResponse(204, True, results=results.data)
+
+
+class EmpListView(ListAPIView):
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ["name", "salary"]
+    ordering = ["id"]
+
+    queryset = Emp.objects.all()
+    serializer_class = EmpModelSerializer
+    pagination_class = EmpPagination

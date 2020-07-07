@@ -12,8 +12,10 @@ from utils.response import APIResponse
 class UserAPIView(APIView):
     permission_classes = [IsAuthenticated]
     authentication_classes = [JWTAuthentication]
-    def get(self,request, *args, **kwargs):
+
+    def get(self, request, *args, **kwargs):
         return APIResponse(results={"username": request.user.username})
+
 
 class LoginAPIView(APIView):
     authentication_classes = []
@@ -24,4 +26,4 @@ class LoginAPIView(APIView):
         user_ser.is_valid(raise_exception=True)
         result = UserModelSerializer(user_ser).data
         # print(user_ser)
-        return APIResponse(200,"ok", results=result)
+        return APIResponse(200, "ok", results=result)

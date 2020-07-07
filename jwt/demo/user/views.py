@@ -25,5 +25,5 @@ class LoginAPIView(APIView):
         user_ser = UserModelSerializer(data=request.data)
         user_ser.is_valid(raise_exception=True)
         result = UserModelSerializer(user_ser).data
-        # print(user_ser)
+        print(user_ser)
         return APIResponse(200, "ok", results=result)

@@ -91,12 +91,10 @@
                 this.$axios({
                     url: this.next,
                     method: "get",
-                    // params: data,
                 }).then(res => {
                     this.count = res.data["count"]
                     this.next = res.data["next"]
                     this.previous = res.data["previous"]
-
                     this.emp = res.data["results"]
                 }).catch(error => {
                     this.$message.error('无记录');
@@ -110,7 +108,6 @@
                 this.$axios({
                     url: this.previous,
                     method: "get",
-                    // params: data,
                 }).then(res => {
                     this.count = res.data["count"]
                     this.next = res.data["next"]
@@ -141,7 +138,6 @@
                     url: "http://127.0.0.1:8000/emp/" + id + "/",
                     method: "delete",
                     data: {
-                        // photo: "",
                         salary: this.salary,
                         age: this.age,
                     },
@@ -183,7 +179,5 @@
         }
     }
 </script>
-
 <style scoped>
-
 </style>

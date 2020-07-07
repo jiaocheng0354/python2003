@@ -1,0 +1,107 @@
+[33mcommit 0d17867a09e6ce3f4eb01fb9139bba89d0e2f8d7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Tue Jul 7 18:19:33 2020 +0800
+
+    todo
+
+[33mcommit 257e3e82aff84594eaeb75e4d018eecb1309cb68[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Tue Jul 7 18:07:31 2020 +0800
+
+    EMS 填加搜索 分页功能
+
+[33mcommit 5704c3ba561070089b738f2744d6668ceb313215[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Tue Jul 7 07:58:07 2020 +0800
+
+    jwt
+
+[33mcommit 6d64d550949d0a3f2c8bc2f776b6f63b2c74b194[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Mon Jul 6 09:53:58 2020 +0800
+
+    注册 登陆 增删改查 修正数值设置过小
+
+[33mcommit 9694b8745b4fb2874c8aa77cb91c9eacaed5756d[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Mon Jul 6 07:20:04 2020 +0800
+
+    修改备注
+
+[33mcommit e3934b552bfae0c9503a63dc1760fee8be477a78[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Mon Jul 6 06:54:59 2020 +0800
+
+    django+vue( 用户登陆 注册+增删改查)
+
+[33mcommit d8d5fd4f193b464fbfb5ae5b250f724add83c07a[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Fri Jul 3 08:49:41 2020 +0800
+
+    day 10
+
+[33mcommit b54a612129a927f9cda2ce3c11c13b614f71384d[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Thu Jul 2 01:51:20 2020 +0800
+
+    用视图集实现登陆注册接口
+
+[33mcommit f16b5c2a0fe87a86a33d3a5c5fbdb123f9ab08c5[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Wed Jul 1 02:18:21 2020 +0800
+
+    ModelSerializer的应用
+
+[33mcommit 849a2bffede0aaa0bdadd8348df1f9d0822b8fe4[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Tue Jun 30 08:20:43 2020 +0800
+
+    数据查找，填加用序列化和反序列化
+
+[33mcommit 53635dd5a8fc8c0acbdf1ed6dd0462cf6c3ec241[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Mon Jun 29 01:36:46 2020 +0800
+
+    web 接口，数据查找和填加
+
+[33mcommit 5144babcf3eb612d12681372fed1e6241b1a4b55[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Sun Jun 28 09:08:05 2020 +0800
+
+    05day作业
+
+[33mcommit 95fe0f52e49b5d6015e9ebc998dcc27f741173d8[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Thu Jun 25 22:29:33 2020 +0800
+
+    整理首页
+
+[33mcommit 94e76d3e3fba24c10c97f4003159bac5ec79b096[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Thu Jun 25 22:21:39 2020 +0800
+
+    填加vue
+
+[33mcommit 7c2184fd0689166e611b6edf75e4016c8773ea4a[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Thu Jun 25 17:47:12 2020 +0800
+
+    four
+
+[33mcommit 765415818cb7de23e0c4c378add1d27bde9825ca[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Thu Jun 25 17:34:17 2020 +0800
+
+    there
+
+[33mcommit a4e176974a796a3696bb7bacf46ce65a01145f51[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Thu Jun 25 17:20:35 2020 +0800
+
+    two
+
+[33mcommit 3404552c7d9d4f22161b9733bfdf701c82fb6a96[m
+Author: jiaocheng0354 <357883918@qq.com>
+Date:   Thu Jun 25 16:38:11 2020 +0800
+
+    new hello.py

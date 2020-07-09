@@ -1,19 +1,35 @@
 <template>
     <div class="footer">
         <ul>
-            <li>关于我们</li>
-            <li>联系我们</li>
-            <li>百知教育</li>
-            <li>帮助中心</li>
-            <li>意见反馈</li>
-            <li>新手指南</li>
+            <li v-for="(value,index) in footerlist" :key="index"><span v-if="value.position==2">{{ value.title }}</span></li>
         </ul>
     </div>
 </template>
 
 <script>
     export default {
-        name: "Fotter"
+        name: "Fotter",
+        data() {
+            return {
+                footerlist: []
+            }
+        },
+        created() {
+            this.fotter()
+        },
+        methods: {
+            fotter() {
+                this.$axios({
+                    url: this.$settings.HOST + "home/nav/",
+                    method: "get"
+                }).then(res => {
+                    this.footerlist = res.data["results"]
+                    console.log(res.data)
+                }).catch(error => {
+                    console.log(error)
+                })
+            }
+        }
     }
 </script>
 
@@ -33,12 +49,22 @@
 
     .footer ul li {
         float: left;
-        width: 112px;
+        width: 110px;
         margin: 0 10px;
         text-align: center;
         font-size: 14px;
     }
 
+
+    .footer li span {
+        padding-bottom: 16px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .footer li span a {
+        display: inline-block;
+    }
     .footer ul::after {
         content: "";
         display: block;

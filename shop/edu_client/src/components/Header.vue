@@ -6,11 +6,8 @@
                     <router-link to="/"><img src="/static/image/logo.png" alt=""></router-link>
                 </div>
                 <ul class="nav full-left">
-                    <li><span>Java进阶之路</span></li>
-                    <li><span>大数据成功法门</span></li>
-                    <li><span>Python全栈</span></li>
-                    <li><span>人工智能的魅力</span></li>
-                    <li><span>百知教育</span></li>
+                    <li v-for="(value,index) in list" :key="index"><span
+                        v-if="value.position==1">{{ value.title }}</span></li>
                 </ul>
                 <div class="login-bar full-right">
                     <div class="shop-cart full-left">
@@ -18,7 +15,7 @@
                         <span><router-link to="/cart">购物车</router-link></span>
                     </div>
                     <div class="login-box full-left">
-                        <span>登录</span>
+                        <span><router-link to="/login">登陆</router-link></span>
                         &nbsp;|&nbsp;
                         <span>注册</span>
                     </div>
@@ -30,7 +27,27 @@
 
 <script>
     export default {
-        name: "Header"
+        name: "Header",
+        data() {
+            return {
+                list: []
+            }
+        },
+        created() {
+            this.header()
+        },
+        methods: {
+            header() {
+                this.$axios({
+                    url: this.$settings.HOST + "home/nav/",
+                    method: "get"
+                }).then(res => {
+                    this.list = res.data["results"]
+                }).catch(error => {
+                    console.log(error)
+                })
+            }
+        }
     }
 </script>
 
@@ -73,7 +90,7 @@
         float: left;
         height: 80px;
         line-height: 80px;
-        margin-right: 30px;
+        margin-right: 25px;
         font-size: 16px;
         color: #4a4a4a;
         cursor: pointer;

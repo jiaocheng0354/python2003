@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
-
+import datetime
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -49,8 +49,9 @@ INSTALLED_APPS = [
     'xadmin',
     'crispy_forms',
     'reversion',
-    # 自定义app
+
     'home',
+    'user',
 ]
 
 MIDDLEWARE = [
@@ -134,14 +135,29 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-MEDIA_URL = '/madia/'
+MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
+# //多个app共用一目录
 CORS_ORIGIN_ALLOW_ALL = True
+# 注册自定义用户模型
+AUTH_USER_MODEL = 'user.User'
+
 REST_FRAMEWORK = {
     # 全局异常配置
-    "EXCEPTION_HANDLER": "utils.exceptions.exception_handler",
+    # "EXCEPTION_HANDLER": "utils.exceptions.exception_handler",
+    #用户登陆认证方式
+    'DEFAULT_AUTHENTICATION_CLASSES':[
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',]
 }
+#jwt
+JWT_AUTH = {
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=300),
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'user.utils.jwt_response_payload_handler',
+}
+
 LOGGING = {
     # 版本
     'version': 1,

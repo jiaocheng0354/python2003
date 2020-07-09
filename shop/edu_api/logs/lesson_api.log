@@ -1,0 +1,194 @@
+INFO 2020-07-08 22:14:58,377 basehttp 124 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-08 22:14:59,410 basehttp 124 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2020-07-08 22:14:59,657 basehttp 124 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2020-07-08 22:14:59,706 basehttp 124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2020-07-08 22:14:59,758 basehttp 124 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+ERROR 2020-07-08 22:33:01,824 exception 72 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-07-08 22:33:01,922 basehttp 124 "GET / HTTP/1.1" 400 65564
+ERROR 2020-07-08 22:41:44,139 exception 72 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-07-08 22:41:44,268 basehttp 124 "GET /emp/list/?page=1 HTTP/1.1" 400 65860
+ERROR 2020-07-08 22:41:48,742 exception 72 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-07-08 22:41:48,797 basehttp 124 "GET / HTTP/1.1" 400 65429
+ERROR 2020-07-08 22:46:22,747 exception 72 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-07-08 22:46:22,810 basehttp 124 "GET / HTTP/1.1" 400 65564
+ERROR 2020-07-08 22:47:12,212 exception 72 Invalid HTTP_HOST header: '127.0.0.1:9000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-07-08 22:47:12,310 basehttp 124 "GET / HTTP/1.1" 400 65429
+ERROR 2020-07-08 22:47:13,211 exception 72 Invalid HTTP_HOST header: '127.0.0.1:9000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-07-08 22:47:13,276 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 65474
+INFO 2020-07-08 22:48:39,279 basehttp 124 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-08 22:48:39,780 basehttp 124 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2020-07-08 22:48:40,000 basehttp 124 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2020-07-08 22:48:40,032 basehttp 124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2020-07-08 22:48:40,081 basehttp 124 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+WARNING 2020-07-08 22:48:40,185 base 91 Not Found: /favicon.ico
+WARNING 2020-07-08 22:48:40,187 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 1973
+INFO 2020-07-08 22:51:46,414 basehttp 124 "GET / HTTP/1.1" 200 16348
+INFO 2020-07-08 22:51:46,947 basehttp 124 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2020-07-08 22:51:47,194 basehttp 124 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2020-07-08 22:51:47,243 basehttp 124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2020-07-08 22:51:47,277 basehttp 124 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+WARNING 2020-07-08 22:51:47,338 base 91 Not Found: /favicon.ico
+WARNING 2020-07-08 22:51:47,339 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 1976
+WARNING 2020-07-09 02:23:16,535 base 91 Not Found: /
+WARNING 2020-07-09 02:23:16,538 basehttp 124 "GET / HTTP/1.1" 404 1923
+INFO 2020-07-09 02:23:29,105 basehttp 124 "GET /xadmin HTTP/1.1" 301 0
+INFO 2020-07-09 02:23:29,243 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 4163
+INFO 2020-07-09 02:23:29,357 basehttp 124 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2020-07-09 02:23:29,359 basehttp 124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-07-09 02:23:29,426 basehttp 124 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-07-09 02:23:29,481 basehttp 124 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2020-07-09 02:23:29,537 basehttp 124 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2020-07-09 02:23:29,568 basehttp 124 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2020-07-09 02:23:29,620 basehttp 124 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-07-09 02:23:29,713 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4170
+INFO 2020-07-09 02:23:29,720 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2020-07-09 02:23:29,834 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2020-07-09 02:23:29,917 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2020-07-09 02:23:29,933 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-07-09 02:23:29,986 basehttp 124 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-07-09 02:23:30,031 basehttp 124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2020-07-09 02:23:30,062 basehttp 124 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2020-07-09 02:23:30,064 basehttp 124 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+ERROR 2020-07-09 02:23:48,721 exception 115 Internal Server Error: /xadmin/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\software\001\django_ems\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\software\001\django_ems\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\software\001\django_ems\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\software\001\django_ems\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1146, "Table 'shop_api.auth_user' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\xadmin\sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\xadmin\sites.py", line 207, in inner
+    return self.create_admin_view(self.login_view)(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\xadmin\views\base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\xadmin\views\website.py", line 71, in post
+    return self.get(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\xadmin\views\website.py", line 67, in get
+    return login.as_view(**defaults)(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\utils\decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\utils\decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "D:\software\001\django_ems\lib\site-packages\django\utils\decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\utils\decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "D:\software\001\django_ems\lib\site-packages\django\utils\decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\utils\decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\views.py", line 66, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\edit.py", line 141, in post
+    if form.is_valid():
+  File "D:\software\001\django_ems\lib\site-packages\django\forms\forms.py", line 179, in is_valid
+    return self.is_bound and not self.errors
+  File "D:\software\001\django_ems\lib\site-packages\django\forms\forms.py", line 174, in errors
+    self.full_clean()
+  File "D:\software\001\django_ems\lib\site-packages\django\forms\forms.py", line 377, in full_clean
+    self._clean_form()
+  File "D:\software\001\django_ems\lib\site-packages\django\forms\forms.py", line 404, in _clean_form
+    cleaned_data = self.clean()
+  File "D:\software\001\django_ems\lib\site-packages\xadmin\forms.py", line 29, in clean
+    self.user_cache = authenticate(
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 70, in authenticate
+    user = _authenticate_with_backend(backend, backend_path, request, credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 116, in _authenticate_with_backend
+    return backend.authenticate(*args, **credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\backends.py", line 16, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\base_user.py", line 44, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "D:\software\001\django_ems\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\db\models\query.py", line 397, in get
+    num = len(clone)
+  File "D:\software\001\django_ems\lib\site-packages\django\db\models\query.py", line 254, in __len__
+    self._fetch_all()
+  File "D:\software\001\django_ems\lib\site-packages\django\db\models\query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\software\001\django_ems\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\software\001\django_ems\lib\site-packages\django\db\models\sql\compiler.py", line 1068, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\software\001\django_ems\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "D:\software\001\django_ems\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\software\001\django_ems\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\software\001\django_ems\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\software\001\django_ems\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\software\001\django_ems\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\software\001\django_ems\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "D:\software\001\django_ems\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\software\001\django_ems\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\software\001\django_ems\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'shop_api.auth_user' doesn't exist")
+ERROR 2020-07-09 02:23:49,567 basehttp 124 "POST /xadmin/ HTTP/1.1" 500 292458
+INFO 2020-07-09 02:45:52,365 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 4163
+INFO 2020-07-09 02:45:52,514 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4170
+INFO 2020-07-09 02:45:52,534 basehttp 124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:52,554 basehttp 124 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:52,577 basehttp 124 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:52,610 basehttp 124 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:52,635 basehttp 124 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:52,638 basehttp 124 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:52,668 basehttp 124 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:52,674 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:52,688 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:52,769 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:52,860 basehttp 124 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:52,931 basehttp 124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:52,955 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:53,020 basehttp 124 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-07-09 02:45:53,059 basehttp 124 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2020-07-09 02:46:12,570 basehttp 124 "GET /xadmin/xadmin/password_reset/ HTTP/1.1" 200 3252
+INFO 2020-07-09 02:46:12,743 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4170
+INFO 2020-07-09 02:46:15,852 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 4163
+INFO 2020-07-09 02:46:27,219 basehttp 124 "POST /xadmin/ HTTP/1.1" 200 4400
+INFO 2020-07-09 02:46:27,246 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4170
+INFO 2020-07-09 02:57:36,922 basehttp 124 "POST /xadmin/ HTTP/1.1" 200 4400
+INFO 2020-07-09 02:57:37,083 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4170
+INFO 2020-07-09 02:57:50,461 basehttp 124 "POST /xadmin/ HTTP/1.1" 200 4400
+INFO 2020-07-09 02:57:50,579 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4170

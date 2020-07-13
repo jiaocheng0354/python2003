@@ -18,6 +18,7 @@ Vue.use(ElementUI)
 import settings from "./settings";
 Vue.prototype.$settings = settings;
 import "../static/css/global.css"
+import "../static/js/gt.js"
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

@@ -157,7 +157,31 @@ JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=300),
     'JWT_RESPONSE_PAYLOAD_HANDLER': 'user.utils.jwt_response_payload_handler',
 }
-
+# 用户名和手机号登陆
+AUTHENTICATION_BACKENDS = [
+    'user.utils.UserAuthBackend',
+]
+# django 验证短信连接redis设置
+CACHES = {
+    # # 默认库
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://192.168.13.129:7000/0",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 验证码使用库
+    "sms_code": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        # url
+        "LOCATION": "redis://192.168.13.129:7000/15",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+}
+#自定义日志设置
 LOGGING = {
     # 版本
     'version': 1,

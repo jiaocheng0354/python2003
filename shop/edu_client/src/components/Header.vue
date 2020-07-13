@@ -5,19 +5,23 @@
                 <div class="logo full-left">
                     <router-link to="/"><img src="/static/image/logo.png" alt=""></router-link>
                 </div>
-                <ul class="nav full-left">
-                    <li v-for="(value,index) in list" :key="index"><span
-                        v-if="value.position==1">{{ value.title }}</span></li>
+                <ul class="nav full-left" v-for="(value,index) in list" :key="index">
+                    <li v-if="value.position==1"><span>{{ value.title }}</span></li>
                 </ul>
                 <div class="login-bar full-right">
                     <div class="shop-cart full-left">
                         <img src="/static/image/cart.svg" alt="">
                         <span><router-link to="/cart">购物车</router-link></span>
                     </div>
-                    <div class="login-box full-left">
+                    <div class="login-box full-left" v-if="is_vip">
+                        <span>{{ username }}</span>
+                        &nbsp;|&nbsp;
+                        <span @click="out">退出</span>
+                    </div>
+                    <div class="login-box full-left" v-else>
                         <span><router-link to="/login">登陆</router-link></span>
                         &nbsp;|&nbsp;
-                        <span>注册</span>
+                        <span><router-link to="/user/register">注册</router-link></span>
                     </div>
                 </div>
             </div>
@@ -30,13 +34,24 @@
         name: "Header",
         data() {
             return {
-                list: []
+                list: [],
+                token: "",
+                username: "",
+                is_vip: false
             }
         },
         created() {
-            this.header()
+            this.header();
+            this.is_login()
         },
         methods: {
+            is_login() {
+                this.username = localStorage.username || sessionStorage.username;
+                this.token = localStorage.token || sessionStorage.token;
+                if (this.token){
+                    this.is_vip=true;
+                }
+            },
             header() {
                 this.$axios({
                     url: this.$settings.HOST + "home/nav/",
@@ -46,6 +61,15 @@
                 }).catch(error => {
                     console.log(error)
                 })
+            },
+            out() {
+                sessionStorage.removeItem("username")
+                sessionStorage.removeItem("token")
+                sessionStorage.removeItem("user_id")
+                localStorage.removeItem("username")
+                localStorage.removeItem("token")
+                localStorage.removeItem("user_id")
+                this.is_vip=false
             }
         }
     }

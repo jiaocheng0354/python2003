@@ -3115,3 +3115,2119 @@ WARNING 2020-07-10 00:58:01,364 base 91 Not Found: /user/login/
 WARNING 2020-07-10 00:58:01,365 basehttp 124 "GET /user/login/ HTTP/1.1" 404 2365
 WARNING 2020-07-10 00:58:07,823 base 91 Not Found: /user/login/
 WARNING 2020-07-10 00:58:07,826 basehttp 124 "GET /user/login/ HTTP/1.1" 404 2365
+WARNING 2020-07-10 00:58:31,869 basehttp 124 "GET /user/login/ HTTP/1.1" 405 7689
+INFO 2020-07-10 00:59:10,817 basehttp 124 "POST /user/login/ HTTP/1.1" 200 7886
+WARNING 2020-07-10 01:01:09,918 basehttp 124 "GET /user/login/ HTTP/1.1" 405 7689
+INFO 2020-07-10 01:01:30,020 basehttp 124 "POST /user/login/ HTTP/1.1" 200 7886
+WARNING 2020-07-10 01:13:07,345 basehttp 124 "GET /user/login/ HTTP/1.1" 405 7689
+INFO 2020-07-10 01:13:17,768 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-10 01:13:17,776 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 01:13:17,811 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 01:13:17,948 basehttp 124 "GET /media/banner/02_2hypnTk.png HTTP/1.1" 304 0
+INFO 2020-07-10 01:13:17,959 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-07-10 01:13:18,003 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-07-10 01:18:05,454 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+WARNING 2020-07-10 01:18:05,465 basehttp 124 "POST /user/login/ HTTP/1.1" 400 81
+WARNING 2020-07-10 01:18:26,236 basehttp 124 "POST /user/login/ HTTP/1.1" 400 81
+WARNING 2020-07-10 01:19:59,167 basehttp 124 "POST /user/login/ HTTP/1.1" 400 41
+WARNING 2020-07-10 01:21:06,961 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1747
+WARNING 2020-07-10 01:22:13,655 basehttp 124 "GET /user/login/ HTTP/1.1" 405 7689
+WARNING 2020-07-10 01:22:13,847 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1747
+WARNING 2020-07-10 01:22:31,303 basehttp 124 "POST /user/login/ HTTP/1.1" 400 41
+WARNING 2020-07-10 01:24:25,140 basehttp 124 "POST /user/login/ HTTP/1.1" 400 41
+WARNING 2020-07-10 01:25:06,030 basehttp 124 "POST /user/login/ HTTP/1.1" 400 41
+WARNING 2020-07-10 01:25:34,889 basehttp 124 "GET /user/login/ HTTP/1.1" 405 7689
+WARNING 2020-07-10 01:26:11,769 basehttp 124 "GET /user/login/ HTTP/1.1" 405 7689
+INFO 2020-07-10 01:30:56,030 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+WARNING 2020-07-10 01:30:56,057 basehttp 124 "POST /user/login/ HTTP/1.1" 400 41
+INFO 2020-07-10 01:31:54,350 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+WARNING 2020-07-10 01:31:54,361 basehttp 124 "POST /user/login/ HTTP/1.1" 400 41
+INFO 2020-07-10 01:33:51,894 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+WARNING 2020-07-10 01:35:24,152 basehttp 124 "POST /user/login/ HTTP/1.1" 400 41
+WARNING 2020-07-10 01:39:23,522 basehttp 124 "POST /user/login/ HTTP/1.1" 400 41
+WARNING 2020-07-10 01:40:57,420 basehttp 124 "GET /user/login/ HTTP/1.1" 405 45
+WARNING 2020-07-10 01:42:22,432 basehttp 124 "GET /user/login/ HTTP/1.1" 405 45
+INFO 2020-07-10 01:43:09,266 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+WARNING 2020-07-10 01:43:09,277 basehttp 124 "GET /user/login/ HTTP/1.1" 405 45
+WARNING 2020-07-10 01:45:18,430 basehttp 124 "POST /user/login/ HTTP/1.1" 400 41
+WARNING 2020-07-10 01:45:26,924 basehttp 124 "POST /user/login/ HTTP/1.1" 400 41
+INFO 2020-07-10 01:48:38,111 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+WARNING 2020-07-10 01:49:00,193 basehttp 124 "GET /user/login/ HTTP/1.1" 405 7689
+INFO 2020-07-10 01:52:49,648 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 01:52:49,677 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-10 01:52:49,690 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 01:52:49,756 basehttp 124 "GET /media/banner/02_2hypnTk.png HTTP/1.1" 304 0
+INFO 2020-07-10 01:52:49,774 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-07-10 01:52:49,795 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-07-10 01:53:13,773 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-10 01:53:13,907 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-10 01:53:13,976 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 01:53:13,982 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-10 01:53:14,035 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 09:34:33,300 basehttp 124 "GET /user/captcha HTTP/1.1" 301 0
+INFO 2020-07-10 09:34:35,921 basehttp 124 "GET /user/captcha HTTP/1.1" 301 0
+INFO 2020-07-10 09:34:42,753 basehttp 124 "GET /user/captcha/ HTTP/1.1" 200 182
+INFO 2020-07-10 17:13:39,225 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-10 17:13:49,637 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-10 17:16:01,581 basehttp 124 "GET /user/captcha/ HTTP/1.1" 200 182
+INFO 2020-07-10 17:18:26,862 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-10 17:18:48,437 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-10 17:20:02,043 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-10 17:20:20,166 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-10 17:20:28,560 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+WARNING 2020-07-10 17:22:05,114 base 91 Not Found: //user/captcha/
+WARNING 2020-07-10 17:22:05,146 basehttp 124 "GET //user/captcha/?username=root HTTP/1.1" 404 2336
+WARNING 2020-07-10 17:22:16,605 base 91 Not Found: //user/captcha/
+WARNING 2020-07-10 17:22:16,606 basehttp 124 "GET //user/captcha/ HTTP/1.1" 404 2322
+WARNING 2020-07-10 17:22:25,913 base 91 Not Found: //user/captcha/
+WARNING 2020-07-10 17:22:25,914 basehttp 124 "GET //user/captcha/ HTTP/1.1" 404 2322
+INFO 2020-07-10 17:22:41,147 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-10 17:24:23,775 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-10 17:25:23,963 basehttp 124 "GET /user/captcha/?username=lll HTTP/1.1" 200 182
+INFO 2020-07-10 17:25:28,683 basehttp 124 "GET /user/captcha/?username=lll HTTP/1.1" 200 182
+WARNING 2020-07-10 17:27:45,007 base 91 Not Found: /user/captcha/${this.username}/
+WARNING 2020-07-10 17:27:45,008 basehttp 124 "GET /user/captcha/$%7Bthis.username%7D/ HTTP/1.1" 404 2587
+INFO 2020-07-10 17:31:14,579 basehttp 124 "GET /user/captcha/root/ HTTP/1.1" 200 182
+INFO 2020-07-10 17:31:58,385 basehttp 124 "GET /user/captcha/root/ HTTP/1.1" 200 182
+INFO 2020-07-10 17:32:19,578 basehttp 124 "GET /user/captcha/root/ HTTP/1.1" 200 182
+INFO 2020-07-10 17:32:21,377 basehttp 124 "GET /user/captcha/root/ HTTP/1.1" 200 182
+INFO 2020-07-10 17:46:11,457 basehttp 124 "GET /user/captcha/root/ HTTP/1.1" 200 182
+INFO 2020-07-10 17:47:50,385 basehttp 124 "GET /user/captcha/fgf/ HTTP/1.1" 200 182
+INFO 2020-07-10 17:48:45,973 basehttp 124 "GET /user/captcha/root/ HTTP/1.1" 200 182
+INFO 2020-07-10 17:50:29,770 basehttp 124 "GET /user/captcha/ghgh/ HTTP/1.1" 200 182
+INFO 2020-07-10 17:50:40,347 basehttp 124 "GET /user/captcha/ghghghg/ HTTP/1.1" 200 182
+INFO 2020-07-10 17:51:55,024 basehttp 124 "GET /user/captcha/root/ HTTP/1.1" 200 182
+INFO 2020-07-10 17:53:14,055 basehttp 124 "GET /user/captcha/hjhg/ HTTP/1.1" 200 182
+INFO 2020-07-10 18:00:12,347 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-10 18:11:37,387 basehttp 124 "GET /user/captcha/root/ HTTP/1.1" 200 182
+INFO 2020-07-10 18:13:00,148 basehttp 124 "GET /user/captcha/root/ HTTP/1.1" 200 182
+INFO 2020-07-10 18:22:08,991 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-10 18:22:09,178 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-10 18:22:09,470 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-10 18:22:09,478 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 18:22:09,547 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 18:22:09,565 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-07-10 18:22:09,596 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-07-10 18:22:09,688 basehttp 124 "GET /media/banner/02_2hypnTk.png HTTP/1.1" 304 0
+INFO 2020-07-10 18:36:25,176 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 18:36:25,185 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-10 18:36:25,528 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 18:37:00,090 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-10 18:37:00,136 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 18:37:00,188 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 18:37:06,191 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 18:37:06,208 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-10 18:37:06,255 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 18:38:54,604 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 18:38:54,636 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-10 18:38:54,641 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 22:35:33,738 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+WARNING 2020-07-10 22:35:33,792 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-10 22:35:38,473 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-10 22:35:39,921 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-10 22:35:40,179 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-10 22:35:46,038 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-10 22:35:46,176 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 22:35:46,189 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-10 22:35:46,210 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 22:35:46,267 basehttp 124 "GET /media/banner/02_2hypnTk.png HTTP/1.1" 304 0
+INFO 2020-07-10 22:35:46,284 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-07-10 22:35:46,299 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 304 0
+WARNING 2020-07-10 22:36:15,738 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-10 22:38:04,942 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-10 22:38:05,848 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-10 22:38:06,151 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-10 22:38:06,990 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-10 22:38:31,079 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-10 22:38:32,511 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-10 22:47:15,069 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-10 22:47:15,172 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-10 22:47:15,576 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 22:47:15,631 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-10 22:47:15,636 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-10 22:49:38,308 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-10 22:49:46,703 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-10 22:50:27,664 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-10 23:41:37,152 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-10 23:41:37,346 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+WARNING 2020-07-10 23:47:13,305 basehttp 124 "POST /user/login/ HTTP/1.1" 400 81
+INFO 2020-07-10 23:47:31,552 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-10 23:47:31,844 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 23:47:31,844 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-10 23:47:32,010 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 23:48:46,463 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-10 23:48:46,532 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-10 23:48:46,545 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-10 23:48:46,595 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:01:51,654 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:03:19,425 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:03:19,470 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:03:19,496 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:12:06,073 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:12:12,240 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:12:12,273 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:12:12,300 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:19:51,217 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:28:39,634 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:28:46,934 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:28:46,953 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:28:47,003 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:28:52,243 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:28:52,259 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:28:52,282 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:28:58,690 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:28:58,696 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:28:58,837 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:29:07,100 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:29:07,122 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:29:07,174 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:29:16,922 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:29:16,951 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:29:16,962 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:31:10,731 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:31:16,154 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:31:16,180 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:31:16,196 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:31:40,209 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-11 00:31:40,307 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 00:31:40,363 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:31:40,374 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:31:40,400 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:31:45,634 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:31:45,660 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:31:45,691 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:33:35,156 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:33:39,707 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:33:39,748 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:33:39,773 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:34:09,907 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:34:14,886 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:34:14,954 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:34:15,029 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:34:49,637 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:34:55,303 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:34:55,521 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:34:55,802 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:36:26,116 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:36:31,498 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:36:31,655 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:36:31,969 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:39:45,113 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:39:57,889 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:39:58,113 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:39:58,173 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:41:48,677 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:41:58,491 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:41:58,591 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:41:58,766 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:43:28,298 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:43:37,530 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:43:37,759 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:43:37,960 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:44:31,873 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:45:29,410 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:45:29,473 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:45:29,477 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:46:33,636 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:46:40,747 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:46:40,830 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:46:40,907 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:47:09,643 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:47:17,125 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:47:17,215 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:47:17,356 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:47:56,802 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:47:57,068 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:47:57,339 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:50:16,195 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:50:22,442 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:50:22,672 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:50:22,756 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:52:41,449 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:52:56,501 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:52:56,720 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:52:56,883 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:54:34,990 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:54:47,391 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:54:47,531 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:54:47,754 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:56:27,409 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:56:34,788 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:56:34,925 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:56:35,083 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:57:46,542 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:57:51,603 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 00:57:51,726 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 00:57:51,951 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:01:07,188 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:01:13,811 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:01:13,978 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:01:14,091 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:01:24,566 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:01:24,858 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:01:25,173 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:04:26,008 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:04:26,160 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:04:26,197 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:04:41,972 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-11 01:04:42,086 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 01:04:42,174 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:04:42,181 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:04:42,210 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:04:48,298 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:04:48,454 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:04:48,633 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:05:15,398 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 01:05:15,487 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:05:15,500 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:05:15,569 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:05:20,018 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:05:20,052 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:05:20,100 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:07:24,381 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:07:24,518 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:07:24,816 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:07:35,941 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 01:07:36,095 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:07:36,135 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:07:36,167 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:08:39,798 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 01:08:39,890 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:08:39,914 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:08:39,960 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:10:05,966 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:10:16,596 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:10:16,621 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:10:16,667 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:12:20,997 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 01:12:21,261 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:12:21,323 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:12:21,437 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:13:01,591 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:13:01,747 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:13:01,864 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:13:52,429 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:14:01,250 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:14:01,377 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:14:01,529 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:15:39,880 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:15:44,871 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:15:44,992 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:15:45,198 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:15:50,365 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:15:50,389 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:15:50,453 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:15:55,181 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:15:55,320 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:15:55,613 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:16:12,762 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-11 01:16:12,916 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 01:16:13,036 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:16:13,049 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:16:13,186 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:17:40,880 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:17:46,833 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:17:46,903 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:17:46,980 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:18:01,848 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:18:01,944 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:18:01,950 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:18:02,069 basehttp 124 "GET /media/banner/02_2hypnTk.png HTTP/1.1" 304 0
+INFO 2020-07-11 01:18:02,070 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-07-11 01:18:50,170 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 01:18:50,233 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:18:50,277 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:18:50,295 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:19:26,639 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:19:50,597 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 01:19:50,657 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:19:50,668 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:19:50,760 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:22:02,805 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:22:07,306 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:22:07,355 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:22:07,367 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-07-11 01:22:07,391 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:22:18,141 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 01:22:18,211 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:22:18,215 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:22:18,233 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:23:33,492 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 01:23:33,555 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:23:33,572 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:23:33,585 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:23:39,343 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:23:39,386 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:23:39,449 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:24:01,185 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:24:06,098 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:24:06,144 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:24:06,209 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:24:23,906 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 01:24:23,977 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:24:23,978 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:24:24,004 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:24:57,926 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:25:01,562 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:25:01,636 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:25:01,640 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:26:25,090 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:26:29,275 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:26:29,391 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:26:29,395 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:26:32,457 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:26:32,483 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:26:32,502 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:27:27,633 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:27:33,248 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:27:33,373 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:27:33,603 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:29:23,181 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:29:26,705 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:29:26,714 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:29:26,792 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:30:27,503 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:30:33,569 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:30:33,737 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:30:33,850 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:30:58,130 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-11 01:30:58,249 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 01:30:58,305 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:30:58,310 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:30:58,369 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:31:05,027 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:31:05,034 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:31:05,096 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:31:09,493 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:31:09,676 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:31:09,684 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:31:56,340 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:32:00,451 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:32:00,557 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:32:00,591 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:32:27,249 basehttp 124 "POST /user/login/ HTTP/1.1" 200 215
+INFO 2020-07-11 01:32:27,303 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:32:27,331 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 01:32:27,338 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 01:59:20,733 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+WARNING 2020-07-11 02:00:12,466 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+ERROR 2020-07-11 02:00:58,508 exception 115 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 434, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+ERROR 2020-07-11 02:00:59,037 basehttp 124 "POST /user/register/ HTTP/1.1" 500 18498
+ERROR 2020-07-11 02:08:27,030 exception 115 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 434, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+ERROR 2020-07-11 02:08:27,625 basehttp 124 "POST /user/register/ HTTP/1.1" 500 18498
+ERROR 2020-07-11 02:09:15,531 exception 115 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 434, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+ERROR 2020-07-11 02:09:16,109 basehttp 124 "POST /user/register/ HTTP/1.1" 500 18498
+INFO 2020-07-11 02:12:17,453 basehttp 124 "POST /user/register/ HTTP/1.1" 201 213
+WARNING 2020-07-11 02:12:31,207 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+INFO 2020-07-11 02:21:29,491 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+INFO 2020-07-11 02:21:29,591 basehttp 124 "POST /user/register/ HTTP/1.1" 201 213
+INFO 2020-07-11 02:23:11,271 basehttp 124 "POST /user/register/ HTTP/1.1" 201 213
+INFO 2020-07-11 02:23:11,400 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:23:11,438 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 02:23:11,469 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:25:24,508 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:25:24,552 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 02:25:24,572 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:26:58,420 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:26:58,582 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 02:26:59,284 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:33:28,654 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:33:38,195 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:33:38,364 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 02:33:38,983 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:35:10,278 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:35:10,326 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 02:35:10,343 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:35:35,465 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:35:35,549 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 02:35:35,556 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:35:50,492 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 02:35:50,510 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 02:35:50,541 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-11 14:56:04,038 base 91 Not Found: /
+WARNING 2020-07-11 14:56:04,095 basehttp 124 "GET / HTTP/1.1" 404 2259
+WARNING 2020-07-11 14:56:04,598 base 91 Not Found: /favicon.ico
+WARNING 2020-07-11 14:56:04,598 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2310
+INFO 2020-07-11 14:56:28,000 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 14:56:28,000 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 14:56:28,063 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 14:56:28,172 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-07-11 14:56:28,189 basehttp 124 "GET /media/banner/02_2hypnTk.png HTTP/1.1" 304 0
+INFO 2020-07-11 14:56:28,238 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-07-11 15:16:29,931 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+WARNING 2020-07-11 15:16:30,068 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 15:18:18,078 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 15:20:41,030 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+INFO 2020-07-11 16:40:55,946 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+WARNING 2020-07-11 16:40:56,113 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 16:41:26,658 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 16:41:32,915 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 16:41:35,035 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 16:42:58,652 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 16:43:07,704 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 16:47:10,133 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 16:47:14,243 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 16:47:46,977 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 16:47:52,975 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 16:48:41,719 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 16:48:51,770 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 16:48:56,507 basehttp 124 "POST /user/register/ HTTP/1.1" 400 38
+WARNING 2020-07-11 16:49:06,925 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 16:49:13,171 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 16:50:21,699 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+WARNING 2020-07-11 16:50:28,084 basehttp 124 "POST /user/register/ HTTP/1.1" 400 38
+WARNING 2020-07-11 16:50:34,316 basehttp 124 "POST /user/register/ HTTP/1.1" 400 38
+INFO 2020-07-11 16:54:40,421 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+WARNING 2020-07-11 16:54:40,548 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+INFO 2020-07-11 17:19:43,730 basehttp 124 "GET /user/13513541278 HTTP/1.1" 301 0
+INFO 2020-07-11 17:20:07,153 basehttp 124 "GET /user/13513541278/ HTTP/1.1" 200 73
+INFO 2020-07-11 17:27:25,871 basehttp 124 "GET /user/13513541278/ HTTP/1.1" 200 73
+INFO 2020-07-11 17:31:58,026 basehttp 124 "GET /user/13533443344/ HTTP/1.1" 200 66
+INFO 2020-07-11 17:32:33,644 basehttp 124 "GET /user/13513541278/ HTTP/1.1" 200 73
+INFO 2020-07-11 17:44:27,367 basehttp 124 "GET /user/13513541278/ HTTP/1.1" 200 73
+WARNING 2020-07-11 17:44:38,672 base 91 Not Found: /user/13513541279/
+WARNING 2020-07-11 17:44:38,683 basehttp 124 "GET /user/13513541279/ HTTP/1.1" 404 25
+INFO 2020-07-11 19:22:15,837 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 73
+INFO 2020-07-11 19:23:21,625 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 73
+WARNING 2020-07-11 19:26:18,157 base 91 Not Found: /user/verify/13233442744/
+WARNING 2020-07-11 19:26:18,210 basehttp 124 "GET /user/verify/13233442744/ HTTP/1.1" 404 25
+WARNING 2020-07-11 19:27:38,493 base 91 Not Found: /user/verify/13233442744/
+WARNING 2020-07-11 19:27:38,494 basehttp 124 "GET /user/verify/13233442744/ HTTP/1.1" 404 25
+WARNING 2020-07-11 19:27:43,048 base 91 Not Found: /user/verify/13233442744/
+WARNING 2020-07-11 19:27:43,049 basehttp 124 "GET /user/verify/13233442744/ HTTP/1.1" 404 25
+WARNING 2020-07-11 19:27:46,480 base 91 Not Found: /user/verify/13233442744/
+WARNING 2020-07-11 19:27:46,481 basehttp 124 "GET /user/verify/13233442744/ HTTP/1.1" 404 25
+WARNING 2020-07-11 19:27:53,810 base 91 Not Found: /user/verify/13233442744/
+WARNING 2020-07-11 19:27:53,812 basehttp 124 "GET /user/verify/13233442744/ HTTP/1.1" 404 25
+WARNING 2020-07-11 19:29:38,305 base 91 Not Found: /user/verify/13233442744/
+WARNING 2020-07-11 19:29:38,311 basehttp 124 "GET /user/verify/13233442744/ HTTP/1.1" 404 25
+WARNING 2020-07-11 19:29:39,604 base 91 Not Found: /user/verify/13233442744/
+WARNING 2020-07-11 19:29:39,605 basehttp 124 "GET /user/verify/13233442744/ HTTP/1.1" 404 25
+WARNING 2020-07-11 19:29:41,017 base 91 Not Found: /user/verify/13233442744/
+WARNING 2020-07-11 19:29:41,018 basehttp 124 "GET /user/verify/13233442744/ HTTP/1.1" 404 25
+WARNING 2020-07-11 19:29:52,800 base 91 Not Found: /user/verify/13233442744/
+WARNING 2020-07-11 19:29:52,801 basehttp 124 "GET /user/verify/13233442744/ HTTP/1.1" 404 25
+INFO 2020-07-11 19:30:22,586 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 73
+WARNING 2020-07-11 19:30:37,548 base 91 Not Found: /user/verify/13233442744/
+WARNING 2020-07-11 19:30:37,549 basehttp 124 "GET /user/verify/13233442744/ HTTP/1.1" 404 25
+WARNING 2020-07-11 19:30:41,505 base 91 Not Found: /user/verify/13233442744/
+WARNING 2020-07-11 19:30:41,506 basehttp 124 "GET /user/verify/13233442744/ HTTP/1.1" 404 25
+WARNING 2020-07-11 19:34:28,637 base 91 Not Found: /user/verify/13233447914/
+WARNING 2020-07-11 19:34:28,651 basehttp 124 "GET /user/verify/13233447914/ HTTP/1.1" 404 25
+INFO 2020-07-11 19:35:21,110 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 73
+WARNING 2020-07-11 19:35:27,299 base 91 Not Found: /user/verify/13513541274/
+WARNING 2020-07-11 19:35:27,300 basehttp 124 "GET /user/verify/13513541274/ HTTP/1.1" 404 25
+WARNING 2020-07-11 19:35:28,054 base 91 Not Found: /user/sms/13513541274/
+WARNING 2020-07-11 19:35:28,055 basehttp 124 "GET /user/sms/13513541274/ HTTP/1.1" 404 3075
+INFO 2020-07-11 19:37:15,752 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 73
+WARNING 2020-07-11 19:37:26,085 base 91 Not Found: /user/verify/13513541279/
+WARNING 2020-07-11 19:37:26,087 basehttp 124 "GET /user/verify/13513541279/ HTTP/1.1" 404 25
+INFO 2020-07-11 19:37:26,364 basehttp 124 "GET /user/sms/13513541279/ HTTP/1.1" 200 61
+WARNING 2020-07-11 19:39:02,144 base 91 Not Found: /user/verify/13513541279/
+WARNING 2020-07-11 19:39:02,154 basehttp 124 "GET /user/verify/13513541279/ HTTP/1.1" 404 25
+INFO 2020-07-11 19:39:02,312 basehttp 124 "GET /user/sms/13513541279/ HTTP/1.1" 200 61
+WARNING 2020-07-11 19:42:42,749 base 91 Not Found: /user/verify/13513541279/
+WARNING 2020-07-11 19:42:42,753 basehttp 124 "GET /user/verify/13513541279/ HTTP/1.1" 404 25
+INFO 2020-07-11 19:42:42,892 basehttp 124 "GET /user/sms/13513541279/ HTTP/1.1" 200 61
+WARNING 2020-07-11 19:54:34,623 base 91 Not Found: /user/verify/13513541279/
+WARNING 2020-07-11 19:54:34,638 basehttp 124 "GET /user/verify/13513541279/ HTTP/1.1" 404 25
+ERROR 2020-07-11 19:54:34,911 exception 115 Internal Server Error: /user/sms/13513541279/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\shop\edu_api\edu_api\apps\user\views.py", line 81, in get
+    redis_connection.setex("count_%s" % phone, 10 * 60, phone_count+1)
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+ERROR 2020-07-11 19:54:35,566 basehttp 124 "GET /user/sms/13513541279/ HTTP/1.1" 500 18373
+WARNING 2020-07-11 19:56:33,217 base 91 Not Found: /user/verify/13513541276/
+WARNING 2020-07-11 19:56:33,223 basehttp 124 "GET /user/verify/13513541276/ HTTP/1.1" 404 25
+ERROR 2020-07-11 19:56:33,325 exception 115 Internal Server Error: /user/sms/13513541276/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\shop\edu_api\edu_api\apps\user\views.py", line 81, in get
+    redis_connection.setex("count_%s" % phone, 10 * 60, phone_count+1)
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+ERROR 2020-07-11 19:56:33,396 basehttp 124 "GET /user/sms/13513541276/ HTTP/1.1" 500 18373
+WARNING 2020-07-11 19:59:04,765 base 91 Not Found: /user/verify/13513541276/
+WARNING 2020-07-11 19:59:04,768 basehttp 124 "GET /user/verify/13513541276/ HTTP/1.1" 404 25
+ERROR 2020-07-11 19:59:05,029 exception 115 Internal Server Error: /user/sms/13513541276/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\shop\edu_api\edu_api\apps\user\views.py", line 82, in get
+    phone_count = phone_count + 1
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+ERROR 2020-07-11 19:59:05,773 basehttp 124 "GET /user/sms/13513541276/ HTTP/1.1" 500 18336
+WARNING 2020-07-11 20:01:15,307 base 91 Not Found: /user/verify/13233442744/
+WARNING 2020-07-11 20:01:15,310 basehttp 124 "GET /user/verify/13233442744/ HTTP/1.1" 404 25
+ERROR 2020-07-11 20:01:15,536 exception 115 Internal Server Error: /user/sms/13233442744/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\shop\edu_api\edu_api\apps\user\views.py", line 82, in get
+    num = int(phone_count) + 1
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2020-07-11 20:01:16,397 basehttp 124 "GET /user/sms/13233442744/ HTTP/1.1" 500 18384
+WARNING 2020-07-11 20:10:35,190 base 91 Not Found: /user/verify/13233442745/
+WARNING 2020-07-11 20:10:35,192 basehttp 124 "GET /user/verify/13233442745/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:10:35,553 basehttp 124 "GET /user/sms/13233442745/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:11:52,767 base 91 Not Found: /user/verify/13233442745/
+WARNING 2020-07-11 20:11:52,768 basehttp 124 "GET /user/verify/13233442745/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:11:52,869 basehttp 124 "GET /user/sms/13233442745/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:14:23,022 base 91 Not Found: /user/verify/13233442745/
+WARNING 2020-07-11 20:14:23,024 basehttp 124 "GET /user/verify/13233442745/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:14:23,167 basehttp 124 "GET /user/sms/13233442745/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:18:19,192 base 91 Not Found: /user/verify/13233442745/
+WARNING 2020-07-11 20:18:19,194 basehttp 124 "GET /user/verify/13233442745/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:18:19,649 basehttp 124 "GET /user/sms/13233442745/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:20:34,853 base 91 Not Found: /user/verify/13233442745/
+WARNING 2020-07-11 20:20:34,866 basehttp 124 "GET /user/verify/13233442745/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:20:35,170 basehttp 124 "GET /user/sms/13233442745/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:22:21,038 base 91 Not Found: /user/verify/13233442745/
+WARNING 2020-07-11 20:22:21,041 basehttp 124 "GET /user/verify/13233442745/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:22:21,108 basehttp 124 "GET /user/sms/13233442745/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:23:23,274 base 91 Not Found: /user/verify/13233442745/
+WARNING 2020-07-11 20:23:23,274 basehttp 124 "GET /user/verify/13233442745/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:23:23,329 basehttp 124 "GET /user/sms/13233442745/ HTTP/1.1" 200 61
+INFO 2020-07-11 20:25:29,162 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 73
+WARNING 2020-07-11 20:25:36,840 base 91 Not Found: /user/verify/13513541274/
+WARNING 2020-07-11 20:25:36,841 basehttp 124 "GET /user/verify/13513541274/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:25:36,889 basehttp 124 "GET /user/sms/13513541274/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:26:24,925 base 91 Not Found: /user/verify/13233442744/
+WARNING 2020-07-11 20:26:24,926 basehttp 124 "GET /user/verify/13233442744/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:26:24,976 basehttp 124 "GET /user/sms/13233442744/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:31:33,852 base 91 Not Found: /user/verify/13200001111/
+WARNING 2020-07-11 20:31:33,855 basehttp 124 "GET /user/verify/13200001111/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:31:34,082 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:39:25,327 base 91 Not Found: /user/verify/13200001111/
+WARNING 2020-07-11 20:39:25,332 basehttp 124 "GET /user/verify/13200001111/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:39:26,144 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:45:30,299 base 91 Not Found: /user/verify/13200001111/
+WARNING 2020-07-11 20:45:30,304 basehttp 124 "GET /user/verify/13200001111/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:45:30,784 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:52:57,976 base 91 Not Found: /user/verify/13200001111/
+WARNING 2020-07-11 20:52:57,991 basehttp 124 "GET /user/verify/13200001111/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:53:00,464 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:54:04,004 base 91 Not Found: /user/verify/13200001111/
+WARNING 2020-07-11 20:54:04,005 basehttp 124 "GET /user/verify/13200001111/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:54:04,062 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:55:08,038 base 91 Not Found: /user/verify/13200001111/
+WARNING 2020-07-11 20:55:08,039 basehttp 124 "GET /user/verify/13200001111/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:55:08,222 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 61
+WARNING 2020-07-11 20:59:20,344 base 91 Not Found: /user/verify/13200001111/
+WARNING 2020-07-11 20:59:20,352 basehttp 124 "GET /user/verify/13200001111/ HTTP/1.1" 404 25
+INFO 2020-07-11 20:59:20,454 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 61
+WARNING 2020-07-11 21:03:34,272 base 91 Not Found: /user/verify/13200001111/
+WARNING 2020-07-11 21:03:34,280 basehttp 124 "GET /user/verify/13200001111/ HTTP/1.1" 404 25
+WARNING 2020-07-11 21:03:43,292 base 91 Not Found: /user/verify/13200001111/
+WARNING 2020-07-11 21:03:43,293 basehttp 124 "GET /user/verify/13200001111/ HTTP/1.1" 404 25
+ERROR 2020-07-11 21:04:20,080 exception 115 Internal Server Error: /user/sms/13200001111/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\shop\edu_api\edu_api\apps\user\views.py", line 84, in get
+    if phone_count>3:
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+ERROR 2020-07-11 21:04:21,163 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 500 18209
+INFO 2020-07-11 21:05:07,051 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 84
+INFO 2020-07-11 21:05:11,772 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 84
+INFO 2020-07-11 21:05:18,217 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 84
+ERROR 2020-07-11 21:05:26,721 exception 115 Internal Server Error: /user/sms/13200001111/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\shop\edu_api\edu_api\apps\user\views.py", line 84, in get
+    if phone_count>3:
+TypeError: '>' not supported between instances of 'bytes' and 'int'
+ERROR 2020-07-11 21:05:26,838 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 500 18203
+INFO 2020-07-11 21:05:30,485 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 84
+INFO 2020-07-11 21:05:32,063 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 84
+INFO 2020-07-11 21:05:33,813 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 84
+ERROR 2020-07-11 21:05:41,857 exception 115 Internal Server Error: /user/sms/13200001112/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\shop\edu_api\edu_api\apps\user\views.py", line 84, in get
+    if phone_count>3:
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+ERROR 2020-07-11 21:05:41,890 basehttp 124 "GET /user/sms/13200001112/ HTTP/1.1" 500 18210
+INFO 2020-07-11 21:05:48,929 basehttp 124 "GET /user/sms/13200001112/ HTTP/1.1" 200 84
+INFO 2020-07-11 21:05:55,576 basehttp 124 "GET /user/sms/13200001112/ HTTP/1.1" 200 84
+INFO 2020-07-11 21:06:56,550 basehttp 124 "GET /user/sms/13200001113/ HTTP/1.1" 200 61
+INFO 2020-07-11 21:07:02,721 basehttp 124 "GET /user/sms/13200001113/ HTTP/1.1" 200 84
+INFO 2020-07-11 21:07:05,174 basehttp 124 "GET /user/sms/13200001113/ HTTP/1.1" 200 84
+WARNING 2020-07-11 21:07:27,613 base 91 Not Found: /user/verify/13200001111/
+WARNING 2020-07-11 21:07:27,615 basehttp 124 "GET /user/verify/13200001111/ HTTP/1.1" 404 25
+ERROR 2020-07-11 21:07:27,798 exception 115 Internal Server Error: /user/sms/13200001111/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\shop\edu_api\edu_api\apps\user\views.py", line 84, in get
+    if phone_count>3:
+TypeError: '>' not supported between instances of 'bytes' and 'int'
+ERROR 2020-07-11 21:07:28,454 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 500 18326
+INFO 2020-07-11 21:09:11,179 basehttp 124 "GET /user/sms/13200001113/ HTTP/1.1" 200 61
+INFO 2020-07-11 21:09:24,309 basehttp 124 "GET /user/sms/13200001113/ HTTP/1.1" 200 84
+INFO 2020-07-11 21:09:40,377 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 61
+INFO 2020-07-11 21:09:45,956 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 84
+INFO 2020-07-11 21:10:39,395 basehttp 124 "GET /user/sms/13200001112/ HTTP/1.1" 200 61
+INFO 2020-07-11 21:10:45,514 basehttp 124 "GET /user/sms/13200001113/ HTTP/1.1" 200 61
+INFO 2020-07-11 21:10:52,926 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 90
+WARNING 2020-07-11 21:12:22,441 base 91 Not Found: /user/verify/13200001111/
+WARNING 2020-07-11 21:12:22,444 basehttp 124 "GET /user/verify/13200001111/ HTTP/1.1" 404 25
+INFO 2020-07-11 21:12:22,538 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 90
+WARNING 2020-07-11 21:26:51,661 base 91 Not Found: /user/verify/13200110011/
+WARNING 2020-07-11 21:26:51,673 basehttp 124 "GET /user/verify/13200110011/ HTTP/1.1" 404 25
+INFO 2020-07-11 21:26:52,768 basehttp 124 "GET /user/sms/13200110011/ HTTP/1.1" 200 61
+INFO 2020-07-11 21:27:04,759 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+INFO 2020-07-11 21:27:04,964 basehttp 124 "POST /user/register/ HTTP/1.1" 201 213
+WARNING 2020-07-11 21:27:19,603 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 21:28:30,920 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+ERROR 2020-07-11 21:31:47,810 exception 115 Internal Server Error: /user/register
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\middleware\common.py", line 92, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to api.shop.com:9000/user/register/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2020-07-11 21:31:49,979 basehttp 124 "POST /user/register HTTP/1.1" 500 68581
+WARNING 2020-07-11 21:32:28,552 base 91 Not Found: /user/login/register
+WARNING 2020-07-11 21:32:28,554 basehttp 124 "POST /user/login/register HTTP/1.1" 404 2903
+ERROR 2020-07-11 21:33:07,136 exception 115 Internal Server Error: /user/register
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\middleware\common.py", line 92, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to api.shop.com:9000/user/register/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2020-07-11 21:33:07,306 basehttp 124 "POST /user/register HTTP/1.1" 500 68581
+WARNING 2020-07-11 21:33:38,493 basehttp 124 "POST /user/register/ HTTP/1.1" 400 41
+WARNING 2020-07-11 21:33:50,783 basehttp 124 "POST /user/register/ HTTP/1.1" 400 41
+WARNING 2020-07-11 21:34:37,691 basehttp 124 "POST /user/register/ HTTP/1.1" 400 78
+INFO 2020-07-11 21:36:09,494 basehttp 124 "POST /user/register/ HTTP/1.1" 201 213
+WARNING 2020-07-11 21:36:36,523 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+INFO 2020-07-11 21:36:47,479 basehttp 124 "POST /user/register/ HTTP/1.1" 201 213
+INFO 2020-07-11 21:37:33,142 basehttp 124 "GET /user/verify/13200110011/ HTTP/1.1" 200 73
+ERROR 2020-07-11 21:38:39,856 exception 115 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\git\shop\edu_api\edu_api\apps\user\serializer.py", line 37, in validate
+    raise APIResponse(300, False, results="手机号格式错误")
+TypeError: exceptions must derive from BaseException
+ERROR 2020-07-11 21:38:40,027 basehttp 124 "POST /user/register/ HTTP/1.1" 500 18869
+ERROR 2020-07-11 21:38:46,362 exception 115 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\git\shop\edu_api\edu_api\apps\user\serializer.py", line 37, in validate
+    raise APIResponse(300, False, results="手机号格式错误")
+TypeError: exceptions must derive from BaseException
+ERROR 2020-07-11 21:38:46,431 basehttp 124 "POST /user/register/ HTTP/1.1" 500 18869
+ERROR 2020-07-11 21:39:23,875 exception 115 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\git\shop\edu_api\edu_api\apps\user\serializer.py", line 37, in validate
+    raise APIResponse(300, False, results="手机号格式错误")
+TypeError: exceptions must derive from BaseException
+ERROR 2020-07-11 21:39:23,961 basehttp 124 "POST /user/register/ HTTP/1.1" 500 18870
+WARNING 2020-07-11 21:42:36,088 basehttp 124 "POST /user/register/ HTTP/1.1" 400 46
+WARNING 2020-07-11 21:44:18,253 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+INFO 2020-07-11 21:44:26,579 basehttp 124 "POST /user/register/ HTTP/1.1" 201 213
+WARNING 2020-07-11 21:44:31,474 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+INFO 2020-07-11 21:45:33,395 basehttp 124 "POST /user/register/ HTTP/1.1" 201 213
+INFO 2020-07-11 21:47:18,766 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+WARNING 2020-07-11 21:49:05,445 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 21:49:09,082 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 21:49:16,116 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 21:49:18,448 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 21:49:31,303 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+INFO 2020-07-11 21:49:50,667 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+WARNING 2020-07-11 21:52:29,858 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+INFO 2020-07-11 21:52:43,223 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+WARNING 2020-07-11 21:53:17,675 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 21:53:25,071 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+INFO 2020-07-11 21:55:34,927 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+WARNING 2020-07-11 21:55:35,163 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 21:56:41,448 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 21:56:57,821 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:02:19,476 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:03:53,669 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+INFO 2020-07-11 22:17:29,159 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+WARNING 2020-07-11 22:17:29,464 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:17:39,443 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:17:42,537 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:17:42,837 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:17:46,097 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:17:46,381 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:18:05,188 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:18:35,629 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:19:41,303 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:21:43,261 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:23:18,878 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:29:23,355 base 91 Not Found: /user/verify/13233336666/
+WARNING 2020-07-11 22:29:23,357 basehttp 124 "GET /user/verify/13233336666/ HTTP/1.1" 404 25
+INFO 2020-07-11 22:29:23,630 basehttp 124 "GET /user/sms/13233336666/ HTTP/1.1" 200 61
+INFO 2020-07-11 22:29:45,429 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+WARNING 2020-07-11 22:29:45,454 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:29:51,205 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:31:57,940 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:32:00,976 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:32:04,195 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:32:05,323 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:32:06,064 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:33:02,808 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:34:02,771 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:34:04,256 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+INFO 2020-07-11 22:36:44,583 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+WARNING 2020-07-11 22:36:46,323 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 22:36:46,741 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 22:36:47,007 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 22:36:47,539 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 22:36:47,846 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 22:36:49,545 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 22:36:54,680 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 22:37:41,784 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 22:37:43,964 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 22:38:46,273 base 91 Not Found: /user/verify/13233660001/
+WARNING 2020-07-11 22:38:46,279 basehttp 124 "GET /user/verify/13233660001/ HTTP/1.1" 404 25
+INFO 2020-07-11 22:38:46,979 basehttp 124 "GET /user/sms/13233660001/ HTTP/1.1" 200 61
+WARNING 2020-07-11 22:39:03,189 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+INFO 2020-07-11 22:39:09,679 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+WARNING 2020-07-11 22:40:59,173 base 91 Not Found: /user/verify/13322221111/
+WARNING 2020-07-11 22:40:59,181 basehttp 124 "GET /user/verify/13322221111/ HTTP/1.1" 404 25
+INFO 2020-07-11 22:40:59,307 basehttp 124 "GET /user/sms/13322221111/ HTTP/1.1" 200 61
+INFO 2020-07-11 22:41:17,067 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+INFO 2020-07-11 22:41:17,287 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+WARNING 2020-07-11 22:41:26,877 basehttp 124 "POST /user/register/ HTTP/1.1" 400 57
+WARNING 2020-07-11 22:43:38,553 base 91 Not Found: /user/verify/13533666655/
+WARNING 2020-07-11 22:43:38,560 basehttp 124 "GET /user/verify/13533666655/ HTTP/1.1" 404 25
+INFO 2020-07-11 22:43:38,641 basehttp 124 "GET /user/sms/13533666655/ HTTP/1.1" 200 61
+WARNING 2020-07-11 22:43:56,136 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+INFO 2020-07-11 22:44:03,118 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+WARNING 2020-07-11 22:48:17,406 base 91 Not Found: /user/verify/13221212121/
+WARNING 2020-07-11 22:48:17,419 basehttp 124 "GET /user/verify/13221212121/ HTTP/1.1" 404 25
+INFO 2020-07-11 22:48:17,636 basehttp 124 "GET /user/sms/13221212121/ HTTP/1.1" 200 61
+WARNING 2020-07-11 22:48:35,230 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+WARNING 2020-07-11 22:48:38,605 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+INFO 2020-07-11 22:49:02,248 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+INFO 2020-07-11 22:49:02,721 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 22:49:02,755 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 22:49:02,767 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 22:49:03,071 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-07-11 22:49:03,082 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-07-11 22:49:03,084 basehttp 124 "GET /media/banner/02_2hypnTk.png HTTP/1.1" 304 0
+INFO 2020-07-11 22:49:14,052 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 22:49:14,309 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 22:49:14,533 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 22:51:38,315 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 22:51:38,323 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 22:51:38,414 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-11 22:51:59,629 base 91 Not Found: /user/verify/13513541278/
+WARNING 2020-07-11 22:51:59,629 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 404 25
+INFO 2020-07-11 22:52:00,183 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+INFO 2020-07-11 22:52:20,499 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+WARNING 2020-07-11 22:52:20,520 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+INFO 2020-07-11 22:52:24,884 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+INFO 2020-07-11 22:52:25,022 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 22:52:25,027 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 22:52:25,050 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-11 22:54:29,373 base 91 Not Found: /user/verify/18500230996/
+WARNING 2020-07-11 22:54:29,375 basehttp 124 "GET /user/verify/18500230996/ HTTP/1.1" 404 25
+INFO 2020-07-11 22:54:29,730 basehttp 124 "GET /user/sms/18500230996/ HTTP/1.1" 200 61
+INFO 2020-07-11 22:55:08,804 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+INFO 2020-07-11 22:55:09,311 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 22:55:09,346 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 22:55:09,475 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 23:05:12,398 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-11 23:31:29,370 basehttp 124 "GET /user/verify/13513541278 HTTP/1.1" 301 0
+INFO 2020-07-11 23:31:31,790 basehttp 124 "GET /user/verify/13513541278 HTTP/1.1" 301 0
+INFO 2020-07-11 23:31:45,028 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+WARNING 2020-07-11 23:31:55,203 base 91 Not Found: /user/verify/23513541278/
+WARNING 2020-07-11 23:31:55,205 basehttp 124 "GET /user/verify/23513541278/ HTTP/1.1" 404 25
+WARNING 2020-07-11 23:31:58,931 base 91 Not Found: /user/verify/23513541278/
+WARNING 2020-07-11 23:31:58,932 basehttp 124 "GET /user/verify/23513541278/ HTTP/1.1" 404 25
+WARNING 2020-07-11 23:32:15,964 base 91 Not Found: /user/verify/23513578/
+WARNING 2020-07-11 23:32:15,965 basehttp 124 "GET /user/verify/23513578/ HTTP/1.1" 404 25
+WARNING 2020-07-11 23:34:54,121 base 91 Not Found: /user/verify/2351fff78/
+WARNING 2020-07-11 23:34:54,126 basehttp 124 "GET /user/verify/2351fff78/ HTTP/1.1" 404 25
+WARNING 2020-07-11 23:35:09,620 base 91 Not Found: /user/verify/235bbbbbbn78/
+WARNING 2020-07-11 23:35:09,621 basehttp 124 "GET /user/verify/235bbbbbbn78/ HTTP/1.1" 404 25
+INFO 2020-07-11 23:42:20,749 basehttp 124 "GET /user/sms/13200001111/ HTTP/1.1" 200 61
+INFO 2020-07-11 23:42:31,339 basehttp 124 "GET /user/sms/12/ HTTP/1.1" 200 67
+INFO 2020-07-11 23:42:46,215 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 67
+INFO 2020-07-11 23:44:26,283 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+WARNING 2020-07-11 23:44:33,327 base 91 Not Found: /user/verify/13513541277/
+WARNING 2020-07-11 23:44:33,329 basehttp 124 "GET /user/verify/13513541277/ HTTP/1.1" 404 25
+INFO 2020-07-11 23:44:33,392 basehttp 124 "GET /user/sms/13513541277/ HTTP/1.1" 200 61
+INFO 2020-07-11 23:44:53,667 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+INFO 2020-07-11 23:44:53,880 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+INFO 2020-07-11 23:44:54,100 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 23:44:54,168 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-11 23:44:54,177 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-11 23:45:54,827 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 67
+INFO 2020-07-11 23:46:12,504 basehttp 124 "GET /user/sms/13513541271/ HTTP/1.1" 200 61
+INFO 2020-07-11 23:46:19,407 basehttp 124 "GET /user/sms/23513541271/ HTTP/1.1" 200 67
+INFO 2020-07-11 23:46:28,232 basehttp 124 "GET /user/sms/13513541271/ HTTP/1.1" 200 84
+WARNING 2020-07-12 09:10:07,843 base 91 Not Found: /user/captcha/
+WARNING 2020-07-12 09:10:07,853 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 404 2898
+INFO 2020-07-12 09:11:05,462 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 09:11:42,156 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 09:14:22,655 basehttp 124 "GET /user/captcha/13513541278/ HTTP/1.1" 200 182
+INFO 2020-07-12 09:18:13,435 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 09:18:13,513 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 09:18:13,674 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 09:18:13,788 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-07-12 09:18:13,898 basehttp 124 "GET /media/banner/02_2hypnTk.png HTTP/1.1" 304 0
+INFO 2020-07-12 09:18:13,917 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 304 0
+WARNING 2020-07-12 09:18:21,160 base 91 Not Found: /user/captcha//
+WARNING 2020-07-12 09:18:21,161 basehttp 124 "GET /user/captcha// HTTP/1.1" 404 3228
+INFO 2020-07-12 09:18:42,898 basehttp 124 "GET /user/captcha/root/ HTTP/1.1" 200 182
+INFO 2020-07-12 09:18:45,538 basehttp 124 "GET /user/captcha/root/ HTTP/1.1" 200 182
+INFO 2020-07-12 09:21:48,224 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 09:24:17,273 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:25:20,901 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:26:05,134 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:26:12,510 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:27:06,125 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:27:16,531 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:28:49,452 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:28:59,720 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:30:38,366 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:33:09,852 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:34:03,605 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:36:46,494 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:38:35,007 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:40:37,473 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:41:41,693 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:44:38,869 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:45:37,603 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:51:57,525 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:54:33,863 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:55:15,645 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 09:57:28,387 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 10:00:12,856 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 10:02:42,390 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 10:03:21,803 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 10:08:06,319 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 10:08:32,765 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 10:17:28,329 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 10:20:50,269 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 10:31:42,556 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 10:32:31,617 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 182
+INFO 2020-07-12 10:45:08,705 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 10:45:29,426 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 10:45:50,448 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 10:49:45,151 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 10:49:57,442 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 10:51:10,273 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 10:52:34,946 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 11:03:28,975 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 11:03:44,743 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 11:03:49,246 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 11:04:54,665 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 11:05:10,169 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 11:05:20,887 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 11:08:39,262 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 11:09:03,098 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 11:10:32,768 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 11:10:45,599 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+WARNING 2020-07-12 13:23:03,138 base 91 Not Found: /user/verify/13513541270/
+WARNING 2020-07-12 13:23:03,154 basehttp 124 "GET /user/verify/13513541270/ HTTP/1.1" 404 25
+INFO 2020-07-12 13:23:10,665 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-12 13:23:11,116 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 67
+INFO 2020-07-12 13:29:54,919 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-12 13:29:55,028 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 67
+INFO 2020-07-12 13:32:47,128 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-12 13:32:47,350 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+INFO 2020-07-12 13:37:23,376 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-12 13:37:23,564 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+WARNING 2020-07-12 13:55:23,236 base 91 Not Found: /user/verify/13513541278/
+WARNING 2020-07-12 13:55:23,272 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 404 25
+INFO 2020-07-12 13:55:23,364 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+INFO 2020-07-12 13:55:39,857 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+INFO 2020-07-12 13:55:40,076 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+INFO 2020-07-12 13:55:40,357 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 13:55:40,392 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 13:55:40,412 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 13:55:56,739 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-12 13:55:56,833 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 84
+INFO 2020-07-12 13:56:38,336 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+WARNING 2020-07-12 13:56:38,448 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 13:56:55,682 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 13:57:25,409 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 13:57:35,308 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 13:57:45,908 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-12 13:57:45,981 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+WARNING 2020-07-12 13:58:02,896 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 13:58:09,176 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 13:58:44,199 base 91 Not Found: /user/verify/13513541279/
+WARNING 2020-07-12 13:58:44,200 basehttp 124 "GET /user/verify/13513541279/ HTTP/1.1" 404 25
+INFO 2020-07-12 13:58:44,242 basehttp 124 "GET /user/sms/13513541279/ HTTP/1.1" 200 61
+INFO 2020-07-12 13:58:58,859 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+INFO 2020-07-12 13:58:58,941 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 13:58:58,954 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 13:58:58,988 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 13:59:16,484 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-12 13:59:16,597 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 13:59:16,603 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 13:59:16,664 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-12 14:01:00,000 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 14:01:08,883 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 14:01:24,146 basehttp 124 "GET /user/verify/13513541279/ HTTP/1.1" 200 74
+INFO 2020-07-12 14:01:24,186 basehttp 124 "GET /user/sms/13513541279/ HTTP/1.1" 200 61
+WARNING 2020-07-12 14:01:45,194 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 14:03:38,612 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-12 14:03:38,943 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+WARNING 2020-07-12 14:03:59,369 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 14:11:51,982 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-12 14:11:52,216 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+INFO 2020-07-12 14:12:09,275 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+WARNING 2020-07-12 14:12:09,371 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 14:12:52,928 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-12 14:12:53,118 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 14:12:53,131 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 14:12:53,265 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 14:13:08,738 basehttp 124 "GET /user/verify/13513541279/ HTTP/1.1" 200 74
+INFO 2020-07-12 14:13:08,779 basehttp 124 "GET /user/sms/13513541279/ HTTP/1.1" 200 61
+WARNING 2020-07-12 14:13:29,990 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 14:14:53,471 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 14:14:54,928 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 14:14:56,746 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 14:15:09,017 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-12 14:15:09,235 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 14:15:09,260 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 14:15:09,388 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-12 14:16:58,088 basehttp 124 "POST /user/login/ HTTP/1.1" 400 41
+WARNING 2020-07-12 14:17:21,335 basehttp 124 "POST /user/login/?username=13513541279 HTTP/1.1" 400 41
+WARNING 2020-07-12 14:18:10,529 basehttp 124 "POST /user/login/ HTTP/1.1" 400 41
+INFO 2020-07-12 14:18:38,312 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+WARNING 2020-07-12 14:18:57,539 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 14:20:32,497 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 14:21:35,174 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 14:21:37,600 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 14:21:39,460 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 14:21:42,736 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 14:26:58,036 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-12 14:27:24,114 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-12 14:33:05,800 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 14:33:05,801 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 14:33:06,386 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 14:33:26,759 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-12 14:33:26,948 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+INFO 2020-07-12 14:33:47,360 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-12 14:33:47,384 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-12 14:33:47,529 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 14:33:47,559 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 14:33:47,718 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-12 14:34:10,635 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 14:34:18,358 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-12 14:34:18,461 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 14:34:18,473 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 14:34:18,529 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-12 14:36:17,883 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-12 14:36:23,101 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 14:36:50,140 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+WARNING 2020-07-12 14:36:55,918 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 14:38:25,986 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 14:38:34,296 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 14:39:32,196 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 14:39:45,903 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-12 14:39:45,963 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+WARNING 2020-07-12 14:39:53,836 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 14:40:00,455 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 14:40:09,292 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 14:42:08,225 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 14:45:21,477 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 14:53:45,572 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 14:55:41,076 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 14:55:53,492 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 14:58:14,220 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 15:05:18,142 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 15:05:28,864 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 15:08:29,149 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 15:51:01,831 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 15:52:07,279 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 16:04:02,031 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 16:12:49,167 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 16:14:31,611 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 16:19:04,960 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 16:19:11,998 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 16:22:46,851 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 16:22:57,660 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 16:27:17,032 basehttp 124 "GET /user/captcha/?username=root HTTP/1.1" 200 182
+INFO 2020-07-12 16:33:23,819 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 16:35:42,709 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 16:35:56,055 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+WARNING 2020-07-12 16:38:19,683 basehttp 124 "POST /user/captcha/ HTTP/1.1" 400 107
+INFO 2020-07-12 16:40:15,503 basehttp 124 "POST /user/captcha/ HTTP/1.1" 200 46
+INFO 2020-07-12 16:43:29,402 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 16:43:36,239 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 16:47:06,581 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 16:51:25,362 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 16:51:33,652 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 142
+INFO 2020-07-12 16:53:35,326 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 142
+INFO 2020-07-12 17:03:45,095 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 142
+INFO 2020-07-12 17:10:23,589 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 17:14:14,656 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+ERROR 2020-07-12 17:14:15,761 exception 115 Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework_jwt\views.py", line 57, in post
+    if serializer.is_valid():
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework_jwt\serializers.py", line 50, in validate
+    user = authenticate(**credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 70, in authenticate
+    user = _authenticate_with_backend(backend, backend_path, request, credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 116, in _authenticate_with_backend
+    return backend.authenticate(*args, **credentials)
+  File "D:\git\shop\edu_api\edu_api\apps\user\utils.py", line 43, in authenticate
+    if password != sms_code.decode():
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-12 17:14:17,332 basehttp 124 "POST /user/login/ HTTP/1.1" 500 19198
+INFO 2020-07-12 17:14:25,537 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 142
+INFO 2020-07-12 17:20:21,865 basehttp 124 "GET /user/captcha/?username=+13513541278 HTTP/1.1" 200 58
+INFO 2020-07-12 17:20:24,158 basehttp 124 "GET /user/captcha/?username=+13513541278 HTTP/1.1" 200 58
+WARNING 2020-07-12 17:20:30,625 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+ERROR 2020-07-12 17:20:41,419 exception 115 Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework_jwt\views.py", line 57, in post
+    if serializer.is_valid():
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework_jwt\serializers.py", line 50, in validate
+    user = authenticate(**credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 70, in authenticate
+    user = _authenticate_with_backend(backend, backend_path, request, credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 116, in _authenticate_with_backend
+    return backend.authenticate(*args, **credentials)
+  File "D:\git\shop\edu_api\edu_api\apps\user\utils.py", line 43, in authenticate
+    if password != sms_code.decode():
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-12 17:20:41,976 basehttp 124 "POST /user/login/ HTTP/1.1" 500 19198
+INFO 2020-07-12 17:24:19,307 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+ERROR 2020-07-12 17:24:19,530 exception 115 Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework_jwt\views.py", line 57, in post
+    if serializer.is_valid():
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework_jwt\serializers.py", line 50, in validate
+    user = authenticate(**credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 70, in authenticate
+    user = _authenticate_with_backend(backend, backend_path, request, credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 116, in _authenticate_with_backend
+    return backend.authenticate(*args, **credentials)
+  File "D:\git\shop\edu_api\edu_api\apps\user\utils.py", line 43, in authenticate
+    if password != sms_code.decode():
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-12 17:24:20,067 basehttp 124 "POST /user/login/ HTTP/1.1" 500 19198
+ERROR 2020-07-12 17:24:20,293 exception 115 Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework_jwt\views.py", line 57, in post
+    if serializer.is_valid():
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework_jwt\serializers.py", line 50, in validate
+    user = authenticate(**credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 70, in authenticate
+    user = _authenticate_with_backend(backend, backend_path, request, credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 116, in _authenticate_with_backend
+    return backend.authenticate(*args, **credentials)
+  File "D:\git\shop\edu_api\edu_api\apps\user\utils.py", line 43, in authenticate
+    if password != sms_code.decode():
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-12 17:24:20,334 basehttp 124 "POST /user/login/ HTTP/1.1" 500 19198
+ERROR 2020-07-12 17:24:22,164 exception 115 Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework_jwt\views.py", line 57, in post
+    if serializer.is_valid():
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework_jwt\serializers.py", line 50, in validate
+    user = authenticate(**credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 70, in authenticate
+    user = _authenticate_with_backend(backend, backend_path, request, credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 116, in _authenticate_with_backend
+    return backend.authenticate(*args, **credentials)
+  File "D:\git\shop\edu_api\edu_api\apps\user\utils.py", line 43, in authenticate
+    if password != sms_code.decode():
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-12 17:24:22,206 basehttp 124 "POST /user/login/ HTTP/1.1" 500 19199
+ERROR 2020-07-12 17:24:44,115 exception 115 Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework_jwt\views.py", line 57, in post
+    if serializer.is_valid():
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework_jwt\serializers.py", line 50, in validate
+    user = authenticate(**credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 70, in authenticate
+    user = _authenticate_with_backend(backend, backend_path, request, credentials)
+  File "D:\software\001\django_ems\lib\site-packages\django\contrib\auth\__init__.py", line 116, in _authenticate_with_backend
+    return backend.authenticate(*args, **credentials)
+  File "D:\git\shop\edu_api\edu_api\apps\user\utils.py", line 43, in authenticate
+    if password != sms_code.decode():
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-07-12 17:24:44,149 basehttp 124 "POST /user/login/ HTTP/1.1" 500 19198
+WARNING 2020-07-12 17:27:24,325 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 17:27:53,947 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-12 17:27:53,997 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+INFO 2020-07-12 17:28:10,832 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-12 17:28:11,090 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 17:28:11,178 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 17:28:11,183 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 17:28:11,480 basehttp 124 "GET /media/banner/02_2hypnTk.png HTTP/1.1" 304 0
+INFO 2020-07-12 17:28:11,484 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-07-12 17:28:11,495 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 304 0
+WARNING 2020-07-12 17:28:34,431 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 17:29:02,420 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-12 17:29:02,552 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 17:29:02,649 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 17:29:02,655 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 17:33:34,474 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 17:37:30,034 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 17:46:08,560 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 17:46:08,565 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 17:46:08,597 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 17:46:09,192 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-07-12 17:46:09,207 basehttp 124 "GET /media/banner/02_2hypnTk.png HTTP/1.1" 200 364808
+INFO 2020-07-12 17:46:09,386 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-07-12 17:47:09,103 basehttp 124 "POST /user/captcha/ HTTP/1.1" 200 46
+INFO 2020-07-12 22:17:42,999 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 22:17:43,006 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:17:44,601 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:17:51,163 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:17:51,695 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 22:17:51,836 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:17:52,627 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:17:52,754 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 22:17:52,942 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:17:54,544 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:17:54,695 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 22:17:54,857 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:17:55,757 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:17:55,878 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 22:17:56,128 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:19:09,342 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-12 22:19:09,413 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+INFO 2020-07-12 22:19:41,709 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 22:35:55,732 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:35:55,741 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 22:35:55,884 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:36:12,983 basehttp 124 "GET /user/captcha/?username=135123541278 HTTP/1.1" 200 58
+INFO 2020-07-12 22:36:20,258 basehttp 124 "GET /user/captcha/?username=135123541278 HTTP/1.1" 200 58
+INFO 2020-07-12 22:36:29,205 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 22:36:31,966 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 22:36:38,289 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 22:40:35,810 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:40:35,820 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 22:40:36,076 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:44:02,005 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:44:02,014 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 22:44:02,358 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:44:37,858 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 22:44:38,047 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:44:38,686 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:45:04,339 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-12 22:45:04,734 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-12 22:45:04,911 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 22:45:04,916 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:45:04,969 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:46:59,644 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-12 22:46:59,797 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 22:46:59,798 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:46:59,834 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:48:11,527 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-12 22:48:11,628 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+WARNING 2020-07-12 22:48:31,370 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-12 22:48:37,140 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-12 22:48:37,538 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 22:48:37,639 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 22:48:37,773 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 23:29:48,792 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-12 23:29:48,804 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 23:29:48,944 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-12 23:35:28,775 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 23:35:32,127 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 23:41:00,753 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 182
+INFO 2020-07-12 23:43:40,702 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 188
+INFO 2020-07-12 23:44:02,801 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-12 23:44:10,367 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 188
+INFO 2020-07-12 23:52:35,495 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 188
+INFO 2020-07-12 23:54:46,130 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 188
+INFO 2020-07-12 23:54:49,807 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 188
+INFO 2020-07-12 23:57:02,331 basehttp 124 "POST /user/captcha/ HTTP/1.1" 200 46
+INFO 2020-07-12 23:58:52,473 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 188
+INFO 2020-07-12 23:58:57,084 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 188
+INFO 2020-07-13 00:02:28,382 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-13 00:02:34,911 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 188
+INFO 2020-07-13 00:02:49,931 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 188
+INFO 2020-07-13 00:06:00,452 basehttp 124 "GET /user/captcha/?username= HTTP/1.1" 200 58
+INFO 2020-07-13 00:06:09,150 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 188
+INFO 2020-07-13 00:11:11,408 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 188
+INFO 2020-07-13 01:12:37,744 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 188
+INFO 2020-07-13 01:12:41,046 basehttp 124 "GET /user/captcha/?username=13513541278 HTTP/1.1" 200 188
+INFO 2020-07-13 08:01:29,343 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-13 08:01:29,402 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:01:29,660 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:01:29,995 basehttp 124 "GET /media/banner/02_2hypnTk.png HTTP/1.1" 304 0
+INFO 2020-07-13 08:01:30,085 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-07-13 08:01:30,143 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-07-13 08:02:50,489 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-13 08:02:50,670 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+INFO 2020-07-13 08:03:10,713 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+WARNING 2020-07-13 08:03:10,739 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-13 08:03:18,167 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-13 08:03:18,248 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:03:18,262 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-13 08:03:18,297 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-13 08:03:36,828 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-13 08:03:43,275 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-13 08:03:50,735 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-13 08:04:01,909 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-13 08:04:09,000 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-13 08:04:13,948 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-13 08:04:19,038 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-13 08:05:29,149 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-13 08:05:37,170 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-13 08:05:41,975 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+WARNING 2020-07-13 08:07:17,184 base 91 Not Found: /user/verify/13513541278/
+WARNING 2020-07-13 08:07:17,185 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 404 25
+INFO 2020-07-13 08:07:17,222 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+INFO 2020-07-13 08:07:36,167 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+WARNING 2020-07-13 08:07:36,184 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+ERROR 2020-07-13 08:08:02,202 exception 115 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "D:\software\001\django_ems\lib\site-packages\redis\_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\git\shop\edu_api\edu_api\apps\user\serializer.py", line 42, in validate
+    sms_code = redis_connection.get("%s_check" % phone)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 901, in execute_command
+    return self.parse_response(conn, command_name, **options)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 256, in readline
+    self._read_from_socket()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None)
+ERROR 2020-07-13 08:08:02,726 basehttp 124 "POST /user/register/ HTTP/1.1" 500 20771
+ERROR 2020-07-13 08:08:09,352 exception 115 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\git\shop\edu_api\edu_api\apps\user\serializer.py", line 42, in validate
+    sms_code = redis_connection.get("%s_check" % phone)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10060 connecting to 192.168.13.128:7000. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+ERROR 2020-07-13 08:08:09,396 basehttp 124 "POST /user/register/ HTTP/1.1" 500 20390
+ERROR 2020-07-13 08:08:11,381 exception 115 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\git\shop\edu_api\edu_api\apps\user\serializer.py", line 42, in validate
+    sms_code = redis_connection.get("%s_check" % phone)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10060 connecting to 192.168.13.128:7000. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+ERROR 2020-07-13 08:08:11,442 basehttp 124 "POST /user/register/ HTTP/1.1" 500 20390
+ERROR 2020-07-13 08:08:11,906 exception 115 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\git\shop\edu_api\edu_api\apps\user\serializer.py", line 42, in validate
+    sms_code = redis_connection.get("%s_check" % phone)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10060 connecting to 192.168.13.128:7000. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+ERROR 2020-07-13 08:08:11,952 basehttp 124 "POST /user/register/ HTTP/1.1" 500 20391
+WARNING 2020-07-13 08:13:28,242 base 91 Not Found: /user/verify/13513541278/
+WARNING 2020-07-13 08:13:28,243 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 404 25
+ERROR 2020-07-13 08:13:44,217 exception 115 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\git\shop\edu_api\edu_api\apps\user\serializer.py", line 42, in validate
+    sms_code = redis_connection.get("%s_check" % phone)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10060 connecting to 192.168.13.128:7000. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+ERROR 2020-07-13 08:13:44,697 basehttp 124 "POST /user/register/ HTTP/1.1" 500 20390
+ERROR 2020-07-13 08:13:49,276 exception 115 Internal Server Error: /user/sms/13513541278/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\shop\edu_api\edu_api\apps\user\views.py", line 90, in get
+    phone_code = redis_connection.get("%s_sms" % phone)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10060 connecting to 192.168.13.128:7000. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+ERROR 2020-07-13 08:13:49,337 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 500 19763
+ERROR 2020-07-13 08:14:06,613 exception 115 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 235, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.validate(value)
+  File "D:\git\shop\edu_api\edu_api\apps\user\serializer.py", line 42, in validate
+    sms_code = redis_connection.get("%s_check" % phone)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 1606, in get
+    return self.execute_command('GET', name)
+  File "D:\software\001\django_ems\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\software\001\django_ems\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10060 connecting to 192.168.13.128:7000. 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。.
+ERROR 2020-07-13 08:14:06,645 basehttp 124 "POST /user/register/ HTTP/1.1" 500 20390
+WARNING 2020-07-13 08:14:36,250 base 91 Not Found: /user/verify/13513541278/
+WARNING 2020-07-13 08:14:36,252 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 404 25
+WARNING 2020-07-13 08:21:34,434 base 91 Not Found: /user/verify/13513541278/
+WARNING 2020-07-13 08:21:34,436 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 404 25
+INFO 2020-07-13 08:21:34,577 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+INFO 2020-07-13 08:22:04,491 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+INFO 2020-07-13 08:22:04,670 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+INFO 2020-07-13 08:22:04,814 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:22:04,849 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-13 08:22:04,856 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:22:21,997 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-13 08:22:22,164 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-13 08:22:22,199 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-13 08:22:22,246 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:22:22,312 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:22:37,108 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-13 08:22:37,133 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+WARNING 2020-07-13 08:23:02,234 basehttp 124 "POST /user/login/ HTTP/1.1" 400 67
+INFO 2020-07-13 08:23:05,921 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-13 08:23:06,019 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:23:06,027 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-13 08:23:06,085 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-13 08:25:01,453 base 91 Not Found: /user/verify/13513541279/
+WARNING 2020-07-13 08:25:01,456 basehttp 124 "GET /user/verify/13513541279/ HTTP/1.1" 404 25
+INFO 2020-07-13 08:25:01,488 basehttp 124 "GET /user/sms/13513541279/ HTTP/1.1" 200 61
+INFO 2020-07-13 08:25:22,057 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+INFO 2020-07-13 08:25:22,168 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:25:22,186 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-13 08:25:22,317 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:25:37,235 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-13 08:25:37,302 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:25:37,312 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-13 08:25:37,350 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:25:58,635 basehttp 124 "GET /user/verify/13513541279/ HTTP/1.1" 200 74
+INFO 2020-07-13 08:25:58,657 basehttp 124 "GET /user/sms/13513541279/ HTTP/1.1" 200 84
+INFO 2020-07-13 08:27:15,276 basehttp 124 "GET /user/verify/13513541279/ HTTP/1.1" 200 74
+INFO 2020-07-13 08:27:15,306 basehttp 124 "GET /user/sms/13513541279/ HTTP/1.1" 200 61
+INFO 2020-07-13 08:27:42,437 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-13 08:27:42,459 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-13 08:27:42,537 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:27:42,546 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-13 08:27:42,577 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:28:00,802 basehttp 124 "GET /user/verify/13513541279/ HTTP/1.1" 200 74
+INFO 2020-07-13 08:28:00,826 basehttp 124 "GET /user/sms/13513541279/ HTTP/1.1" 200 84
+WARNING 2020-07-13 08:39:37,320 base 91 Not Found: /user/verify/13513541278/
+WARNING 2020-07-13 08:39:37,324 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 404 25
+INFO 2020-07-13 08:39:38,211 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 61
+INFO 2020-07-13 08:39:59,033 basehttp 124 "OPTIONS /user/register/ HTTP/1.1" 200 0
+WARNING 2020-07-13 08:39:59,069 basehttp 124 "POST /user/register/ HTTP/1.1" 400 40
+INFO 2020-07-13 08:40:04,689 basehttp 124 "POST /user/register/ HTTP/1.1" 201 216
+INFO 2020-07-13 08:40:04,894 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:40:04,976 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-13 08:40:05,220 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:40:24,544 basehttp 124 "GET /user/verify/13513541278/ HTTP/1.1" 200 74
+INFO 2020-07-13 08:40:24,618 basehttp 124 "GET /user/sms/13513541278/ HTTP/1.1" 200 84
+INFO 2020-07-13 08:40:45,861 basehttp 124 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2020-07-13 08:40:45,889 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-13 08:40:46,024 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:40:46,079 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-13 08:40:46,155 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:41:01,978 basehttp 124 "POST /user/login/ HTTP/1.1" 200 221
+INFO 2020-07-13 08:41:02,146 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-13 08:41:02,237 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-13 08:41:02,305 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624

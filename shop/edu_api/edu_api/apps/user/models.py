@@ -8,3 +8,4 @@ class User(AbstractUser):
         db_table = "shop_user"
         verbose_name = "用户表"
         verbose_name_plural = verbose_name
+        unique_together = ["username","phone"]

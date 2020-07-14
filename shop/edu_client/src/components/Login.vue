@@ -23,8 +23,8 @@
                         <p>忘记密码</p>
                     </div>
                     <div id="popup-captcha"></div>
+                    <!--<button class="login_btn btn btn-primary" @click="login">登录</button>-->
                     <button class="login_btn btn btn-primary" @click="login">登录</button>
-                    <!--<button class="login_btn btn btn-primary" @click="login_captcha">登录</button>-->
                     <p class="go_login">没有账号
                         <router-link to="/user/register">立即注册</router-link>
                     </p>
@@ -55,7 +55,7 @@
                 username: "",
                 phone: "",
                 password: "",
-                code:"",
+                code: "",
                 forget: false,
                 choose: true,
                 title: "title",
@@ -134,8 +134,8 @@
                     }
                 }).then(res => {
                     console.log(res.data);
-                    let data = JSON.parse(res.data["results"]);
-                    // let data = JSON.parse(res.data);
+                    // let data = JSON.parse(res.data["results"]);
+                    let data = JSON.parse(res.data);
                     console.log(data.gt);
                     initGeetest({
                         gt: data.gt,
@@ -144,7 +144,7 @@
                         width: "100%",
                         offline: !data.success, // 表示用户后台检测极验服务器是否宕机，一般不需要关注
                         new_captcha: data.new_captcha
-                    },this.handlerPopup);
+                    }, this.handlerPopup);
 
                 }).catch(error => {
                     console.log(error);
@@ -153,27 +153,35 @@
             },
             handlerPopup(captchaObj) {
                 captchaObj.onSuccess(function () {
-                    let self = this;
+                    let _self = this;
                     console.log(captchaObj);
                     let validate = captchaObj.getValidate();
-                    console.log(validate);
-                    self.$axios({
-                        url: self.$settings.HOST + "user/captcha/",
-                        method: "post",
-                        data: {
-                            geetest_challenge: validate.geetest_challenge,
-                            geetest_validate: validate.geetest_validate,
-                            geetest_seccode: validate.geetest_seccode
-                        }
-                    }).then(response => {
-                        console.log(response.data);
-                        if (response.data.results == "true") {
-                            // 验证码验证成功  登录
-                            self.user_login()
-                        }
-                    }).catch(error => {
-                        console.log(error);
-                    });
+                    console.log("1111111",validate);
+                    // _self.$axios.post({
+                    //     url: "http://api.shop.com:9000/user/captcha/",
+                    //     // method: "post",
+                    //     data: {
+                    //         geetest_challenge: validate.geetest_challenge,
+                    //         geetest_validate: validate.geetest_validate,
+                    //         geetest_seccode: validate.geetest_seccode
+                    //     }
+                    // }).then(response => {
+                    //     console.log(response.data);
+                    //     if (response.data.results == "true") {
+                    //         // 验证码验证成功  登录
+                    //         self.user_login()
+                    //     }
+                    // }).catch(error => {
+                    //     console.log(error);
+                    // });
+                    _self.$axios({
+                        url: "http://api.shop.com:9000/user/captcha/",
+                        method:"post"
+                    }).then(res=>{
+
+                    }).catch(error=>{
+
+                    })
                 });
                 document.getElementById("geetest2").innerHTML = "";
                 captchaObj.appendTo("#geetest2");
@@ -218,12 +226,12 @@
                     console.log(error);
                 })
             },
-            sms_login(){
+            sms_login() {
                 if (this.phone === "") {
                     this.$message.error("手机号码不能为空", "警告");
                     return true
                 }
-                if (this.code=== "") {
+                if (this.code === "") {
                     this.$message.error("短信验证码不能为空", "警告");
                     return true
                 }

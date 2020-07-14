@@ -6,7 +6,7 @@
                     <router-link to="/"><img src="/static/image/logo.png" alt=""></router-link>
                 </div>
                 <ul class="nav full-left" v-for="(value,index) in list" :key="index">
-                    <li v-if="value.position==1"><span>{{ value.title }}</span></li>
+                    <li v-if="value.position==1"><span><a :href="value.link" >{{ value.title }}</a></span></li>
                 </ul>
                 <div class="login-bar full-right">
                     <div class="shop-cart full-left">
@@ -128,6 +128,7 @@
 
     .header .nav li span a {
         display: inline-block;
+        font-size: 16px;
     }
 
     .header .nav li .this {

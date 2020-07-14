@@ -15,6 +15,9 @@ from user.models import User
 from user.serializer import UserModelSerializer
 from user.utils import get_user_by_account
 
+from rest_framework import status as http_status
+
+
 pc_geetest_id = "6f91b3d2afe94ed29da03c14988fb4ef"
 pc_geetest_key = "7a01b1933685931ef5eaf5dabefd3df2"
 
@@ -22,7 +25,7 @@ pc_geetest_key = "7a01b1933685931ef5eaf5dabefd3df2"
 class CaptchaAPIView(APIView):
     # 验证码验证
     user_id = 0
-    status = True
+    status = False
 
     def get(self, request, *args, **kwargs):
         username = request.query_params.get('username')
@@ -31,12 +34,12 @@ class CaptchaAPIView(APIView):
             return APIResponse(400, False, results="用户不存在")
         self.user_id = user.id
         gt = GeetestLib(pc_geetest_id, pc_geetest_key)
-        status = gt.pre_process(self.user_id)
+        self.status = gt.pre_process(self.user_id)
         # request.session[gt.GT_STATUS_SESSION_KEY] = status
         # request.session["user_id"] = user_id
         response_str = gt.get_response_str()
-        return APIResponse("success", True, results=response_str)
-        # return Response(response_str)
+        # return APIResponse("success", True, results=response_str)
+        return Response(response_str)
 
     def post(self, request, *args, **kwargs):
         gt = GeetestLib(pc_geetest_id, pc_geetest_key)
@@ -102,8 +105,8 @@ class SendMessageAPIView(APIView):
         redis_connection.setex("%s_check" % phone, 10 * 60, code)  # 验证码的有效时间
         #发短信
         try:
-            message = Message(API_KEY)
-            message.send_message(phone, code)
+            # message = Message(API_KEY)
+            # message.send_message(phone, code)
             print(phone, code)
         except:
             return APIResponse(500, False, results="短信发送失败")

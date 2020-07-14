@@ -49,9 +49,11 @@ INSTALLED_APPS = [
     'xadmin',
     'crispy_forms',
     'reversion',
-
+    'django_filters',
+    #
     'home',
     'user',
+    'course',
 ]
 
 MIDDLEWARE = [
@@ -146,13 +148,13 @@ AUTH_USER_MODEL = 'user.User'
 REST_FRAMEWORK = {
     # 全局异常配置
     # "EXCEPTION_HANDLER": "utils.exceptions.exception_handler",
-    #用户登陆认证方式
-    'DEFAULT_AUTHENTICATION_CLASSES':[
+    # 用户登陆认证方式
+    'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
         'rest_framework.authentication.SessionAuthentication',
-        'rest_framework.authentication.BasicAuthentication',]
+        'rest_framework.authentication.BasicAuthentication', ]
 }
-#jwt
+# jwt
 JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=300),
     'JWT_RESPONSE_PAYLOAD_HANDLER': 'user.utils.jwt_response_payload_handler',
@@ -181,7 +183,7 @@ CACHES = {
         }
     },
 }
-#自定义日志设置
+# 自定义日志设置
 LOGGING = {
     # 版本
     'version': 1,

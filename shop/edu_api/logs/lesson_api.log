@@ -10062,3 +10062,990 @@ INFO 2020-07-14 13:16:41,983 basehttp 124 "GET /course/list/?course_category=4&o
 INFO 2020-07-14 13:16:48,364 basehttp 124 "OPTIONS /course/list/?course_category=4&ordering=students HTTP/1.1" 200 5797
 INFO 2020-07-14 13:16:57,230 basehttp 124 "OPTIONS /course/list/?course_category=4&ordering=students HTTP/1.1" 200 5797
 INFO 2020-07-14 13:17:08,933 basehttp 124 "GET /course/list/?course_category=4&ordering=students HTTP/1.1" 200 8250
+INFO 2020-07-14 20:31:15,125 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:31:15,218 basehttp 124 "GET /home/banner/ HTTP/1.1" 200 274
+INFO 2020-07-14 20:31:15,373 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:31:15,436 basehttp 124 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-07-14 20:31:15,500 basehttp 124 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-07-14 20:31:15,801 basehttp 124 "GET /media/banner/02_2hypnTk.png HTTP/1.1" 304 0
+INFO 2020-07-14 20:31:43,131 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:31:43,234 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 20:31:43,376 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:31:43,694 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category= HTTP/1.1" 200 1535
+INFO 2020-07-14 20:31:43,872 basehttp 124 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 20:31:43,878 basehttp 124 "GET /media/course/7d0ac6cc-1487-4041-b42c-a0a9546f6aee.png HTTP/1.1" 304 0
+INFO 2020-07-14 20:31:46,502 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=1 HTTP/1.1" 200 1535
+INFO 2020-07-14 20:31:48,086 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=2 HTTP/1.1" 200 1294
+INFO 2020-07-14 20:31:48,130 basehttp 124 "GET /media/course/a3dd8fd0-d395-4566-a573-a0e3f60d5f85.jpg HTTP/1.1" 304 0
+WARNING 2020-07-14 20:31:48,141 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:31:48,143 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:31:53,053 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=2 HTTP/1.1" 200 717
+WARNING 2020-07-14 20:31:53,073 base 91 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-14 20:31:53,074 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1894
+INFO 2020-07-14 20:31:55,634 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=price&course_category=2 HTTP/1.1" 200 720
+INFO 2020-07-14 20:31:57,210 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=students&course_category=2 HTTP/1.1" 200 723
+INFO 2020-07-14 20:31:58,890 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=2 HTTP/1.1" 200 717
+INFO 2020-07-14 20:32:04,970 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=1 HTTP/1.1" 200 1488
+WARNING 2020-07-14 20:32:04,989 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:32:04,993 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:32:07,025 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=students&course_category=1 HTTP/1.1" 200 1348
+INFO 2020-07-14 20:32:08,850 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=students&course_category=1 HTTP/1.1" 200 1348
+INFO 2020-07-14 20:32:11,348 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=price&course_category=1 HTTP/1.1" 200 1364
+INFO 2020-07-14 20:32:12,705 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=price&course_category=1 HTTP/1.1" 200 1364
+INFO 2020-07-14 20:32:14,938 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=1 HTTP/1.1" 200 1488
+WARNING 2020-07-14 20:32:14,977 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:32:14,982 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:32:16,221 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=1 HTTP/1.1" 200 1488
+INFO 2020-07-14 20:32:21,224 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=1 HTTP/1.1" 200 1488
+INFO 2020-07-14 20:32:22,650 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=1 HTTP/1.1" 200 1488
+INFO 2020-07-14 20:32:25,268 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=students&course_category=1 HTTP/1.1" 200 1348
+INFO 2020-07-14 20:32:26,644 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=price&course_category=1 HTTP/1.1" 200 1364
+INFO 2020-07-14 20:32:28,245 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=price&course_category=2 HTTP/1.1" 200 720
+WARNING 2020-07-14 20:32:28,330 base 91 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-14 20:32:28,333 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1894
+INFO 2020-07-14 20:32:30,534 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=price&course_category=2 HTTP/1.1" 200 720
+INFO 2020-07-14 20:32:31,476 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=price&course_category=3 HTTP/1.1" 200 1398
+WARNING 2020-07-14 20:32:31,559 base 91 Not Found: /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png
+WARNING 2020-07-14 20:32:31,564 basehttp 124 "GET /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png HTTP/1.1" 404 1894
+WARNING 2020-07-14 20:32:31,581 base 91 Not Found: /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg
+WARNING 2020-07-14 20:32:31,584 basehttp 124 "GET /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg HTTP/1.1" 404 1894
+INFO 2020-07-14 20:32:32,733 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=price&course_category=3 HTTP/1.1" 200 1398
+INFO 2020-07-14 20:32:33,954 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=students&course_category=3 HTTP/1.1" 200 1404
+INFO 2020-07-14 20:32:35,360 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=3 HTTP/1.1" 200 1392
+INFO 2020-07-14 20:32:37,131 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=students&course_category=3 HTTP/1.1" 200 1404
+INFO 2020-07-14 20:32:41,680 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=students&course_category=3 HTTP/1.1" 200 1404
+INFO 2020-07-14 20:32:43,974 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=students&course_category=3 HTTP/1.1" 200 1404
+INFO 2020-07-14 20:32:44,736 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=price&course_category=3 HTTP/1.1" 200 1398
+INFO 2020-07-14 20:32:46,346 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=students&course_category=3 HTTP/1.1" 200 1404
+INFO 2020-07-14 20:32:47,919 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=3 HTTP/1.1" 200 1392
+INFO 2020-07-14 20:32:49,725 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=students&course_category=3 HTTP/1.1" 200 1404
+INFO 2020-07-14 20:32:51,033 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=price&course_category=3 HTTP/1.1" 200 1398
+INFO 2020-07-14 20:34:25,099 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 20:34:25,137 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category= HTTP/1.1" 200 1535
+INFO 2020-07-14 20:34:25,246 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:34:25,272 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:34:27,237 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 20:34:27,342 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category= HTTP/1.1" 200 1535
+INFO 2020-07-14 20:34:27,436 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:34:27,587 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:34:31,808 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category= HTTP/1.1" 200 1451
+WARNING 2020-07-14 20:34:31,827 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:34:31,831 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:34:33,119 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1452
+WARNING 2020-07-14 20:34:33,201 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:34:33,204 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:34:36,253 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category= HTTP/1.1" 200 1451
+WARNING 2020-07-14 20:34:36,316 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:34:36,320 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:34:37,552 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category= HTTP/1.1" 200 1535
+INFO 2020-07-14 20:34:38,760 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category= HTTP/1.1" 200 1451
+WARNING 2020-07-14 20:34:38,840 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:34:38,843 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:34:39,682 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1452
+WARNING 2020-07-14 20:34:39,705 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:34:39,709 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:34:40,783 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1452
+INFO 2020-07-14 20:34:51,033 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1452
+INFO 2020-07-14 20:35:06,852 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category= HTTP/1.1" 200 1451
+WARNING 2020-07-14 20:35:06,900 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:35:06,903 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:35:22,309 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category= HTTP/1.1" 200 1451
+INFO 2020-07-14 20:35:38,206 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category= HTTP/1.1" 200 1451
+INFO 2020-07-14 20:36:35,986 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=2 HTTP/1.1" 200 1300
+WARNING 2020-07-14 20:36:36,055 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:36:36,058 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:36:37,312 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=2 HTTP/1.1" 200 1297
+INFO 2020-07-14 20:36:38,544 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=2 HTTP/1.1" 200 1300
+INFO 2020-07-14 20:36:40,154 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=2 HTTP/1.1" 200 1294
+WARNING 2020-07-14 20:36:40,211 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:36:40,214 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:36:42,392 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=1 HTTP/1.1" 200 1535
+INFO 2020-07-14 20:36:43,757 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=1 HTTP/1.1" 200 1451
+WARNING 2020-07-14 20:36:43,831 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:36:43,832 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:36:44,789 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=1 HTTP/1.1" 200 1458
+WARNING 2020-07-14 20:36:44,900 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:36:44,903 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+WARNING 2020-07-14 20:36:44,993 base 91 Not Found: /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png
+WARNING 2020-07-14 20:36:45,015 basehttp 124 "GET /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png HTTP/1.1" 404 1894
+INFO 2020-07-14 20:36:46,529 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=1 HTTP/1.1" 200 1535
+INFO 2020-07-14 20:36:48,279 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=1 HTTP/1.1" 200 1451
+WARNING 2020-07-14 20:36:48,372 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:36:48,375 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:36:49,599 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=1 HTTP/1.1" 200 1458
+WARNING 2020-07-14 20:36:49,651 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:36:49,654 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+WARNING 2020-07-14 20:36:49,717 base 91 Not Found: /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png
+WARNING 2020-07-14 20:36:49,731 basehttp 124 "GET /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png HTTP/1.1" 404 1894
+INFO 2020-07-14 20:36:51,384 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1452
+INFO 2020-07-14 20:36:52,848 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category= HTTP/1.1" 200 1535
+INFO 2020-07-14 20:36:54,414 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category= HTTP/1.1" 200 1451
+WARNING 2020-07-14 20:36:54,493 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:36:54,494 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:36:55,347 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1452
+WARNING 2020-07-14 20:36:55,427 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:36:55,431 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:37:02,694 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1374
+INFO 2020-07-14 20:37:06,866 basehttp 124 "GET /course/list/?page=3&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1419
+WARNING 2020-07-14 20:37:06,917 base 91 Not Found: /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png
+WARNING 2020-07-14 20:37:06,920 base 91 Not Found: /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png
+WARNING 2020-07-14 20:37:06,921 basehttp 124 "GET /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png HTTP/1.1" 404 1894
+WARNING 2020-07-14 20:37:06,922 basehttp 124 "GET /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png HTTP/1.1" 404 1894
+INFO 2020-07-14 20:37:08,437 basehttp 124 "GET /course/list/?page=4&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1375
+WARNING 2020-07-14 20:37:08,473 base 91 Not Found: /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg
+WARNING 2020-07-14 20:37:08,494 basehttp 124 "GET /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg HTTP/1.1" 404 1894
+WARNING 2020-07-14 20:37:08,522 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:37:08,524 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:37:09,670 basehttp 124 "GET /course/list/?page=5&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1378
+INFO 2020-07-14 20:37:11,737 basehttp 124 "GET /course/list/?page=6&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1407
+INFO 2020-07-14 20:37:13,431 basehttp 124 "GET /course/list/?page=7&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1381
+WARNING 2020-07-14 20:37:13,506 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:37:13,511 base 91 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-14 20:37:13,518 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1894
+WARNING 2020-07-14 20:37:13,513 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:37:17,122 basehttp 124 "GET /course/list/?page=8&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1591
+INFO 2020-07-14 20:39:31,855 basehttp 124 "GET /course/list/?page=5&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1378
+WARNING 2020-07-14 20:39:31,939 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:39:31,945 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:39:36,221 basehttp 124 "GET /course/list/?page=4&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1375
+WARNING 2020-07-14 20:39:36,281 base 91 Not Found: /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg
+WARNING 2020-07-14 20:39:36,283 basehttp 124 "GET /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg HTTP/1.1" 404 1894
+INFO 2020-07-14 20:39:39,447 basehttp 124 "GET /course/list/?page=3&page_size=2&ordering=price&course_category= HTTP/1.1" 200 1419
+WARNING 2020-07-14 20:39:39,521 base 91 Not Found: /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png
+WARNING 2020-07-14 20:39:39,529 base 91 Not Found: /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png
+WARNING 2020-07-14 20:39:39,530 basehttp 124 "GET /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png HTTP/1.1" 404 1894
+WARNING 2020-07-14 20:39:39,535 basehttp 124 "GET /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png HTTP/1.1" 404 1894
+WARNING 2020-07-14 20:39:59,462 base 91 Not Found: /course/list/
+WARNING 2020-07-14 20:39:59,464 basehttp 124 "GET /course/list/?page=3&page_size=2&ordering=price&course_category=2 HTTP/1.1" 404 28
+INFO 2020-07-14 20:40:02,034 basehttp 124 "GET /course/list/?page=3&page_size=2&ordering=price&course_category=1 HTTP/1.1" 200 1603
+WARNING 2020-07-14 20:40:02,126 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:40:02,130 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:40:09,369 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=price&course_category=1 HTTP/1.1" 200 1364
+INFO 2020-07-14 20:40:11,941 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=1 HTTP/1.1" 200 1458
+WARNING 2020-07-14 20:40:12,042 base 91 Not Found: /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png
+WARNING 2020-07-14 20:40:12,045 basehttp 124 "GET /media/course/2452c9d2-3539-447b-a98a-99378a750dee.png HTTP/1.1" 404 1894
+INFO 2020-07-14 20:40:23,320 basehttp 124 "GET /course/list/?page=3&page_size=2&ordering=price&course_category=1 HTTP/1.1" 200 1603
+WARNING 2020-07-14 20:40:27,932 base 91 Not Found: /course/list/
+WARNING 2020-07-14 20:40:27,935 basehttp 124 "GET /course/list/?page=3&page_size=2&ordering=price&course_category=2 HTTP/1.1" 404 28
+WARNING 2020-07-14 20:40:44,943 base 91 Not Found: /course/list/
+WARNING 2020-07-14 20:40:44,944 basehttp 124 "GET /course/list/?page=4&page_size=2&ordering=price&course_category=2 HTTP/1.1" 404 28
+WARNING 2020-07-14 20:40:50,449 base 91 Not Found: /course/list/
+WARNING 2020-07-14 20:40:50,451 basehttp 124 "GET /course/list/?page=4&page_size=2&ordering=price&course_category=3 HTTP/1.1" 404 28
+WARNING 2020-07-14 20:40:54,549 base 91 Not Found: /course/list/
+WARNING 2020-07-14 20:40:54,550 basehttp 124 "GET /course/list/?page=4&page_size=2&ordering=price&course_category=2 HTTP/1.1" 404 28
+INFO 2020-07-14 20:40:58,211 basehttp 124 "GET /course/list/?page=4&page_size=2&ordering=price&course_category=1 HTTP/1.1" 200 686
+INFO 2020-07-14 20:41:06,215 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 20:41:06,476 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category= HTTP/1.1" 200 1535
+INFO 2020-07-14 20:41:06,591 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:41:06,751 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:41:09,307 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=2 HTTP/1.1" 200 1294
+WARNING 2020-07-14 20:41:09,478 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:41:09,482 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:41:17,277 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=2 HTTP/1.1" 200 717
+WARNING 2020-07-14 20:41:17,336 base 91 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-14 20:41:17,338 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1894
+INFO 2020-07-14 20:41:26,342 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=2 HTTP/1.1" 200 1294
+WARNING 2020-07-14 20:41:26,424 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:41:26,425 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:41:49,222 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=2 HTTP/1.1" 200 717
+WARNING 2020-07-14 20:41:49,295 base 91 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-14 20:41:49,298 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1894
+INFO 2020-07-14 20:41:52,799 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=2 HTTP/1.1" 200 1294
+WARNING 2020-07-14 20:41:52,924 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:41:52,928 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:41:57,092 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=2 HTTP/1.1" 200 717
+WARNING 2020-07-14 20:41:57,166 base 91 Not Found: /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png
+WARNING 2020-07-14 20:41:57,169 basehttp 124 "GET /media/course/25b934c3-ade0-4176-81a1-8ca905d487c4.png HTTP/1.1" 404 1894
+INFO 2020-07-14 20:42:06,679 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=3 HTTP/1.1" 200 1392
+WARNING 2020-07-14 20:42:06,763 base 91 Not Found: /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png
+WARNING 2020-07-14 20:42:06,767 basehttp 124 "GET /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png HTTP/1.1" 404 1894
+WARNING 2020-07-14 20:42:06,819 base 91 Not Found: /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg
+WARNING 2020-07-14 20:42:06,821 basehttp 124 "GET /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg HTTP/1.1" 404 1894
+INFO 2020-07-14 20:42:12,862 basehttp 124 "GET /course/list/?page=3&page_size=2&ordering=id&course_category=3 HTTP/1.1" 200 733
+INFO 2020-07-14 20:42:16,947 basehttp 124 "GET /course/list/?page=2&page_size=2&ordering=id&course_category=3 HTTP/1.1" 200 1392
+WARNING 2020-07-14 20:42:17,047 base 91 Not Found: /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png
+WARNING 2020-07-14 20:42:17,056 base 91 Not Found: /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg
+WARNING 2020-07-14 20:42:17,059 basehttp 124 "GET /media/course/307a9365-a113-4df8-916a-7396aa898b65.jpg HTTP/1.1" 404 1894
+WARNING 2020-07-14 20:42:17,061 basehttp 124 "GET /media/course/788dbf38-076d-4d1e-b7cc-4b69a5abbf35.png HTTP/1.1" 404 1894
+INFO 2020-07-14 20:42:22,304 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=3 HTTP/1.1" 200 1331
+INFO 2020-07-14 20:45:29,543 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 20:45:29,702 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-14 20:45:29,858 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:45:30,067 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:45:31,751 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=3&orders=id HTTP/1.1" 200 1341
+INFO 2020-07-14 20:45:33,689 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=3&orders=price HTTP/1.1" 200 1347
+INFO 2020-07-14 20:45:37,255 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=3&orders=price HTTP/1.1" 200 1347
+INFO 2020-07-14 20:45:39,410 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=3&orders=students HTTP/1.1" 200 1353
+INFO 2020-07-14 20:45:41,927 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=3&orders=id HTTP/1.1" 200 1341
+INFO 2020-07-14 20:45:43,514 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=3&orders=id HTTP/1.1" 200 1341
+INFO 2020-07-14 20:45:44,697 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=3&orders=students HTTP/1.1" 200 1353
+INFO 2020-07-14 20:45:45,925 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=3&orders=price HTTP/1.1" 200 1347
+INFO 2020-07-14 20:45:48,202 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=3&orders=students HTTP/1.1" 200 1353
+INFO 2020-07-14 20:45:49,596 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=3&orders=price HTTP/1.1" 200 1347
+INFO 2020-07-14 20:45:50,578 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=3&orders=price HTTP/1.1" 200 1347
+INFO 2020-07-14 20:45:51,632 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=3&orders=students HTTP/1.1" 200 1353
+INFO 2020-07-14 20:45:53,020 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=3&orders=price HTTP/1.1" 200 1347
+INFO 2020-07-14 20:46:03,196 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=3&orders=students HTTP/1.1" 200 1353
+INFO 2020-07-14 20:46:04,524 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=3&orders=id HTTP/1.1" 200 1341
+INFO 2020-07-14 20:46:05,909 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=3&orders=id HTTP/1.1" 200 1341
+INFO 2020-07-14 20:46:06,944 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=3&orders=students HTTP/1.1" 200 1353
+INFO 2020-07-14 20:46:08,262 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=3&orders=id HTTP/1.1" 200 1341
+INFO 2020-07-14 20:46:10,828 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=3&orders=students HTTP/1.1" 200 1353
+INFO 2020-07-14 20:46:12,269 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=3&orders=price HTTP/1.1" 200 1347
+INFO 2020-07-14 20:46:13,922 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=3&orders=students HTTP/1.1" 200 1353
+INFO 2020-07-14 20:46:15,076 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=3&orders=id HTTP/1.1" 200 1341
+INFO 2020-07-14 20:47:57,197 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 20:47:57,279 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-14 20:47:57,293 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:47:57,473 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:48:02,122 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 20:48:02,317 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-14 20:48:02,403 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:48:02,534 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:48:06,819 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=&orders=students HTTP/1.1" 200 1467
+WARNING 2020-07-14 20:48:06,884 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:48:06,886 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:48:08,161 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=&orders=price HTTP/1.1" 200 1465
+WARNING 2020-07-14 20:48:08,256 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:48:08,257 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:48:10,120 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=&orders=price HTTP/1.1" 200 1465
+INFO 2020-07-14 20:48:11,790 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=&orders=students HTTP/1.1" 200 1467
+WARNING 2020-07-14 20:48:11,898 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:48:11,938 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:48:13,046 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-14 20:48:19,745 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 20:48:19,945 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-14 20:48:20,117 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:48:20,283 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 20:48:23,475 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=&orders=price HTTP/1.1" 200 1465
+WARNING 2020-07-14 20:48:23,542 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:48:23,543 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:48:24,708 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=&orders=price HTTP/1.1" 200 1465
+INFO 2020-07-14 20:48:26,451 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=&orders=price HTTP/1.1" 200 1465
+INFO 2020-07-14 20:48:27,514 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=&orders=students HTTP/1.1" 200 1467
+WARNING 2020-07-14 20:48:27,636 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:48:27,671 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:48:28,669 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=&orders=students HTTP/1.1" 200 1467
+INFO 2020-07-14 20:48:29,884 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-14 20:48:31,075 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-14 20:48:35,221 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-14 20:48:36,323 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=students&course_category=&orders=students HTTP/1.1" 200 1467
+WARNING 2020-07-14 20:48:36,423 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:48:36,426 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:48:37,306 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=price&course_category=&orders=price HTTP/1.1" 200 1465
+WARNING 2020-07-14 20:48:37,376 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 20:48:37,384 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 20:48:41,706 basehttp 124 "GET /course/retrieve/3/ HTTP/1.1" 200 719
+INFO 2020-07-14 20:48:41,837 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 20:48:41,878 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 20:48:41,879 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 20:48:41,894 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 21:07:12,805 base 91 Not Found: /
+WARNING 2020-07-14 21:07:12,807 basehttp 124 "GET / HTTP/1.1" 404 2366
+WARNING 2020-07-14 21:07:13,815 base 91 Not Found: /favicon.ico
+WARNING 2020-07-14 21:07:13,817 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2417
+INFO 2020-07-14 21:07:31,011 basehttp 124 "GET /course/list/ HTTP/1.1" 200 17492
+ERROR 2020-07-14 21:07:40,849 exception 115 Internal Server Error: /course/chapter/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 757, in data
+    ret = super().data
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 261, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 674, in to_representation
+    return [
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 675, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 511, in to_representation
+    for field in fields:
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 372, in _readable_fields
+    for field in self.fields.values():
+  File "D:\software\001\django_ems\lib\site-packages\django\utils\functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 360, in fields
+    for key, value in self.get_fields().items():
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 1046, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 1192, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\serializers.py", line 1307, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `__all__` is not valid for model `CourseChapter`.
+ERROR 2020-07-14 21:07:40,999 basehttp 124 "GET /course/chapter/ HTTP/1.1" 500 155507
+INFO 2020-07-14 21:10:56,652 basehttp 124 "GET /course/chapter/ HTTP/1.1" 200 12076
+INFO 2020-07-14 21:18:05,322 basehttp 124 "GET /course/retrieve/3/ HTTP/1.1" 200 719
+INFO 2020-07-14 21:18:05,499 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 21:18:05,540 base 91 Not Found: /media/teacher/logo2x.png
+INFO 2020-07-14 21:18:05,548 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 21:18:05,552 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 21:18:08,412 basehttp 124 "GET /course/chapter/ HTTP/1.1" 200 12076
+INFO 2020-07-14 21:18:25,491 basehttp 124 "GET /course/chapter/ HTTP/1.1" 200 12076
+INFO 2020-07-14 21:18:30,675 basehttp 124 "GET /course/chapter/ HTTP/1.1" 200 12076
+INFO 2020-07-14 21:19:13,649 basehttp 124 "GET /course/chapter/ HTTP/1.1" 200 8510
+INFO 2020-07-14 21:21:36,247 basehttp 124 "GET /course/chapter/ HTTP/1.1" 200 8510
+INFO 2020-07-14 21:22:01,873 basehttp 124 "GET /course/chapter/ HTTP/1.1" 200 8510
+INFO 2020-07-14 21:23:10,197 basehttp 124 "GET /course/chapter/ HTTP/1.1" 200 8510
+INFO 2020-07-14 21:28:01,330 basehttp 124 "GET /course/chapter/ HTTP/1.1" 200 1058
+INFO 2020-07-14 21:28:01,656 basehttp 124 "GET /course/retrieve/3/ HTTP/1.1" 200 719
+INFO 2020-07-14 21:28:01,697 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 21:28:01,702 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 21:28:01,704 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 21:28:01,715 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 21:33:49,617 basehttp 124 "GET /course/retrieve/3/ HTTP/1.1" 200 719
+INFO 2020-07-14 21:33:49,654 basehttp 124 "GET /course/chapter/ HTTP/1.1" 200 1058
+WARNING 2020-07-14 21:33:49,730 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 21:33:49,732 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 21:33:49,743 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 21:33:49,767 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 21:35:34,074 base 91 Not Found: /course/chapter/3/
+WARNING 2020-07-14 21:35:34,085 basehttp 124 "GET /course/chapter/3/ HTTP/1.1" 404 2993
+INFO 2020-07-14 21:35:34,087 basehttp 124 "GET /course/retrieve/3/ HTTP/1.1" 200 719
+INFO 2020-07-14 21:35:34,240 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 21:35:34,261 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 21:35:34,264 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 21:35:34,274 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 21:36:28,496 basehttp 124 "GET /course/chapter/1 HTTP/1.1" 301 0
+INFO 2020-07-14 21:36:28,654 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 200 8739
+INFO 2020-07-14 21:36:40,209 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 200 8739
+INFO 2020-07-14 21:38:58,599 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 200 8706
+INFO 2020-07-14 21:38:59,290 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2020-07-14 21:38:59,300 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2020-07-14 21:38:59,320 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2020-07-14 21:38:59,324 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2020-07-14 21:38:59,346 basehttp 124 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2020-07-14 21:38:59,358 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2020-07-14 21:38:59,379 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2020-07-14 21:38:59,380 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2020-07-14 21:38:59,386 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+INFO 2020-07-14 21:38:59,394 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2020-07-14 21:39:00,553 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2020-07-14 21:39:27,755 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 200 8739
+INFO 2020-07-14 21:39:39,256 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 200 8739
+INFO 2020-07-14 21:39:44,524 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 200 8739
+INFO 2020-07-14 21:40:00,632 basehttp 124 "GET /course/chapter/3/ HTTP/1.1" 200 1135
+INFO 2020-07-14 21:40:00,867 basehttp 124 "GET /course/retrieve/3/ HTTP/1.1" 200 719
+WARNING 2020-07-14 21:40:00,954 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 21:40:00,955 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 21:40:01,049 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 21:40:01,081 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 21:40:13,170 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 21:40:13,211 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-14 21:40:13,227 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 21:40:13,255 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 21:40:16,089 basehttp 124 "GET /course/retrieve/2/ HTTP/1.1" 200 589
+INFO 2020-07-14 21:40:16,101 basehttp 124 "GET /course/chapter/2/ HTTP/1.1" 200 1135
+WARNING 2020-07-14 21:40:16,125 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 21:40:16,126 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 21:40:16,154 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 21:40:16,206 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 21:50:15,703 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 200 8739
+INFO 2020-07-14 21:50:22,963 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 200 8739
+INFO 2020-07-14 21:50:28,425 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 200 8739
+INFO 2020-07-14 21:50:31,306 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 200 8739
+ERROR 2020-07-14 21:51:12,354 exception 115 Internal Server Error: /course/chapter/1/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\request.py", line 409, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'kwargs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\shop\edu_api\edu_api\apps\course\views.py", line 33, in get
+    course = request.kwargs.get('course')
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\request.py", line 411, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'kwargs'
+ERROR 2020-07-14 21:51:12,753 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 500 105197
+ERROR 2020-07-14 21:53:00,088 exception 115 Internal Server Error: /course/chapter/1/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\request.py", line 409, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'kwargs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\shop\edu_api\edu_api\apps\course\views.py", line 33, in get
+    course = kwargs.get('course')
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\request.py", line 411, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'kwargs'
+ERROR 2020-07-14 21:53:00,181 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 500 105181
+ERROR 2020-07-14 21:53:06,225 exception 115 Internal Server Error: /course/chapter/1/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\request.py", line 409, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'kwargs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\shop\edu_api\edu_api\apps\course\views.py", line 33, in get
+    course = kwargs.get('course')
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\request.py", line 411, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'kwargs'
+ERROR 2020-07-14 21:53:06,363 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 500 105182
+ERROR 2020-07-14 21:53:13,117 exception 115 Internal Server Error: /course/chapter/1/
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\request.py", line 409, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'kwargs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\software\001\django_ems\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\git\shop\edu_api\edu_api\apps\course\views.py", line 33, in get
+    course = kwargs.get('course')
+  File "D:\software\001\django_ems\lib\site-packages\rest_framework\request.py", line 411, in __getattr__
+    return self.__getattribute__(attr)
+AttributeError: 'Request' object has no attribute 'kwargs'
+ERROR 2020-07-14 21:53:13,173 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 500 105181
+INFO 2020-07-14 21:58:22,476 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 200 12539
+INFO 2020-07-14 21:58:46,285 basehttp 124 "GET /course/chapter/1/?course=15 HTTP/1.1" 200 9318
+INFO 2020-07-14 21:58:52,479 basehttp 124 "GET /course/chapter/1/?course=3 HTTP/1.1" 200 10571
+WARNING 2020-07-14 22:00:51,535 base 91 Not Found: /course/chapter/
+WARNING 2020-07-14 22:00:51,537 basehttp 124 "GET /course/chapter/?course=2 HTTP/1.1" 404 3018
+INFO 2020-07-14 22:00:51,937 basehttp 124 "GET /course/retrieve/2/ HTTP/1.1" 200 589
+INFO 2020-07-14 22:00:52,013 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:00:52,035 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:00:52,038 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:00:52,046 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:00:56,734 base 91 Not Found: /course/chapter/
+INFO 2020-07-14 22:00:56,735 basehttp 124 "GET /course/retrieve/2/ HTTP/1.1" 200 589
+WARNING 2020-07-14 22:00:56,750 basehttp 124 "GET /course/chapter/?course=2 HTTP/1.1" 404 3018
+WARNING 2020-07-14 22:00:56,791 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:00:56,793 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:00:56,869 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:00:56,911 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:00:59,855 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 22:00:59,917 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-14 22:01:00,029 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:01:00,239 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:01:00,335 basehttp 124 "GET /media/course/7d0ac6cc-1487-4041-b42c-a0a9546f6aee.png HTTP/1.1" 304 0
+INFO 2020-07-14 22:01:00,409 basehttp 124 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0
+WARNING 2020-07-14 22:01:08,300 base 91 Not Found: /course/chapter/
+WARNING 2020-07-14 22:01:08,302 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 404 3018
+INFO 2020-07-14 22:01:08,319 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:01:08,347 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:01:08,388 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:01:08,389 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:01:08,407 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:01:28,422 base 91 Not Found: /course/chapter/
+WARNING 2020-07-14 22:01:28,423 basehttp 124 "GET /course/chapter/?course=3 HTTP/1.1" 404 3015
+WARNING 2020-07-14 22:01:36,330 base 91 Not Found: /course/chapter
+WARNING 2020-07-14 22:01:36,331 basehttp 124 "GET /course/chapter?course=3 HTTP/1.1" 404 3012
+INFO 2020-07-14 22:01:43,612 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 200 12539
+INFO 2020-07-14 22:01:46,881 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 200 12539
+INFO 2020-07-14 22:02:19,762 basehttp 124 "GET /course/chapter/ HTTP/1.1" 200 12499
+INFO 2020-07-14 22:02:28,666 basehttp 124 "GET /course/chapter/?course=16 HTTP/1.1" 200 9278
+INFO 2020-07-14 22:02:34,572 basehttp 124 "GET /course/chapter/?course=3 HTTP/1.1" 200 10531
+INFO 2020-07-14 22:03:17,826 basehttp 124 "GET /course/chapter/?course=3 HTTP/1.1" 200 400
+INFO 2020-07-14 22:03:18,072 basehttp 124 "GET /course/retrieve/3/ HTTP/1.1" 200 719
+WARNING 2020-07-14 22:03:18,136 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:03:18,137 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:03:18,244 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:03:18,268 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:06:12,214 basehttp 124 "GET /course/retrieve/3/ HTTP/1.1" 200 719
+INFO 2020-07-14 22:06:12,230 basehttp 124 "GET /course/chapter/?course=3 HTTP/1.1" 200 400
+WARNING 2020-07-14 22:06:12,251 base 91 Not Found: /media/teacher/logo2x.png
+INFO 2020-07-14 22:06:12,252 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:06:12,254 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:06:12,266 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:06:43,715 basehttp 124 "GET /course/retrieve/3/ HTTP/1.1" 200 719
+INFO 2020-07-14 22:06:43,723 basehttp 124 "GET /course/chapter/?course=3 HTTP/1.1" 200 400
+INFO 2020-07-14 22:06:43,760 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:06:43,777 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:06:43,779 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:06:43,789 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:08:29,780 basehttp 124 "GET /course/retrieve/3/ HTTP/1.1" 200 719
+INFO 2020-07-14 22:08:29,807 basehttp 124 "GET /course/chapter/?course=3 HTTP/1.1" 200 400
+INFO 2020-07-14 22:08:29,891 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:08:29,972 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:08:29,977 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:08:30,014 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:08:37,696 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-14 22:08:38,056 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-14 22:08:38,125 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:08:38,164 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:08:44,972 basehttp 124 "GET /course/list/?page=1&page_size=10&ordering=id&course_category=&orders=id HTTP/1.1" 200 6212
+WARNING 2020-07-14 22:08:45,068 base 91 Not Found: /media/course/2.jpeg
+WARNING 2020-07-14 22:08:45,071 basehttp 124 "GET /media/course/2.jpeg HTTP/1.1" 404 1792
+INFO 2020-07-14 22:08:45,092 basehttp 124 "GET /media/course/a3dd8fd0-d395-4566-a573-a0e3f60d5f85.jpg HTTP/1.1" 304 0
+INFO 2020-07-14 22:09:05,880 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:09:05,941 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:09:06,015 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:09:06,035 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:09:06,037 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:09:06,076 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:28:33,813 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:28:33,825 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:28:34,247 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:28:34,316 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:28:34,317 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:28:34,341 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:29:24,045 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:29:24,138 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:29:24,343 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:29:24,410 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:29:24,420 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:29:24,448 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:30:43,936 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:30:44,047 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:30:44,323 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:30:44,381 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:30:44,384 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:30:44,402 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:31:36,296 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:31:36,407 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:31:36,526 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:31:36,590 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:31:36,595 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:31:36,632 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:32:52,555 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:32:52,585 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+WARNING 2020-07-14 22:32:52,685 base 91 Not Found: /media/teacher/logo2x.png
+INFO 2020-07-14 22:32:52,686 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:32:52,687 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:32:52,730 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:34:02,776 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:34:02,806 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:34:02,900 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:34:02,965 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:34:02,969 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:34:04,716 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:34:04,822 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:34:04,863 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:34:05,006 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:34:05,007 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:34:05,129 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:34:18,342 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:34:18,504 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+WARNING 2020-07-14 22:34:18,704 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:34:18,705 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:34:18,911 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:34:18,996 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:36:23,319 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:36:23,359 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+WARNING 2020-07-14 22:36:23,443 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:36:23,445 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:36:23,563 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:36:23,725 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:36:30,963 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:36:31,099 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+WARNING 2020-07-14 22:36:31,245 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:36:31,248 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:36:31,353 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:36:31,420 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:36:40,703 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+WARNING 2020-07-14 22:36:40,837 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:36:40,840 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:36:40,845 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:36:40,997 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:36:41,083 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:37:31,370 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:37:31,457 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+WARNING 2020-07-14 22:37:31,484 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:37:31,486 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:37:31,600 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:37:31,636 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:37:50,661 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:37:50,847 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+WARNING 2020-07-14 22:37:50,954 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:37:50,955 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:37:51,070 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:37:51,165 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:38:56,149 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:38:56,237 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:38:56,581 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:38:56,745 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:38:56,747 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:38:56,832 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:39:02,668 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:39:02,836 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+WARNING 2020-07-14 22:39:03,067 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:39:03,068 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:39:03,215 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:39:03,471 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:39:03,922 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:39:03,923 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:39:56,483 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:39:56,706 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:39:57,256 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:39:57,449 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:39:57,451 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:39:57,620 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:40:58,134 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:40:58,424 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:40:58,833 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:40:58,954 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:40:58,965 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:40:59,350 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:41:00,410 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:41:00,416 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:44:50,366 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:44:50,461 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:44:50,525 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:44:50,536 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:44:50,540 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:44:50,662 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:44:54,229 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:44:54,440 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:44:54,778 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:44:55,087 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:44:55,089 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:44:55,312 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:44:55,573 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:44:55,577 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:45:51,191 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:45:51,307 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:45:51,470 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:45:51,523 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:45:51,528 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:45:51,616 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:45:57,513 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:45:57,697 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:45:58,148 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:45:58,405 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:45:58,408 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:45:58,588 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:45:58,977 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:45:58,980 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:47:34,907 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:47:35,029 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+WARNING 2020-07-14 22:47:35,558 base 91 Not Found: /media/teacher/logo2x.png
+INFO 2020-07-14 22:47:39,285 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:47:39,408 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:47:39,899 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:47:39,940 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:47:39,942 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:47:40,114 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:47:40,490 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:47:40,492 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:48:44,327 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:48:44,407 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:48:44,617 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:48:44,741 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:48:44,742 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:48:44,845 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:53:25,735 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:53:25,749 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:53:26,146 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:53:26,158 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:53:26,161 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:53:26,179 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-14 22:53:40,430 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-14 22:53:40,599 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-14 22:53:40,986 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:53:41,230 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:53:41,231 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-14 22:53:41,503 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-14 22:53:41,783 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-14 22:53:41,786 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:27:08,597 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:27:08,603 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:27:09,311 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:27:09,612 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:27:09,613 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:27:09,761 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 00:37:35,271 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:37:35,506 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:37:36,109 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:37:36,357 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:37:36,361 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:37:36,629 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 00:39:10,309 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:39:10,555 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:39:11,075 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:39:11,324 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:39:11,327 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:39:11,472 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:39:11,951 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:39:11,954 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:41:01,335 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:41:01,475 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:41:02,072 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:41:02,258 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:41:02,259 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:41:02,459 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 00:41:15,048 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:41:15,245 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:41:15,932 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:41:16,337 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:41:16,338 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:41:16,613 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:41:17,850 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:41:17,855 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:42:20,198 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:42:20,444 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:42:20,925 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:42:21,148 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:42:21,152 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:42:21,434 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:42:21,967 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:42:21,974 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+WARNING 2020-07-15 00:42:59,301 base 91 Not Found: /course/retrieve/нч/
+WARNING 2020-07-15 00:42:59,309 basehttp 124 "GET /course/retrieve/%E6%97%A0/ HTTP/1.1" 404 25
+WARNING 2020-07-15 00:42:59,801 basehttp 124 "GET /course/chapter/?course=%E6%97%A0 HTTP/1.1" 400 82
+WARNING 2020-07-15 00:43:12,898 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:43:12,904 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+WARNING 2020-07-15 00:43:14,490 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:43:14,492 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:43:19,693 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 00:43:19,906 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-15 00:43:20,216 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-15 00:43:20,474 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 00:43:20,690 basehttp 124 "GET /media/course/7d0ac6cc-1487-4041-b42c-a0a9546f6aee.png HTTP/1.1" 304 0
+INFO 2020-07-15 00:43:20,697 basehttp 124 "GET /media/course/74e724d3-5ee5-40aa-a4bf-98f866ca15ab.jpg HTTP/1.1" 304 0
+INFO 2020-07-15 00:43:24,036 basehttp 124 "GET /course/chapter/?course=2 HTTP/1.1" 200 2
+INFO 2020-07-15 00:43:24,037 basehttp 124 "GET /course/retrieve/2/ HTTP/1.1" 200 589
+INFO 2020-07-15 00:43:24,454 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:43:24,677 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:43:24,678 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:43:24,781 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 00:43:36,326 basehttp 124 "GET /course/retrieve/2/ HTTP/1.1" 200 589
+INFO 2020-07-15 00:43:36,500 basehttp 124 "GET /course/chapter/?course=2 HTTP/1.1" 200 2
+INFO 2020-07-15 00:43:36,940 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:43:37,146 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:43:37,151 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:43:37,448 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:43:37,766 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:43:37,772 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:43:46,203 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-15 00:43:46,540 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-15 00:43:46,764 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 00:43:47,055 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 00:43:51,108 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:43:51,125 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:43:51,360 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:43:51,469 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:43:51,473 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:43:51,556 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 00:44:02,331 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:44:02,530 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:44:03,159 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:44:03,420 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:44:03,421 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:44:03,616 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 00:45:27,611 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:45:27,827 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:45:28,389 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:45:28,707 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:45:28,731 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:45:28,884 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 00:47:32,147 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:47:32,260 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:47:32,309 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 00:47:32,533 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:47:33,269 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:47:33,271 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+WARNING 2020-07-15 00:47:34,268 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:47:34,271 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:48:44,830 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:48:45,005 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:48:45,595 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:48:45,897 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:48:45,900 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:48:46,146 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:48:46,457 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:48:46,458 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:49:51,223 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:49:51,451 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:49:51,917 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:49:52,156 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:49:52,157 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:49:52,467 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:49:52,819 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:49:52,825 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:53:19,329 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:53:19,558 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:53:20,001 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:53:20,299 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:53:20,301 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:53:20,631 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:53:20,935 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:53:20,937 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:54:45,310 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:54:45,463 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:55:59,734 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:56:00,066 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:59:13,630 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 00:59:13,955 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 00:59:14,194 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 00:59:14,468 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 00:59:14,470 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 00:59:14,758 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 01:00:42,288 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:00:42,620 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:00:42,774 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 01:00:42,917 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 01:00:42,924 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 01:00:43,155 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 01:00:49,432 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:00:49,860 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:00:50,140 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 01:00:50,447 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 01:00:50,450 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 01:00:50,763 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 01:01:41,345 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:01:41,509 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:01:41,545 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 01:01:41,654 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 01:01:41,657 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 01:01:41,846 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 01:02:35,917 base 91 Not Found: /course/chapter/1/
+WARNING 2020-07-15 01:02:35,919 basehttp 124 "GET /course/chapter/1/ HTTP/1.1" 404 2990
+INFO 2020-07-15 01:02:44,772 basehttp 124 "GET /course/chapter/ HTTP/1.1" 200 12499
+INFO 2020-07-15 01:02:57,464 basehttp 124 "GET /course/list/ HTTP/1.1" 200 17492
+INFO 2020-07-15 01:05:00,725 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:05:00,778 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:05:00,832 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 01:05:00,890 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 01:05:02,062 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 01:05:02,064 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 01:05:09,942 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:05:10,035 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:05:10,071 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 01:05:10,110 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 01:05:11,558 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 01:05:11,565 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+WARNING 2020-07-15 01:05:12,984 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 01:05:12,987 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 01:06:04,269 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:06:04,633 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:06:04,940 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 01:06:05,217 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 01:06:05,220 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 01:06:05,380 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 01:07:14,300 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:07:14,586 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:07:14,822 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 01:07:15,051 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 01:07:15,054 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+INFO 2020-07-15 01:07:15,269 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 01:09:24,785 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:09:24,959 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:09:38,613 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:09:38,842 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:10:49,739 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:10:49,906 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:11:11,377 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:11:11,653 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:12:23,353 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:12:23,554 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:12:30,626 basehttp 124 "GET /course/list/?page=1&page_size=2&ordering=id&course_category=&orders=id HTTP/1.1" 200 1545
+INFO 2020-07-15 01:12:30,634 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 01:12:30,834 basehttp 124 "GET /course/category/ HTTP/1.1" 200 220
+INFO 2020-07-15 01:12:30,964 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 01:12:34,070 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:12:34,156 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:12:43,593 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:12:43,893 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:14:20,005 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:14:20,142 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:14:42,263 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:14:42,450 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:14:42,530 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 01:14:42,580 base 91 Not Found: /media/teacher/logo2x.png
+INFO 2020-07-15 01:14:46,573 basehttp 124 "GET /course/retrieve/1/ HTTP/1.1" 200 809
+INFO 2020-07-15 01:14:46,734 basehttp 124 "GET /course/chapter/?course=1 HTTP/1.1" 200 736
+INFO 2020-07-15 01:14:47,106 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+INFO 2020-07-15 01:14:47,467 basehttp 124 "GET /home/nav/ HTTP/1.1" 200 624
+WARNING 2020-07-15 01:14:47,748 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 01:14:47,752 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807
+WARNING 2020-07-15 01:14:48,310 base 91 Not Found: /media/teacher/logo2x.png
+WARNING 2020-07-15 01:14:48,314 basehttp 124 "GET /media/teacher/logo2x.png HTTP/1.1" 404 1807

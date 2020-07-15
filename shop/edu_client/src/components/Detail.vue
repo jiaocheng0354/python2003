@@ -4,13 +4,22 @@
         <div class="main">
             <div class="course-info">
                 <div class="wrap-left">
+                    <videoPlayer class="video-player vjs-custom-skin"
+                                 ref="videoPlayer"
+                                 :playsinline="true"
+                                 :options="playerOptions"
+                                 @play="onPlayerPlay($event)"
+                                 @pause="onPlayerPause($event)">
 
+                    </videoPlayer>
                 </div>
                 <div class="wrap-right">
                     <h3 class="course-name">{{ detail.name }}</h3>
                     <p class="data">{{ detail.students }}人在学&nbsp;&nbsp;&nbsp;&nbsp;
                         课程总时长：{{detail.lessons}}课时/{{detail.lessons*45}}小时&nbsp;&nbsp;&nbsp;&nbsp;
-                        难度：{{detail.level_choices[0][detail.level]}}</p>
+                        难度：
+                         {{  detail.level_choices[0].get(detail.level) }}
+                    </p>
                     <div class="sale-time">
                         <p class="sale-type">限时免费</p>
                         <p class="expire">距离结束：仅剩 110天 13小时 33分 <span class="second">08</span> 秒</p>
@@ -42,29 +51,27 @@
                 <div class="course-tab-list">
                     <div class="tab-item" v-if="tabIndex==1" v-html="detail.brief">
                         <!--<p><img alt=""-->
-                                <!--src=""-->
-                                <!--width="840"></p>-->
+                        <!--src=""-->
+                        <!--width="840"></p>-->
                     </div>
                     <div class="tab-item" v-if="tabIndex==2">
                         <div class="tab-item-title">
                             <p class="chapter">课程章节</p>
-                            <p class="chapter-length">共{{detail.lesson_list.length}}章{{detail.lessons}}个课时</p>
+                            <p class="chapter-length">共{{chapter.length}}章{{detail.lessons}}个课时</p>
                         </div>
-                        <div class="chapter-item" v-for="lesson in detail.lesson_list">
-                            <p class="chapter-title"><img src="/static/image/1.svg" alt="">第{{ lesson["id"] }}章{{ lesson["name"] }}</p>
+                        <div class="chapter-item" v-for="(lesson,index) in chapter">
+                            <p class="chapter-title"><img src="/static/image/1.svg" alt="">第{{ lesson.chapter }}章{{
+                                lesson.name }}</p>
                             <ul class="lesson-list">
-                                <li class="lesson-item">
-                                    <p class="name"><span class="index">1-1</span> Vue基本介绍<span class="free">免费</span>
+                                <li class="lesson-item" v-for="value in lesson.coursesections">
+                                    <p class="name"><span class="index">{{ index+1 }}-{{value.chapter}}</span> {{
+                                        value.name }}
+                                        <span class="free" v-if="value.free_trail">免费</span>
                                     </p>
                                     <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
                                     <button class="try">立即试学</button>
                                 </li>
-                                <li class="lesson-item">
-                                    <p class="name"><span class="index">1-2</span> Vue的双向绑定<span class="free">免费</span>
-                                    </p>
-                                    <p class="time">07:30 <img src="/static/image/chapter-player.svg"></p>
-                                    <button class="try">立即试学</button>
-                                </li>
+
                             </ul>
                         </div>
 
@@ -100,22 +107,45 @@
 <script>
     import Header from "./Header";
     import Fotter from "./Fotter";
+    import {videoPlayer} from 'vue-video-player'
 
     export default {
         name: "Detail",
         components: {
             "Header": Header,
             "Fotter": Fotter,
+            "videoPlayer": videoPlayer,
         },
         data() {
             return {
                 course_id: 0,
                 tabIndex: 2, // 当前选项卡显示的下标
-                detail: [],
+                detail: {
+                    teacher:{},
+                },
+                chapter: [],
+                playerOptions: {
+                    playbackRates: [0.7, 1.0, 1.5, 2.0], // 播放速度
+                    autoplay: false, //如果true,则自动播放
+                    muted: false, // 默认情况下将会消除任何音频。
+                    loop: false, // 循环播放
+                    preload: 'auto',  // 建议浏览器在<video>加载元素后是否应该开始下载视频数据。auto浏览器选择最佳行为,立即开始加载视频（如果浏览器支持）
+                    language: 'zh-CN',
+                    aspectRatio: '16:9', // 将播放器置于流畅模式，并在计算播放器的动态大小时使用该值。值应该代表一个比例 - 用冒号分隔的两个数字（例如"16:9"或"4:3"）
+                    fluid: true, // 当true时，Video.js player将拥有流体大小。换句话说，它将按比例缩放以适应其容器。
+                    sources: [{ // 播放资源和资源格式
+                        type: "video/mp4",
+                        src: "http://img.ksbbs.com/asset/Mon_1703/05cacb4e02f9d9e.mp4" //你的视频地址（必填）
+                    }],
+                    poster: "../static/image/python.jpg", //视频封面图
+                    width: document.documentElement.clientWidth, // 默认视频全屏时的最大宽度
+                    notSupportedMessage: '此视频暂无法播放，请稍后再试', //允许覆盖Video.js无法播放媒体源时显示的默认信息。
+                },
             }
         },
         created() {
             this.load_detail();
+            this.load_chapter();
         },
         methods: {
             load_detail() {
@@ -124,7 +154,19 @@
                     console.log(respones.data);
                 }).catch(error => {
                 })
+            },
+            load_chapter() {
+                this.$axios.get(this.$settings.HOST + "course/chapter/?course=" + this.$route.params.id).then(respones => {
+                    this.chapter = respones.data;
+                    console.log(respones.data);
+                }).catch(error => {
+                })
+            },
+            onPlayerPlay(event) {
+            },
+            onPlayerPause(event) {
             }
+            // course/chapter/
         }
     }
 </script>

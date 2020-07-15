@@ -16,9 +16,9 @@
                 <div class="ordering">
                     <ul>
                         <li class="title">筛&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选:</li>
-                        <li class="default " @click="order('id')" :class="this.orders ==='id'? 'this':''" >默认</li>
-                        <li class="hot " @click="order('students')" :class="this.orders ==='students'? 'this':''" >人气</li>
-                        <li class="price " @click="order('price')" :class="this.orders ==='price'? 'this':''" >价格</li>
+                        <li class="default " @click="order('id')" :class="this.filters.orders  ==='id'? 'this':''" >默认</li>
+                        <li class="hot " @click="order('students')" :class="this.filters.orders  ==='students'? 'this':''" >人气</li>
+                        <li class="price " @click="order('price')" :class="this.filters.orders  ==='price'? 'this':''" >价格</li>
 
                     </ul>
                     <p class="condition-result">共{{ count }}个课程</p>
@@ -84,12 +84,12 @@
                 course_list: [],
                 category: 0,
                 count: 0,
-                orders: "id",
                 filters: {
                     page: 1,
                     page_size: 2,
                     ordering: "id",
                     course_category: "",
+                    orders: "id",
                 },
             }
         },
@@ -115,18 +115,19 @@
                 })
             },
             order(str_order) {
-                if (this.filters["ordering"] == "str_order") {
-                     this.filters["ordering"] = "-" + str_order;
+                if (this.filters["ordering"] == "str_order" && this.filters["ordering"]==this.filters.orders  ) {
+                     this.filters["ordering"] = str_order;
                 }else{
-                    this.filters["ordering"] = str_order;
+                    this.filters["ordering"] = "-" +  str_order;
                 }
+                console.log(this.filters["ordering"]);
                 this.filters["ordering"] = str_order;
-                this.orders = str_order;
+                this.filters.orders = str_order;
                 this.load_course_list();
-                return "this"
             },
             cate(id) {
                 this.filters["course_category"] = (id == 0) ? "" : id;
+                this.filters.page = 1;
                 this.category = id;
                 this.load_course_list();
             },

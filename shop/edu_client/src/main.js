@@ -20,6 +20,14 @@ import settings from "./settings";
 Vue.prototype.$settings = settings;
 import "../static/css/global.css"
 import "../static/js/gt.js"
+
+// 视频组件
+require('video.js/dist/video-js.css');
+require('vue-video-player/src/custom-theme.css');
+import VideoPlayer from 'vue-video-player'
+
+Vue.use(VideoPlayer);
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

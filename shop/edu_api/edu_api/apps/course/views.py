@@ -4,9 +4,9 @@ from django.shortcuts import render
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.generics import ListAPIView, RetrieveAPIView
 
-from course.models import Course, CourseCategory
+from course.models import Course, CourseCategory, CourseChapter
 from course.pagination import CoursePagination
-from course.serializer import CourseSerializer, CourseCategorySerializer
+from course.serializer import CourseSerializer, CourseCategorySerializer, CourseChapterSerializer
 from django_filters.rest_framework import DjangoFilterBackend
 
 class CourseCategoryView(ListAPIView):
@@ -26,4 +26,13 @@ class CourseRetrieveView(RetrieveAPIView):
     queryset = Course.objects.filter(is_show=True, is_delete=False).order_by("orders")
     serializer_class = CourseSerializer
     lookup_field = "id"
+
+class ChapterListView(ListAPIView):
+    queryset = CourseChapter.objects.filter(is_show=True, is_delete=False, ).order_by("orders")
+    serializer_class = CourseChapterSerializer
+
+    filter_backends = [DjangoFilterBackend, OrderingFilter]
+    filter_fields = ("course",)
+    ordering_fields = ("chapter")
+
 

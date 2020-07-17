@@ -16,9 +16,14 @@
                 <div class="ordering">
                     <ul>
                         <li class="title">筛&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选:</li>
-                        <li class="default " @click="order('id')" :class="this.filters.orders  ==='id'? 'this':''" >默认</li>
-                        <li class="hot " @click="order('students')" :class="this.filters.orders  ==='students'? 'this':''" >人气</li>
-                        <li class="price " @click="order('price')" :class="this.filters.orders  ==='price'? 'this':''" >价格</li>
+                        <li class="default " @click="order('id')" :class="this.filters.orders  ==='id'? 'this':''">默认
+                        </li>
+                        <li class="hot " @click="order('students')"
+                            :class="this.filters.orders  ==='students'? 'this':''">人气
+                        </li>
+                        <li class="price " @click="order('price')" :class="this.filters.orders  ==='price'? 'this':''">
+                            价格
+                        </li>
 
                     </ul>
                     <p class="condition-result">共{{ count }}个课程</p>
@@ -49,7 +54,7 @@
                             <span class="discount-type">限时免费</span>
                             <span class="discount-price">￥0.00元</span>
                             <span class="original-price">原价：{{ value.price}}元</span>
-                            <span class="buy-now">立即购买</span>
+                            <span class="buy-now" @click="buy(value.id)">立即购买</span>
                         </div>
                     </div>
                 </div>
@@ -84,12 +89,14 @@
                 course_list: [],
                 category: 0,
                 count: 0,
+                token: "",
                 filters: {
                     page: 1,
                     page_size: 2,
                     ordering: "id",
                     course_category: "",
                     orders: "id",
+                    flag: 1,
                 },
             }
         },
@@ -109,19 +116,22 @@
                 this.$axios.get(this.$settings.HOST + "course/list/", {
                     params: this.filters
                 }).then(res => {
-                        this.course_list = res.data["results"];
-                        this.count = res.data["count"];
+                    this.course_list = res.data["results"];
+                    this.count = res.data["count"];
                 }).catch(error => {
                 })
             },
             order(str_order) {
-                if (this.filters["ordering"] == "str_order" && this.filters["ordering"]==this.filters.orders  ) {
-                     this.filters["ordering"] = str_order;
-                }else{
-                    this.filters["ordering"] = "-" +  str_order;
+                if (this.filters.flag === 0 && str_order === this.filters.orders) {
+                    this.filters["flag"] = 1
+                    this.filters["ordering"] = "-" + str_order;
+                } else if (this.filters.flag === 1 && str_order === this.filters.orders) {
+                    this.filters["flag"] = 0
+                    this.filters["ordering"] = str_order;
+                } else {
+                    this.filters["ordering"] = str_order;
                 }
                 console.log(this.filters["ordering"]);
-                this.filters["ordering"] = str_order;
                 this.filters.orders = str_order;
                 this.load_course_list();
             },
@@ -140,7 +150,30 @@
                 this.filters.page = 1;
                 this.load_course_list();
             },
-
+            is_login() {
+                this.token = localStorage.token || sessionStorage.token;
+                if (this.token) {
+                    return false;
+                } else {
+                    this.$message("请先登陆后订购");
+                }
+            },
+            buy(id) {
+                this.is_login();
+                this.$axios({
+                    url: this.$settings.HOST + "cart/list/",
+                    method: "post",
+                    data: {
+                        course_id: id,
+                    },
+                    config: {
+                        "Authorization":"auth " + this.token
+                    }
+                }).then(res => {
+                    this.$router.push('/cart')
+                }).catch(error => {
+                })
+            },
         }
     }
 </script>

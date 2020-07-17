@@ -140,8 +140,9 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
-# //多个app共用一目录
+# 允许跨域请求
 CORS_ORIGIN_ALLOW_ALL = True
+
 # 注册自定义用户模型
 AUTH_USER_MODEL = 'user.User'
 
@@ -155,9 +156,16 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication', ]
 }
 # jwt
+
 JWT_AUTH = {
+    # payload => token
+    'JWT_ENCODE_HANDLER': 'rest_framework_jwt.utils.jwt_encode_handler',
+    # payload => load
+    'JWT_DECODE_HANDLER': 'rest_framework_jwt.utils.jwt_decode_handler',
+
     'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=300),
     'JWT_RESPONSE_PAYLOAD_HANDLER': 'user.utils.jwt_response_payload_handler',
+    'JWT_AUTH_HEADER_PREFIX': 'auth',
 }
 # 用户名和手机号登陆
 AUTHENTICATION_BACKENDS = [
@@ -178,6 +186,15 @@ CACHES = {
         "BACKEND": "django_redis.cache.RedisCache",
         # url
         "LOCATION": "redis://192.168.13.129:7000/15",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # cart使用库
+    "cart": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        # url
+        "LOCATION": "redis://192.168.13.129:7000/14",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }

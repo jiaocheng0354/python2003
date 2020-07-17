@@ -18,7 +18,7 @@
                     <p class="data">{{ detail.students }}人在学&nbsp;&nbsp;&nbsp;&nbsp;
                         课程总时长：{{detail.lessons}}课时/{{detail.lessons*45}}小时&nbsp;&nbsp;&nbsp;&nbsp;
                         难度：
-                         {{  detail.level_choices[0].get(detail.level) }}
+                        {{ detail.level_title }}
                     </p>
                     <div class="sale-time">
                         <p class="sale-type">限时免费</p>
@@ -31,7 +31,7 @@
                     </p>
                     <div class="buy">
                         <div class="buy-btn">
-                            <button class="buy-now">立即购买</button>
+                            <button class="buy-now" @click="buy(detail.id)">立即购买</button>
                             <button class="free">免费试学</button>
                         </div>
                         <div class="add-cart"><img src="/static/image/cart-yellow.svg" alt="">加入购物车</div>
@@ -121,7 +121,7 @@
                 course_id: 0,
                 tabIndex: 2, // 当前选项卡显示的下标
                 detail: {
-                    teacher:{},
+                    teacher: {},
                 },
                 chapter: [],
                 playerOptions: {
@@ -148,6 +148,30 @@
             this.load_chapter();
         },
         methods: {
+            is_login() {
+                this.token = localStorage.token || sessionStorage.token;
+                if (this.token) {
+                    return false;
+                } else {
+                    this.$message("请先登陆后订购");
+                }
+            },
+            buy(id) {
+                this.is_login();
+                this.$axios({
+                    url: this.$settings.HOST + "cart/list/",
+                    method: "post",
+                    data: {
+                        course_id: id,
+                    },
+                    config: {
+                        "Authorization": "auth " + this.token
+                    }
+                }).then(res => {
+                    this.$router.push('/cart')
+                }).catch(error => {
+                })
+            },
             load_detail() {
                 this.$axios.get(this.$settings.HOST + "course/retrieve/" + this.$route.params.id + "/").then(respones => {
                     this.detail = respones.data;

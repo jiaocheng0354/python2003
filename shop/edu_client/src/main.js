@@ -10,13 +10,14 @@ Vue.config.productionTip = false
 import axios from "axios"
 
 Vue.prototype.$axios = axios
-
+import store from './store/index'
 import ElementUI from 'element-ui'
 import "element-ui/lib/theme-chalk/index.css"
 
 Vue.use(ElementUI)
 
 import settings from "./settings";
+
 Vue.prototype.$settings = settings;
 import "../static/css/global.css"
 import "../static/js/gt.js"
@@ -30,8 +31,9 @@ Vue.use(VideoPlayer);
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
+    el: '#app',
+    router,
+    store,
+    components: {App},
+    template: '<App/>'
 })

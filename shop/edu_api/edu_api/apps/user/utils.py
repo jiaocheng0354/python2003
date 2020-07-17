@@ -30,6 +30,7 @@ class UserAuthBackend(ModelBackend):
 
     def authenticate(self, request, username=None, password=None, **kwargs):
         user = get_user_by_account(username)
+        print(user)
         print(re.match(r'^[0-9]{4}$', password))
         if not re.match(r'^[0-9]{4}$', password):
             if user and user.check_password(password) and user.is_authenticated:

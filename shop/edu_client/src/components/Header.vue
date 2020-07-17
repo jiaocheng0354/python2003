@@ -6,12 +6,15 @@
                     <router-link to="/"><img src="/static/image/logo.png" alt=""></router-link>
                 </div>
                 <ul class="nav full-left" v-for="(value,index) in list" :key="index">
-                    <li v-if="value.position==1"><span><a :href="value.link" >{{ value.title }}</a></span></li>
+                    <li v-if="value.position === 1"><span><a :href="value.link" >{{ value.title }}</a>
+                    </span>
+                    </li>
                 </ul>
                 <div class="login-bar full-right">
                     <div class="shop-cart full-left">
                         <img src="/static/image/cart.svg" alt="">
-                        <span><router-link to="/cart">购物车</router-link></span>
+                        ({{$store.state.cart_length}})
+                        <router-link to="/cart">购物车</router-link>
                     </div>
                     <div class="login-box full-left" v-if="is_vip">
                         <span>{{ username }}</span>

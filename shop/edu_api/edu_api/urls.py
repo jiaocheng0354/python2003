@@ -11,6 +11,7 @@ urlpatterns = [
     path('home/', include("home.urls")),
     path('user/', include("user.urls")),
     path('course/', include("course.urls")),
+    path('cart/', include("cart.urls")),
     # 设置media路由
     urls.url(r'^media/(?P<path>.*)$', static.serve, {'document_root': settings.MEDIA_ROOT}),
 ]

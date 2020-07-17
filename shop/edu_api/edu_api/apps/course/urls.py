@@ -7,4 +7,5 @@ urlpatterns = [
     path('category/', views.CourseCategoryView.as_view()),
     path('retrieve/<str:id>/', views.CourseRetrieveView.as_view()),
     path('chapter/', views.ChapterListView.as_view()),
+
 ]

@@ -35,4 +35,3 @@ class ChapterListView(ListAPIView):
     filter_fields = ("course",)
     ordering_fields = ("chapter")
 
-

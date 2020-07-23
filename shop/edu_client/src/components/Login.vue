@@ -156,7 +156,7 @@
                     let _self = this;
                     console.log(captchaObj);
                     let validate = captchaObj.getValidate();
-                    console.log("1111111",validate);
+                    console.log("1111111", validate);
                     _self.$axios({
                         url: "http://api.shop.com:9000/user/captcha/",
                         method: "post",
@@ -206,14 +206,14 @@
                 }).then(res => {
                     console.log(res.data);
                     if (this.forget) {
-                        localStorage["username"] = res.data.username
+                        localStorage["username"] = res.data.user
                         localStorage["token"] = res.data.token
                         localStorage["user_id"] = res.data.user_id
                         sessionStorage.removeItem("username")
                         sessionStorage.removeItem("token")
                         sessionStorage.removeItem("user_id")
                     } else {
-                        sessionStorage["username"] = res.data.username
+                        sessionStorage["username"] = res.data.user
                         sessionStorage["token"] = res.data.token
                         sessionStorage["user_id"] = res.data.user_id
                         localStorage.removeItem("username")
@@ -245,14 +245,14 @@
                 }).then(res => {
                     console.log(res.data);
                     if (this.forget) {
-                        localStorage["username"] = res.data.username
+                        localStorage["username"] = res.data.user
                         localStorage["token"] = res.data.token
                         localStorage["user_id"] = res.data.user_id
                         sessionStorage.removeItem("username")
                         sessionStorage.removeItem("token")
                         sessionStorage.removeItem("user_id")
                     } else {
-                        sessionStorage["username"] = res.data.username
+                        sessionStorage["username"] = res.data.user
                         sessionStorage["token"] = res.data.token
                         sessionStorage["user_id"] = res.data.user_id
                         localStorage.removeItem("username")

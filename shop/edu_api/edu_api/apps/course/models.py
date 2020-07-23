@@ -1,6 +1,10 @@
+from datetime import datetime
+
+from ckeditor_uploader.fields import RichTextUploadingField
 from django.db import models
 
 from course.BaseModel import BaseModel
+from edu_api.settings.constants import  IMAGE_SRC
 
 
 class CourseCategory(BaseModel):
@@ -37,11 +41,13 @@ class Course(BaseModel):
         (1, '下线'),
         (2, '预上线'),
     )
+    course_video = models.FileField(upload_to="video", null=True, blank=True, verbose_name="视频")
     name = models.CharField(max_length=128, verbose_name="课程名称")
     course_img = models.ImageField(upload_to="course", max_length=255, verbose_name="封面图片", blank=True, null=True)
     course_type = models.SmallIntegerField(choices=course_type, default=0, verbose_name="付费类型")
     # 使用这个字段的原因
-    brief = models.TextField(max_length=2048, verbose_name="详情介绍", null=True, blank=True)
+    # brief = models.TextField(max_length=2048, verbose_name="详情介绍", null=True, blank=True)
+    brief = RichTextUploadingField(max_length=2048, verbose_name="详情介绍", null=True, blank=True)
     level = models.SmallIntegerField(choices=level_choices, default=1, verbose_name="难度等级")
     pub_date = models.DateField(verbose_name="发布日期", auto_now_add=True)
     period = models.IntegerField(verbose_name="建议学习周期(day)", default=7)
@@ -61,7 +67,7 @@ class Course(BaseModel):
         verbose_name_plural = "专题课程"
 
     def __str__(self):
-        return "%s"% self.name
+        return "%s" % self.name
 
     @property
     def lesson_list(self):
@@ -81,6 +87,155 @@ class Course(BaseModel):
     @property
     def level_title(self):
         return self.level_choices[self.level][1]
+
+    def active_list(self):
+        return self.activeprices.filter(is_show=True, is_delete=False, active__start_time__lte=datetime.now(),
+                                        active__end_time__gte=datetime.now(), ).order_by("-orders", "-id")
+
+    @property
+    def discount_name(self):
+        name = ""
+        active_list = self.active_list()
+
+        if len(active_list) > 0:
+            active = active_list[0]
+            name = active.discount.discount_type.name
+        return name
+    @property
+    def brief_html(self):
+        brief = self.brief.replace('src="/media', 'src="%s/media' % IMAGE_SRC)
+        return brief
+
+    # @property
+    # def course_video_url(self):
+    #     course_video = self.course_video.replace('/video', 'src="%s/video' % IMG_URL)
+    #     return course_video
+    def real_price(self):
+
+        price = self.price
+        active_list = self.active_list()
+        if len(active_list) > 0:
+            active = active_list[0]
+            condition = active.discount.condition
+            sale = active.discount.sale
+
+            self.price = float(self.price)
+            if self.price >= condition:
+                if sale == "":
+                    price = 0
+                elif sale[0] == "*":
+                    price = self.price * float(sale[1:])
+                elif sale[0] == "-":
+                    price = self.price - float(sale[1:])
+                elif sale[0] == "满":
+                    sale_split = sale.split("\r\n")
+                    print(sale_split)
+                    # 把当前课程价格所满足的条件放入列表中
+                    price_list = []
+                    for sale_item in sale_split:
+                        item = sale_item[1:]
+                        condition_price, condition_sale = item.split("-")
+                        if self.price >= float(condition_price):
+                            price_list.append(float(condition_sale))
+                    if len(price_list) > 0:
+                        price = self.price - max(price_list)  # 课程原价减去当前满足条件的最大优惠
+        return "%.2f" % price
+
+    def real_expire_price(self, expire_id=0):
+        """点击有效期后的价格、
+        1. 先判断当前有效期是否大于0 大于0处理有效期
+        2. 先根据有效期拿到有效期对应的价格
+        3. 根据有效期的价格进行优惠活动的处理
+        4. 根据不同的规则计算出有效期的价格所对应的优惠后的价格 返回到前台
+        """
+        # 课程原价
+        original_price = self.price
+
+        try:
+            if expire_id > 0:
+                # 如果有效期id存在  则回去有效期id所对应的价格
+                original_price = CourseExpire.objects.get(id=expire_id).price
+        except CourseExpire.DoesNotExist:
+            pass
+
+        price = original_price
+        # 找到当前课程所参与的活动
+        active_list = self.active_list()
+
+        if len(active_list) > 0:
+            """如果课程对应的活动存在  则根据课程所参与的活动的规则来计算价格"""
+            active = active_list[0]
+
+            # 判断原价是否满足优惠的门槛
+            condition = active.discount.condition
+            sale = active.discount.sale
+
+            self.price = float(price)
+
+            if self.price >= condition:
+                # 判断当前课程满足哪一种优惠条件
+                if sale == "":
+                    # 限时免费
+                    price = 0
+                elif sale[0] == "*":
+                    # 折扣
+                    price = self.price * float(sale[1:])
+                elif sale[0] == "-":
+                    # 减免
+                    price = self.price - float(sale[1:])
+                elif sale[0] == "满":
+                    """满减  500-80  400-40 300-20 200-10"""
+                    sale_split = sale.split("\r\n")
+                    # 把当前课程价格所满足的条件放入列表中
+                    price_list = []
+                    for sale_item in sale_split:
+                        item = sale_item[1:]
+                        condition_price, condition_sale = item.split("-")
+                        if self.price >= float(condition_price):
+                            price_list.append(float(condition_sale))
+                    if len(price_list) > 0:
+                        price = self.price - max(price_list)  # 课程原价减去当前满足条件的最大优惠
+        return "%.2f" % price
+
+    @property
+    def active_time(self):
+        """计算当前课程参与活动的剩余时间"""
+        time = 0
+        active_list = self.active_list()
+        if len(active_list) > 0:
+            active = active_list[0]
+
+            # 获取当前服务器的时间戳
+            now_time = datetime.now().timestamp()
+            # 获取活动结束的时间戳
+            end_time = active.active.end_time.timestamp()
+
+            time = end_time - now_time
+
+            return int(time)
+
+    @property
+    def expire_list(self):
+        """获取课程有效期"""
+        expires = self.course_expire.filter(is_show=True, is_delete=False)
+        # print(expires)
+        data = []
+
+        for item in expires:
+            data.append({
+                "id": item.id,
+                "expire_text": item.expire_text,
+                "price": item.price,
+            })
+
+        if self.price > 0:
+            data.append({
+                "id": 0,
+                "expire_text": "永久有效",
+                "price": self.price,
+            })
+        return data
+
 
 class Teacher(BaseModel):
     """讲师、导师表"""
@@ -150,6 +305,7 @@ class CourseLesson(BaseModel):
 
     def __str__(self):
         return "%s-%s" % (self.chapter, self.name)
+
 
 # '''
 # 课程价格数据模型

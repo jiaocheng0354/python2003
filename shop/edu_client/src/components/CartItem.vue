@@ -1,22 +1,20 @@
 <template>
     <div class="cart_item" v-show="is_show">
         <div class="cart_column column_1">
-            <el-checkbox class="my_el_checkbox"  v-model="course.selected"></el-checkbox>
+            <el-checkbox class="my_el_checkbox" @change="change_select()" v-model="course.selected"></el-checkbox>
         </div>
         <div class="cart_column column_2">
             <img :src="course.course_img" alt="">
-            <span><router-link :to="'/course/detail/'+ course.id">{{ course.name }}</router-link></span>
+            <span><router-link :to="'/detail/'+ course.id">{{ course.name }}</router-link></span>
         </div>
         <div class="cart_column column_3">
-            <el-select v-model="expire" size="mini" placeholder="请选择购买有效期" class="my_el_select">
-                <el-option label="1个月有效" value="30" key="30"></el-option>
-                <el-option label="2个月有效" value="60" key="60"></el-option>
-                <el-option label="3个月有效" value="90" key="90"></el-option>
-                <el-option label="永久有效" value="10000" key="10000"></el-option>
+            <el-select v-model="course.expire_id" size="mini" placeholder="请选择购买有效期" class="my_el_select">
+                <el-option v-for="(value,index) in course.expire_list" :label="value.expire_text" :value="value.id"
+                           :key="index"></el-option>
             </el-select>
         </div>
-        <div class="cart_column column_4">¥{{course.price}}</div>
-        <div class="cart_column column_4" @click="del(course.id)">删除</div>
+        <div class="cart_column column_4">¥{{course.real_price}}</div>
+        <div class="cart_column column_4"><a href="javascript:void(0)" @click="del(course.id)">删除</a></div>
     </div>
 </template>
 
@@ -32,24 +30,44 @@
             }
         },
         watch: {
-            'course.selected'() {
-                this.change_select()
+            'course.expire_id'() {
+                this.change_expire();
             }
         },
         methods: {
+            change_expire(id) {
+                this.$axios({
+                    url: this.$settings.HOST + 'cart/list/',
+                    method: "put",
+                    data: {
+                        course_id: this.course.id,
+                        expire_id: this.course.expire_id
+                    },
+                    config: {
+                        "Authorization": "auth " + this.token
+                    }
+                }).then(res => {
+                    console.log(res);
+                    this.course.real_price = res.data["real_price"]
+                    this.$store.commit("money_cart", res.data["count_price"])
+                }).catch(error => {
+                })
+            },
             change_select() {
                 this.$axios({
                     url: this.$settings.HOST + 'cart/list/',
                     method: "patch",
-                    data:{
+                    data: {
                         course_id: this.course.id,
                         select: this.course.selected
                     },
-                    config:{
+                    config: {
                         "Authorization": "auth " + this.token
                     }
-                }).then(res=>{
-                }).catch(error=>{})
+                }).then(res => {
+                    this.$store.commit("money_cart", res.data[1])
+                }).catch(error => {
+                })
             },
             del(id) {
                 this.$axios({
@@ -62,7 +80,9 @@
                         "Authorization": "auth " + this.token
                     }
                 }).then(res => {
-                    this.$store.commit("add_cart", res.data.cart_length)
+                    this.is_show = false
+                    this.$store.commit("add_cart", res.data[0].cart_length)
+                    this.$store.commit("money_cart", res.data[1])
                     // console.log(res.data.cart_length);
                 }).catch(error => {
                 })
@@ -115,16 +135,17 @@
     .cart_item .column_3 {
         width: 197px;
         position: relative;
-        padding-left: 10px;
     }
 
     .my_el_select {
         width: 117px;
         height: 28px;
         position: absolute;
-        top: 0;
+        top: -14px;
         bottom: 0;
         margin: auto;
+        color: #333333;
+        border: #b4b4b4 1px solid;
     }
 
     .cart_item .column_4 {

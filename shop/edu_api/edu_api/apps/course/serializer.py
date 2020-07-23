@@ -14,9 +14,9 @@ class CourseSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Course
-        fields = ("id", "teacher", "lesson_list", "name", "students", "price", "course_img",
-                  "level", "brief", "level_title")
-        depth = 2
+        fields = ("id", "lesson_list", "name", "students", "price", "course_img","brief_html","course_video",
+                  "level", "brief", "level_title","discount_name", "real_price","teacher","active_time")
+        # depth = 2
 
 
 class CourseCategorySerializer(serializers.ModelSerializer):

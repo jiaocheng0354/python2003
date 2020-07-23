@@ -12,7 +12,7 @@ from user.models import User
 def jwt_response_payload_handler(token, user=None, request=None):
     return {
         'token': token,
-        'username': user.username,
+        'user': user.username,
         "user_id": user.id
     }
 
@@ -30,7 +30,7 @@ class UserAuthBackend(ModelBackend):
 
     def authenticate(self, request, username=None, password=None, **kwargs):
         user = get_user_by_account(username)
-        print(user)
+        # print(request.user)
         print(re.match(r'^[0-9]{4}$', password))
         if not re.match(r'^[0-9]{4}$', password):
             if user and user.check_password(password) and user.is_authenticated:
@@ -45,4 +45,4 @@ class UserAuthBackend(ModelBackend):
                 return None
             if password != sms_code.decode():
                 return None
-            return user
+        return user

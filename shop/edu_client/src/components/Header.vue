@@ -6,18 +6,18 @@
                     <router-link to="/"><img src="/static/image/logo.png" alt=""></router-link>
                 </div>
                 <ul class="nav full-left" v-for="(value,index) in list" :key="index">
-                    <li v-if="value.position === 1"><span><a :href="value.link" >{{ value.title }}</a>
+                    <li v-if="value.position === 1"><span><a :href="value.link">{{ value.title }}</a>
                     </span>
                     </li>
                 </ul>
                 <div class="login-bar full-right">
                     <div class="shop-cart full-left">
                         <img src="/static/image/cart.svg" alt="">
-                        ({{$store.state.cart_length}})
-                        <router-link to="/cart">购物车</router-link>
+                        <router-link to="/cart"><span v-if="$store.state.cart_length">({{$store.state.cart_length}})</span>购物车
+                        </router-link>
                     </div>
                     <div class="login-box full-left" v-if="is_vip">
-                        <span>{{ username }}</span>
+                        <span><router-link to="/order/list">{{ username }}</router-link></span>
                         &nbsp;|&nbsp;
                         <span @click="out">退出</span>
                     </div>
@@ -51,8 +51,8 @@
             is_login() {
                 this.username = localStorage.username || sessionStorage.username;
                 this.token = localStorage.token || sessionStorage.token;
-                if (this.token){
-                    this.is_vip=true;
+                if (this.token) {
+                    this.is_vip = true;
                 }
             },
             header() {
@@ -72,7 +72,7 @@
                 localStorage.removeItem("username")
                 localStorage.removeItem("token")
                 localStorage.removeItem("user_id")
-                this.is_vip=false
+                this.is_vip = false
             }
         }
     }

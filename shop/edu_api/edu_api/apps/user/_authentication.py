@@ -33,7 +33,8 @@ class JWTAuthentication(BaseJSONWebTokenAuthentication):
     # 自定义token校验规则 auth token jwt
     def parse_jwt_token(self, jwt_token):
         tokens = jwt_token.split()
-        if len(tokens) != 3 or tokens[0].lower() != "auth" or tokens[2].lower() != "jwt":
+        # if len(tokens) != 3 or tokens[0].lower() != "auth" or tokens[2].lower() != "jwt":
+        if len(tokens) != 2 or tokens[0].lower() != "jwt" :
             return None
 
         return tokens[1]

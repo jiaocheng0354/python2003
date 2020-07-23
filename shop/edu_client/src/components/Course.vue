@@ -15,7 +15,7 @@
 
                 <div class="ordering">
                     <ul>
-                        <li class="title">筛&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选:</li>
+                        <li class="title">筛&nbsp;  &nbsp;&nbsp;&nbsp;选:</li>
                         <li class="default " @click="order('id')" :class="this.filters.orders  ==='id'? 'this':''">默认
                         </li>
                         <li class="hot " @click="order('students')"
@@ -34,7 +34,9 @@
             <div class="course-list">
                 <div class="course-item" v-for="(value,index) in course_list" :key="index">
                     <div class="course-image">
+                        <router-link :to="'/detail/'+value.id">
                         <img :src="value.course_img" alt="">
+                        </router-link>
                     </div>
                     <div class="course-info">
                         <h3>
@@ -51,10 +53,11 @@
                             </span></li>
                         </ul>
                         <div class="pay-box">
-                            <span class="discount-type">限时免费</span>
-                            <span class="discount-price">￥0.00元</span>
+                            <span class="discount-type" v-if="value.discount_name">{{ value.discount_name }}</span>
+                            <span class="discount-price">￥{{ value.real_price }}元</span>
                             <span class="original-price">原价：{{ value.price}}元</span>
                             <span class="buy-now" @click="buy(value.id)">立即购买</span>
+
                         </div>
                     </div>
                 </div>
@@ -96,7 +99,7 @@
                     ordering: "id",
                     course_category: "",
                     orders: "id",
-                    flag: 1,
+                    flag: 0,
                 },
             }
         },
@@ -160,6 +163,8 @@
             },
             buy(id) {
                 this.is_login();
+                console.log(this.token);
+                let token = localStorage.token || sessionStorage.token;
                 this.$axios({
                     url: this.$settings.HOST + "cart/list/",
                     method: "post",
@@ -167,11 +172,14 @@
                         course_id: id,
                     },
                     config: {
-                        "Authorization":"auth " + this.token
+                        headers: {
+                            "Authorization": "jwt " + token
+                        }
                     }
                 }).then(res => {
                     this.$router.push('/cart')
                 }).catch(error => {
+                    console.log(error.response);
                 })
             },
         }

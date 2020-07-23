@@ -5,11 +5,11 @@ import App from './App'
 import router from './router'
 
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 import axios from "axios"
 
-Vue.prototype.$axios = axios
+
 import store from './store/index'
 import ElementUI from 'element-ui'
 import "element-ui/lib/theme-chalk/index.css"
@@ -28,7 +28,7 @@ require('vue-video-player/src/custom-theme.css');
 import VideoPlayer from 'vue-video-player'
 
 Vue.use(VideoPlayer);
-
+Vue.prototype.$axios = axios;
 /* eslint-disable no-new */
 new Vue({
     el: '#app',

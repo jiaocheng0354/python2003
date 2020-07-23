@@ -16,40 +16,46 @@
                 <div class="wrap-right">
                     <h3 class="course-name">{{ detail.name }}</h3>
                     <p class="data">{{ detail.students }}人在学&nbsp;&nbsp;&nbsp;&nbsp;
-                        课程总时长：{{detail.lessons}}课时/{{detail.lessons*45}}小时&nbsp;&nbsp;&nbsp;&nbsp;
-                        难度：
-                        {{ detail.level_title }}
+                        课程总时长：{{detail.lessons}}课时/
+                        {{ detail.pub_lessons===detail.lessons?'更新完成':'已更新'+detail.pub_lessons+'课时' }}小时&nbsp;&nbsp;&nbsp;&nbsp;
+                        难度：{{ detail.level_title }}
                     </p>
-                    <div class="sale-time">
-                        <p class="sale-type">限时免费</p>
-                        <p class="expire">距离结束：仅剩 110天 13小时 33分 <span class="second">08</span> 秒</p>
+                    <div class="sale-time" v-if="detail.discount_name">
+                        <p class="sale-type">{{ detail.discount_name }}</p>
+                        <p class="expire">距离结束：仅剩 {{ parseInt(detail.active_time/3600/24)}}天
+                            {{ parseInt(detail.active_time/3600)%24 }}小时 {{ parseInt(detail.active_time/60)%60 }}分
+                            <span class="second">{{ detail.active_time%60 }}</span> 秒</p>
                     </div>
                     <p class="course-price">
                         <span>活动价</span>
-                        <span class="discount">¥0.00</span>
+                        <span class="discount">¥{{ detail.real_price }}</span>
                         <span class="original">¥{{ detail.price }}</span>
                     </p>
                     <div class="buy">
                         <div class="buy-btn">
-                            <button class="buy-now" @click="buy(detail.id)">立即购买</button>
+                            <button class="buy-now">
+                                <span @click="buy(detail.id)">立即购买</span>
+                            </button>
                             <button class="free">免费试学</button>
                         </div>
-                        <div class="add-cart"><img src="/static/image/cart-yellow.svg" alt="">加入购物车</div>
+                        <div class="add-cart"><img src="/static/image/cart.svg" alt="">
+                            <a href="javascript:void (0)" @click="buy_add(detail.id)">加入购物车</a></div>
                     </div>
                 </div>
             </div>
             <div class="course-tab">
                 <ul class="tab-list">
-                    <li :class="tabIndex==1?'active':''" @click="tabIndex=1">详情介绍</li>
-                    <li :class="tabIndex==2?'active':''" @click="tabIndex=2">课程章节 <span :class="tabIndex!=2?'free':''">(试学)</span>
+                    <li :class="tabIndex===1?'active':''" @click="tabIndex=1">详情介绍</li>
+                    <li :class="tabIndex===2?'active':''" @click="tabIndex=2">课程章节 <span
+                        :class="tabIndex!==2?'free':''">(试学)</span>
                     </li>
-                    <li :class="tabIndex==3?'active':''" @click="tabIndex=3">学生评论 (88)</li>
-                    <li :class="tabIndex==4?'active':''" @click="tabIndex=4">常见问题</li>
+                    <li :class="tabIndex===3?'active':''" @click="tabIndex=3">学生评论 (88)</li>
+                    <li :class="tabIndex===4?'active':''" @click="tabIndex=4">常见问题</li>
                 </ul>
             </div>
             <div class="course-content">
                 <div class="course-tab-list">
-                    <div class="tab-item" v-if="tabIndex==1" v-html="detail.brief">
+                    <div class="tab-item" v-if="tabIndex==1" v-html="detail.brief_html">
                         <!--<p><img alt=""-->
                         <!--src=""-->
                         <!--width="840"></p>-->
@@ -120,6 +126,7 @@
             return {
                 course_id: 0,
                 tabIndex: 2, // 当前选项卡显示的下标
+                price: 0,
                 detail: {
                     teacher: {},
                 },
@@ -135,7 +142,8 @@
                     fluid: true, // 当true时，Video.js player将拥有流体大小。换句话说，它将按比例缩放以适应其容器。
                     sources: [{ // 播放资源和资源格式
                         type: "video/mp4",
-                        src: "http://img.ksbbs.com/asset/Mon_1703/05cacb4e02f9d9e.mp4" //你的视频地址（必填）
+                        src: "http://127.0.0.1:9000/media/video/05cacb4e02f9d9e.mp4" //你的视频地址（必填）
+                        // src: "http://img.ksbbs.com/asset/Mon_1703/05cacb4e02f9d9e.mp4" //你的视频地址（必填）
                     }],
                     poster: "../static/image/python.jpg", //视频封面图
                     width: document.documentElement.clientWidth, // 默认视频全屏时的最大宽度
@@ -165,31 +173,64 @@
                         course_id: id,
                     },
                     config: {
-                        "Authorization": "auth " + this.token
+                        headers: {
+                            "Authorization": "jwt " + this.token,
+                        },
                     }
                 }).then(res => {
                     this.$router.push('/cart')
                 }).catch(error => {
                 })
             },
+            buy_add(id) {
+                this.is_login();
+                this.$axios({
+                    url: this.$settings.HOST + "cart/list/",
+                    method: "post",
+                    data: {
+                        course_id: id,
+                    },
+                    config: {
+                        headers: {
+                            "Authorization": "jwt " + this.token,
+                        },
+                    }
+                }).then(res => {
+                    this.$message.success("成功加入购物车")
+                }).catch(error => {
+                })
+            },
             load_detail() {
                 this.$axios.get(this.$settings.HOST + "course/retrieve/" + this.$route.params.id + "/").then(respones => {
                     this.detail = respones.data;
-                    console.log(respones.data);
+                    let video = respones.data.course_video;
+                    if (video !== null ){
+                    this.playerOptions.sources[0]['src'] = video;}
+                    this.playerOptions.poster = respones.data.course_img;
+                    console.log(type(video));
+                    if (this.detail.active_time > 0) {
+                        let timer = setInterval(() => {
+                            if (this.detail.active_time === 1) {
+                                clearInterval(timer);
+                            } else {
+                                this.detail.active_time -= 1
+                            }
+                        }, 1000);
+                    }
                 }).catch(error => {
                 })
             },
             load_chapter() {
                 this.$axios.get(this.$settings.HOST + "course/chapter/?course=" + this.$route.params.id).then(respones => {
                     this.chapter = respones.data;
-                    console.log(respones.data);
+                    // console.log(respones.data);
                 }).catch(error => {
                 })
             },
             onPlayerPlay(event) {
             },
             onPlayerPause(event) {
-            }
+            },
             // course/chapter/
         }
     }

@@ -15,9 +15,6 @@ from user.models import User
 from user.serializer import UserModelSerializer
 from user.utils import get_user_by_account
 
-from rest_framework import status as http_status
-
-
 pc_geetest_id = "6f91b3d2afe94ed29da03c14988fb4ef"
 pc_geetest_key = "7a01b1933685931ef5eaf5dabefd3df2"
 
@@ -33,6 +30,7 @@ class CaptchaAPIView(APIView):
         if user is None:
             return APIResponse(400, False, results="用户不存在")
         self.user_id = user.id
+        print(user.id)
         gt = GeetestLib(pc_geetest_id, pc_geetest_key)
         self.status = gt.pre_process(self.user_id)
         # request.session[gt.GT_STATUS_SESSION_KEY] = status
@@ -48,13 +46,14 @@ class CaptchaAPIView(APIView):
         seccode = request.POST.get(gt.FN_SECCODE, '')
         # status = request.session[gt.GT_STATUS_SESSION_KEY]
         # user_id = request.session["user_id"]
-        if  self.user_id:
+        if self.user_id:
             result = gt.success_validate(challenge, validate, seccode, self.user_id)
         else:
             result = gt.failback_validate(challenge, validate, seccode)
         print(result)
         result = "true" if result else "false"
         return APIResponse(200, True, results=result)
+
 
 # 注册用户
 class UserAPIView(CreateAPIView):
@@ -100,13 +99,15 @@ class SendMessageAPIView(APIView):
             redis_connection.setex("%s_count" % phone, 10 * 60, 1)
         else:
             redis_connection.incr("%s_count" % phone)
-            if int(phone_count)>3:
+            if int(phone_count) > 3:
                 return APIResponse(400, False, results="%s已经发送了三次，暂停发送" % phone)
         redis_connection.setex("%s_check" % phone, 10 * 60, code)  # 验证码的有效时间
-        #发短信
+        # 发短信
         try:
-            # message = Message(API_KEY)
-            # message.send_message(phone, code)
+            message = Message(API_KEY)
+            message.send_message(phone, code)
+            # from my_task import send_sms
+            # send_sms.delay(phone, code)
             print(phone, code)
         except:
             return APIResponse(500, False, results="短信发送失败")

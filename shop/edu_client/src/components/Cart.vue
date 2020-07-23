@@ -4,7 +4,7 @@
         <div class="cart_info">
             <div class="cart_title">
                 <span class="text">我的购物车</span>
-                <span class="total">共4门课程</span>
+                <span class="total">共{{ cart_list.length }}门课程</span>
             </div>
             <div class="cart_table">
                 <div class="cart_head_row">
@@ -18,14 +18,13 @@
                     <CartItem v-for="(course,index) in cart_list" :key="index" :course="course"></CartItem>
                 </div>
                 <div class="cart_footer_row">
-                    <span class="cart_select"><label>
-                        <!--<el-checkbox-->
-                        <!--v-model="checked"></el-checkbox>-->
-                        <span @click="all_chack()">全选</span></label></span>
+                    <span class="cart_select">
+                        <el-checkbox @change="all_check()" v-model="checked"></el-checkbox>
+                       </span><span class="all_select">全选</span>
                     <span class="cart_delete"><i class="el-icon-delete"></i> <span
                         @click="select_del()">删除</span></span>
-                    <span class="goto_pay">去结算</span>
-                    <span class="cart_total">总计：¥0.0</span>
+                    <router-link to="/order"><span class="goto_pay">去结算</span></router-link>
+                    <span class="cart_total">总计：¥{{ $store.state.count_price }}</span>
                 </div>
             </div>
         </div>
@@ -46,6 +45,12 @@
         data() {
             return {
                 cart_list: [],
+                checked: true,
+            }
+        },
+        watch: {
+            'cart_list'() {
+                this.check_sync();
             }
         },
         methods: {
@@ -55,34 +60,49 @@
                     return false;
                 } else {
                     this.$message("请先登陆后订购");
+                    this.$router.push('/home')
                 }
             },
             cart() {
                 this.is_login();
+                console.log(this.token);
                 this.$axios.get(this.$settings.HOST + "cart/list/", {
                     config: {
-                        "Authorization": "auth " + this.token
+                        headers: {
+                            "Authorization": "jwt " + this.token,
+                        },
                     }
                 }).then(res => {
-                    this.cart_list = res.data
+                    this.cart_list = res.data[0]
                     this.$store.commit("add_cart", this.cart_list.length)
-                    console.log(res.data);
+                    this.$store.commit("money_cart", res.data[1])
                 }).catch(error => {
                 })
             },
-            all_chack() {
+            check_sync() {
+                let obj = this.cart_list;
+                for (let val of Object.keys(obj)) {
+                    if (!obj[val]["selected"]) {
+                        this.checked = false;
+                    }
+                }
+            },
+            all_check() {
                 this.$axios({
                     url: this.$settings.HOST + 'cart/list/',
                     method: "patch",
                     data: {
                         course_id: 0,
-                        select: true,
+                        select: this.checked,
                     },
                     config: {
-                        "Authorization": "auth " + this.token
+                        headers: {
+                            "Authorization": "jwt " + this.token,
+                        },
                     }
                 }).then(res => {
-                    this.cart_list = res.data
+                    this.cart_list = res.data[0]
+                    this.$store.commit("money_cart", res.data[1])
                 }).catch(error => {
                 })
             },
@@ -94,11 +114,14 @@
                         course_id: 0,
                     },
                     config: {
-                        "Authorization": "auth " + this.token
+                        headers: {
+                            "Authorization": "jwt " + this.token,
+                        },
                     }
                 }).then(res => {
-                    this.cart_list = res.data
-                    this.$store.commit("add_cart", res.data.length)
+                    this.cart_list = res.data[0]
+                    this.$store.commit("add_cart", res.data[0].length)
+                    this.$store.commit("money_cart", res.data[1])
                 }).catch(error => {
                 })
             }
@@ -194,6 +217,10 @@
 
     .cart_footer_row .cart_delete {
         margin-left: 58px;
+    }
+
+    .all_select {
+        margin-left: 16px;
     }
 
     .cart_delete .el-icon-delete {

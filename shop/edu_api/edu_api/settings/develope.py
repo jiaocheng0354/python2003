@@ -45,15 +45,19 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
+    # 'rest_framework.authtoken',
     # x admin配置
     'xadmin',
     'crispy_forms',
     'reversion',
     'django_filters',
+    'ckeditor',  # 富文本编辑器
+    'ckeditor_uploader',  # 富文本编辑器的上传模块
     #
     'home',
     'user',
     'course',
+    'order',
 ]
 
 MIDDLEWARE = [
@@ -131,7 +135,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
@@ -148,7 +152,7 @@ AUTH_USER_MODEL = 'user.User'
 
 REST_FRAMEWORK = {
     # 全局异常配置
-    # "EXCEPTION_HANDLER": "utils.exceptions.exception_handler",
+    #"EXCEPTION_HANDLER": "utils.exceptions.exception_handler",
     # 用户登陆认证方式
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
@@ -158,25 +162,33 @@ REST_FRAMEWORK = {
 # jwt
 
 JWT_AUTH = {
-    # payload => token
-    'JWT_ENCODE_HANDLER': 'rest_framework_jwt.utils.jwt_encode_handler',
-    # payload => load
-    'JWT_DECODE_HANDLER': 'rest_framework_jwt.utils.jwt_decode_handler',
+    # # payload => token
+    # 'JWT_ENCODE_HANDLER': 'rest_framework_jwt.utils.jwt_encode_handler',
+    # # payload => load
+    # 'JWT_DECODE_HANDLER': 'rest_framework_jwt.utils.jwt_decode_handler',
 
-    'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=300),
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=30000),
     'JWT_RESPONSE_PAYLOAD_HANDLER': 'user.utils.jwt_response_payload_handler',
-    'JWT_AUTH_HEADER_PREFIX': 'auth',
+    # 'JWT_AUTH_HEADER_PREFIX': 'auth',
 }
 # 用户名和手机号登陆
 AUTHENTICATION_BACKENDS = [
     'user.utils.UserAuthBackend',
 ]
+KEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',	# 展示哪些工具栏
+        'height': 400,	# 编辑器的高度
+        'width': 600,
+    },
+}
+CKEDITOR_UPLOAD_PATH = ''
 # django 验证短信连接redis设置
 CACHES = {
     # # 默认库
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://192.168.13.129:7000/0",
+        "LOCATION": "redis://192.168.13.130:7000/0",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
@@ -185,7 +197,7 @@ CACHES = {
     "sms_code": {
         "BACKEND": "django_redis.cache.RedisCache",
         # url
-        "LOCATION": "redis://192.168.13.129:7000/15",
+        "LOCATION": "redis://192.168.13.130:7000/15",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
@@ -194,7 +206,7 @@ CACHES = {
     "cart": {
         "BACKEND": "django_redis.cache.RedisCache",
         # url
-        "LOCATION": "redis://192.168.13.129:7000/14",
+        "LOCATION": "redis://192.168.13.130:7000/14",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
@@ -250,4 +262,18 @@ LOGGING = {
             'propagate': True,  # 是否让日志信息继续冒泡给其他的日志处理系统
         },
     }
+}
+# 支付宝配置信息
+ALIAPY_CONFIG = {
+    # "gateway_url": "https://openapi.alipay.com/gateway.do?", # 真实支付宝网关地址
+    "gateway_url": "https://openapi.alipaydev.com/gateway.do?",  # 沙箱支付宝网关地址
+    "appid": "2016102500761059",
+    "app_notify_url": None,
+    "app_private_key_path": open(os.path.join(BASE_DIR, "apps/payments/keys/app_private_key.pem")).read(),
+    "alipay_public_key_path": open(os.path.join(BASE_DIR, "apps/payments/keys/app_private_key.pem")).read(),
+    "sign_type": "RSA2",
+    "debug": False,
+    # "return_url": "http://www.baizhistore.cn:8080/payments/result",  # 同步回调地址
+    "return_url": "http://localhost:8080/payments/result",  # 同步回调地址
+    "notify_url": "http://www.shop.com:9000/payments/result",  # 异步结果通知
 }
